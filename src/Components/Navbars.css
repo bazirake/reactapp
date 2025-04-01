@@ -45,3 +45,31 @@ font-weight: bolder!important;
     color: beige;
 
 }
+
+.searchf{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .searchb {
+    border: 1px solid #ccc;
+  }
+
+  .mybutton {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mybb:hover {
+    background: #ccc;
+  }
