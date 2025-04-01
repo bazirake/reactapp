@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 function Sign() {
   return (
@@ -5,4 +6,13 @@ function Sign() {
   )
 }
 
+=======
+
+function Sign() {
+  return (
+    <div>Sign</div>
+  )
+}
+
+>>>>>>> 7367ed59 (first commit)
 export default Sign
