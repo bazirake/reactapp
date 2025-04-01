@@ -7,9 +7,14 @@ export default function Home() {
   return <>
        <div className="container-fluid ">
         <div className="row">
+
+
+        <div className="tab-nav" ><ul><li className="tab-nav__cta "><a href="/" title="Learn &amp; Get Certificates"><span className="icon-banner-book"></span> Learn <span className="hide-on-mobile">&amp; Get Hands on skills</span></a></li><li className="tab-nav__cta  tab-nav__cta--active "><a title="Build Your Career" href="https://alison.com/build-your-career"><span className="icon-briefcase"></span><span className="hide-on-mobile">Build Your</span> Career </a></li><li className="tab-nav__cta "><a title="Earn On Alison" href="https://alison.com/earn-money"><span className="icon-banner-coins"></span> Get<span className="hide-on-mobile">Business Software</span></a></li></ul></div>
+
+        </div>
+        <div className="row">
           <div className="col-md-2">
           <div className="">
-
           <div className="card">
       <h4 className="card-title bg-success text-white text-center">Who we are?</h4>
       <div className="card-body text-center">
@@ -46,6 +51,12 @@ export default function Home() {
         </div> 
 </div>
 <div  className="container-fluid">
+   <div className="row ">
+    <p className="text-center fw-bolder col-md-12 py-1">Do you want to become a professional software developer? Click on become button to meet  with our Software Engineers
+    <i className=" ml-2 px-2 text-primary bi bi-hand-index"></i>
+  
+    </p>
+   </div>
     <div className="row">
     <div className="col-md-3">
     <div className="card">
