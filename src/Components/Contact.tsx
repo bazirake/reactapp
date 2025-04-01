@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 
 function Contact() {
   return (
@@ -8,15 +5,4 @@ function Contact() {
   )
 }
 
-=======
-
-
-
-function Contact() {
-  return (
-    <div>Contact</div>
-  )
-}
-
->>>>>>> 7367ed59 (first commit)
 export default Contact

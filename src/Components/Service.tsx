@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 function Service() {
   return (
@@ -7,14 +5,5 @@ function Service() {
   )
 }
 
-=======
 
-
-function Service() {
-  return (
-    <div>Service</div>
-  )
-}
-
->>>>>>> 7367ed59 (first commit)
 export default Service

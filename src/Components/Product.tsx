@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 function Product() {
   return (
@@ -6,13 +6,5 @@ function Product() {
   )
 }
 
-=======
 
-function Product() {
-  return (
-    <div>Product</div>
-  )
-}
-
->>>>>>> 7367ed59 (first commit)
 export default Product

@@ -20,27 +20,4 @@
 
   .sub-line-height{
     line-height: 3;
-=======
-.horizontal-list li{
-    display: inline-block;
-    margin-right: 15px;
-    
-}
-
-.horizontal-list li> a{
-    text-decoration: none;
-}
-.horizontal-list {
-    padding: 0;
-    list-style: none;
-  }
-
-  ul li a{
-    text-decoration: none;
-    color: white;
-  }
-
-  .sub-line-height{
-    line-height: 3;
->>>>>>> 7367ed59 (first commit)
   }
