@@ -139,3 +139,19 @@ ol, ul {
         width: 326px;
     }
 }
+
+.career{
+    background-color: #f3f6f7!important;
+}
+
+.active-b{
+    background: #009b5d;
+    color: #fff !important;
+}
+
+.round-career{
+    border-radius: 15px!important;
+}
+.rounded-c{
+    border-radius: 15px!important;
+}

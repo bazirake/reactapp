@@ -2,14 +2,25 @@
 import "./home.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css"
+import { useState } from "react";
 export default function Home() {
- 
+  const [stat,setstat]=useState(0)
+ const mens=[{name:"Become Software Developer",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
+  ,{name:"Meet Software Engineers",path:"level",icons:"bi bi-people-fill"}]
   return <>
        <div className="container-fluid ">
-        <div className="row">
-
-
-        <div className="tab-nav" ><ul><li className="tab-nav__cta "><a href="/" title="Learn &amp; Get Certificates"><span className="icon-banner-book"></span> Learn <span className="hide-on-mobile">&amp; Get Hands on skills</span></a></li><li className="tab-nav__cta  tab-nav__cta--active "><a title="Build Your Career" href="https://alison.com/build-your-career"><span className="icon-briefcase"></span><span className="hide-on-mobile">Build Your</span> Career </a></li><li className="tab-nav__cta "><a title="Earn On Alison" href="https://alison.com/earn-money"><span className="icon-banner-coins"></span> Get<span className="hide-on-mobile">Business Software</span></a></li></ul></div>
+        <div className="row mb-1">
+   
+        <ul className="list-group clearfix d-flex career justify-content-center list-group-horizontal round-career ">
+          {
+             mens.map((item,index)=>
+              <li key={index} onClick={()=>setstat(index)} className= {`list-group-item rounded-c ${stat==index ? "active-b":"list-group-item"}`} >
+                <i className={item.icons}></i>   {item.name}
+               </li>
+            )
+          }
+        
+        </ul>
 
         </div>
         <div className="row">

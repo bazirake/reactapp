@@ -6,17 +6,16 @@
 }
 
 .nav-link{
-    font-size: 18px!important;
+    font-size: 14px!important;
     font-weight: bold;
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
-  
-    
 }
 
 .LogIcon{
     height: 40px;
     width: 40px;
 }
+
 .footer-color{
     background: #ffffff!important
 }
@@ -24,7 +23,6 @@
 .nav-bar-bg-color{
     background: #ffffff!important
 }
-
 
 .icon-text-color{
 color:  #060318!important;
@@ -46,8 +44,6 @@ font-weight: bolder!important;
 
 }
 
-
-   
   .searchb {
     border: 1px solid #ccc;
   }
