@@ -1,7 +1,7 @@
 
 .back-image{
     background-image: url('../assets/Images/GoodOne.jpg');
-    height: 80vh;
+    min-height: 80vh;
 }
 .wcomp{
     color: white;
@@ -154,4 +154,29 @@ ol, ul {
 }
 .rounded-c{
     border-radius: 15px!important;
+}
+
+/* For small screens (phones) */
+@media (max-width: 576px) {
+    .rounded-c {
+        font-size: 8px;
+        height: 22px!important;
+        padding-bottom: 20px!important;
+        font-weight: bold;
+    }
+}
+
+/* For medium screens (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .rounded-c {
+        font-size: 12px;
+        height: 22px!important;
+        padding-bottom: 20px!important;
+    }
+}
+/* For large screens (desktops) */
+@media (min-width: 993px) {
+    body {
+         font-size: 18px;
+    }
 }

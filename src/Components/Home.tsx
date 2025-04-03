@@ -15,8 +15,8 @@ export default function Home() {
           {
              mens.map((item,index)=>
               <li key={index} onClick={()=>setstat(index)} className= {`list-group-item rounded-c ${stat==index ? "active-b":"list-group-item"}`} >
-                <i className={item.icons}></i>   {item.name}
-               </li>
+                 <i className={item.icons}></i>{item.name}
+              </li>
             )
           }
         
@@ -29,7 +29,7 @@ export default function Home() {
           <div className="card">
       <h4 className="card-title bg-success text-white text-center">Who we are?</h4>
       <div className="card-body text-center">
-      <p className=""><b> The Exeptional Tech Company , is a Company which provides a high-quality software training</b> 
+      <p className=""><b>The Exeptional Tech Company , is a Company which provides a high-quality software training</b> 
       <span className="text-center">
           <br/>
         <i>and</i>
@@ -47,10 +47,9 @@ export default function Home() {
         <li>Custom Software Solutions</li>
     </ul>
       </div>
-    </div>
-
         </div>
-          </div>
+        </div>
+       </div>
 
           <div className="col text-center back-image">
 
