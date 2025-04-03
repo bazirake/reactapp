@@ -192,3 +192,11 @@ ol, ul {
          font-size: 18px;
     }
 }
+
+.rounded-c {
+    font-size: 12px;
+    height: 22px!important;
+    padding-bottom: 20px!important;
+    line-height:0.2;
+    
+}
