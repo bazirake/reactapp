@@ -22,7 +22,7 @@ export default function Home() {
 
         </ul>
         </div>
-        <div className="row">
+        <div className="row g-0">
           <div className="col-md-2 ">
           <div className="">
           <div className="card">

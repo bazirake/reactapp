@@ -12,10 +12,7 @@ export default function App() {
     <NavBars />
    <div className="container-fluid">
    <Outlet />
-
    </div>
-    
-
     <Footers/>
     <Subfooter/>
     </>
