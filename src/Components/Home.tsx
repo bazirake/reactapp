@@ -19,12 +19,11 @@ export default function Home() {
               </li>
             )
           }
-        
-        </ul>
 
+        </ul>
         </div>
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-md-2 ">
           <div className="">
           <div className="card">
       <h4 className="card-title bg-success text-white text-center">Who we are?</h4>
@@ -53,7 +52,7 @@ export default function Home() {
 
           <div className="col text-center back-image">
 
-          <a href="#" className="btn btn-success  joins">
+          <a href="#" className="btn btn-success joins">
              <i className="bi bi-arrow-right"></i>
             Join Us
            </a>
