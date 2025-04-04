@@ -2,6 +2,7 @@
 import "./home.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css"
+import { GoogleAds } from "./GoogleAds";
 import { useState } from "react";
 export default function Home() {
   const [stat,setstat]=useState(0)
@@ -45,6 +46,12 @@ export default function Home() {
         <li>Web & Mobile App Development</li>
         <li>Custom Software Solutions</li>
     </ul>
+      </div>
+        </div>
+
+        <div className="card">
+      <div className="card-body">
+         <GoogleAds/>
       </div>
         </div>
         </div>
