@@ -3,6 +3,16 @@
     background-image: url('../assets/Images/GoodOne.jpg');
     min-height: 80vh;
 }
+
+.back-image_banner1{
+    background-image: url('../assets/Images/bannerb.jpg');
+    min-height: 80vh;
+}
+.background-row{
+    background-color: #eaf3fa !important;
+    margin-left: 1px;
+    margin-right: 1px;
+}
 .wcomp{
     color: white;
     font-weight: 200;
@@ -145,8 +155,8 @@ ol, ul {
 }
 
 .active-b{
-    background: #009b5d;
-    color: #fff !important;
+   
+   font-weight:100;
 }
 
 .round-career{
@@ -168,7 +178,7 @@ ol, ul {
         font-size: 12px!important;
         width: 30%!important;
         margin-top: 58%!important;
-      
+       
     }
 }
 
@@ -183,7 +193,6 @@ ol, ul {
         font-size: 12px!important;
         width: 30%!important;
         margin-top: 58%!important;
-      
     }
 }
 /* For large screens (desktops) */
@@ -192,11 +201,56 @@ ol, ul {
          font-size: 18px;
     }
 }
-
 .rounded-c {
     font-size: 12px;
     height: 22px!important;
     padding-bottom: 20px!important;
     line-height:0.2;
-    
+}
+
+.font-wei{
+        font-family: Nunito Sans;
+        color: #009b5d;
+        background-color:   #eaf3fa!important;;
+        font-weight: bold;
+        height: 45px;
+        font-size: 14px;
+        line-height:3;
+}
+.font-weight-card{
+    color: #646464;
+    font-size:16px;
+    line-height:20px;
+    font-family:"Font Awesome 6 Free";
+}
+.card-title-color{
+   background-color:  #009acc!important;
+}
+
+.card{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    border: 1px solid rgba(9, 9, 6, .125);
+    border-radius: .25rem;
+}
+
+.my-card-body{
+    background-color: #fff;
+    padding: .5rem;
+    margin: 0 .15rem .15rem .15rem;
+    border-radius: .25rem;
 }

@@ -5,8 +5,7 @@ import Banners from "../assets/Images/codingBanner.jpg"
 export const GoogleAds = () => {
   return (
     <div>
-
-        <img src={Banners} width="300" />
+        <img src={Banners}  className="img-fluid w-100"/>
     </div>
   )
 }

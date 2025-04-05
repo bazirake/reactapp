@@ -35,7 +35,7 @@ function NavBars(){
               {
                 menues.map((item)=>
                 <li className="nav-item">
-                    <NavLink className={({isActive})=>  `nav-link nav-color-link ${isActive? "myActive":"nav-link"}`} aria-current="page" to={item.path}>{item.names}</NavLink>
+                    <NavLink className={({isActive})=>  `nav-link text-dec ${isActive? "myActive":"nav-link"}`} aria-current="page" to={item.path}>{item.names}</NavLink>
                  </li>   
                 )
               }

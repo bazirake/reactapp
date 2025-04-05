@@ -10,7 +10,7 @@ function Footers() {
     <div className="row">
       <div className="col-md-4">
         <h5>About Us</h5>
-        <p>ETC is Exeptional Techcompany aiming at delivering tech Services than wherever you can find</p>
+        <p className="text-dec">ETC is Exeptional Techcompany aiming at delivering tech Services than wherever you can find</p>
       </div>
       <div className="col-md-4">
         <h5>Quick Links</h5>
@@ -23,11 +23,17 @@ function Footers() {
       </div>
       <div className="col-md-4">
         <h5>Follow Us</h5>
-        <NavLink to="#" className="me-3"><i className="bi bi-facebook"></i></NavLink>
-        <NavLink to="#" className="me-3"><i className="bi bi-twitter"></i></NavLink>
-        <NavLink to="#" className="me-3"><i className="bi bi-instagram"></i></NavLink>
+        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-facebook "></i></NavLink>
+        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-x"></i></NavLink>
+        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-instagram"></i></NavLink>
+        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-linkedin"></i></NavLink>
+        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-instagram"></i></NavLink>
+        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-youtube"></i></NavLink>
+        
+       
+        
         <br></br>
-        <p>&copy; 2025 E.Tech Company. All rights reserved.</p>
+        <p className="text-dec">&copy; 2025 E.Tech Company. All rights reserved.</p>
       </div>
     </div>
   </div>
