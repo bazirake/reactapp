@@ -129,6 +129,23 @@ export default function Home() {
         </div>
     </div>
     </div>
+
+   
+    <div className="stats">
+      <div className="stats__inner f-center"><div className="stats__img f-center">
+        <div className="trustpilot-wrap">
+          </div></div>
+          <ul className="stats__list f-center d-flex ">
+            <li>
+              <img src="https://cdn01.alison-static.net/public/html/site/img/homepage/learners.svg" width="20" height="19" title="45 Learners" alt="Learners"/>
+              <span>45</span>Softwares delivered</li>
+              <li><img src="https://cdn01.alison-static.net/public/html/site/img/homepage/graduates.svg" width="25" height="23" title="10 Graduates" alt="Graduates"/><span>10</span>Learners</li>
+              <li><img src="https://cdn01.alison-static.net/public/html/site/img/homepage/countries.svg" width="20" height="23" title="193 Countries" alt="Countries"/>
+              <span>2</span> Countries </li>
+              </ul>
+      </div>
+      </div>
+
 </div>
   </>
 
