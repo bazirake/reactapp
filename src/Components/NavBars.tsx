@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import { NavLink } from 'react-router';
 import "../Components/Navbars.css";
+import cicon from "../assets/Images/exceptional_company.png";
 
 // interface NavbarProps{
 //    imageSrc:string
@@ -24,9 +25,11 @@ function NavBars(){
 
         <nav className="navbar navbar-expand-lg nav-bar-bg-color">
         <div className="container-fluid">
-          <NavLink className="navbar-brand px-2" to={`/`}>
-           <span className='icon-text-color'>E.Tech</span> <span className='icon-com-color'>Company</span> 
-          </NavLink>
+          
+          <NavLink className="navbar-brand" to={`/`}>
+          
+           <img src={cicon} className='image-size'/>  
+          </NavLink> 
           <button onClick={()=>setCol(!cola)} className="navbar-toggler btn btn-outline-success" type="button" data-bs-toggle="collapse"  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon "></span>
           </button>
