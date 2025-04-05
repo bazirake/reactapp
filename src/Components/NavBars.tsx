@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import { NavLink } from 'react-router';
 import "../Components/Navbars.css";
-import cicon from "../assets/Images/exceptional_company.png";
+import cicon from "../assets/Images/EXP1.png";
 
 // interface NavbarProps{
 //    imageSrc:string
