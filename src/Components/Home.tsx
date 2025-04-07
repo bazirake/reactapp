@@ -128,24 +128,103 @@ export default function Home() {
         </div>
     </div>
     </div>
-
    
-    <div className="stats">
-      <div className="stats__inner f-center"><div className="stats__img f-center">
-        <div className="trustpilot-wrap">
-          </div></div>
-          <ul className="stats__list f-center d-flex ">
+    <div className="row stats">
+          <ul className="d-flex  justify-content-center">
             <li>
-              <img src="https://cdn01.alison-static.net/public/html/site/img/homepage/learners.svg" width="20" height="19" title="45 Learners" alt="Learners"/>
-              <span>45</span>Softwares delivered</li>
-              <li><img src="https://cdn01.alison-static.net/public/html/site/img/homepage/graduates.svg" width="25" height="23" title="10 Graduates" alt="Graduates"/><span>10</span>Learners</li>
-              <li><img src="https://cdn01.alison-static.net/public/html/site/img/homepage/countries.svg" width="20" height="23" title="193 Countries" alt="Countries"/>
-              <span>2</span> Countries </li>
+              <span><i className="bi bi-laptop px-1"></i>2</span> Softwares delivered</li>
+              <li> <span><i className="bi bi-person"></i>10</span>Learners</li>
+              <li>
+              <span><i className="bi bi-map px-1"></i>2</span>Countries </li>
               </ul>
+     
       </div>
+      <div className="row explorediv">
+      <h2  className="font-sizee text-center">Explore <span className="fix-comma">4</span>+ Free <span className="hide-on-mobile">Online</span>Training</h2>
+        <ul className="d-flex flex-row justify-content-center">
+          <li >
+            <i className="bi bi-database"></i>
+           <a > <h4>Database</h4> <span className="second-tex">
+            Training</span>
+            <br/>
+            <span className="gets">Get<i className="bi bi-arrow-right"></i></span>
+            </a> 
+          </li>
+          <li>
+            <i className="bi bi-recycle"></i>
+          <a> <h4>Api</h4> 
+          <span>Development</span></a> 
+          <br/>
+          <span className="gets">Get<i className="bi bi-arrow-right"></i></span>
+          </li>
+          <li>
+            <i className="bi bi-tags"></i>
+           <a><h4>Front-end</h4>
+           <span>Development</span>
+           <br/>
+           <span className="gets">Get<i className="bi bi-arrow-right"></i></span>
+           </a> 
+           
+          </li>
+          <li>
+          <a>
+          <i className="bi bi-box-arrow-right"></i>
+            <h4>Api</h4> 
+          <span>Integration</span>
+          <br/>
+          <span className="gets">Get<i className="bi bi-arrow-right"></i></span>
+          </a>  
+          </li>
+
+
+          <li>
+          <a>
+          <i className="bi bi-arrow-left-right"></i>
+            <h4>Fullstack</h4> 
+          <span>Development</span>
+          <br/>
+          <span className="gets">Get<i className="bi bi-arrow-right"></i></span>
+          </a>  
+          </li>
+        </ul>
+      </div>
+
+      <div className="d-flex flex-row justify-content-center">
+      
+      <div  className="justify-content-center">
+        <figure >
+          <img decoding="async" width="144" height="119" src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" className="attachment-full size-full" alt=""/>
+        </figure>
+        <div className="elementor-image-box-content">
+          <h3 className="elementor-image-box-title">Future Proof Your Skills</h3>
+          <p className="elementor-image-box-description">Gain access to the most in-demand career fields.</p>
+      </div>
+      </div>
+
+
+         <div>
+         <figure >
+          <img loading="lazy" decoding="async" width="168" height="111" src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-4-1.png" className="attachment-full size-full" alt="Online Full Stack Developer School"/>
+        </figure>
+        <div className="elementor-image-box-content">
+          <h3 className="elementor-image-box-title">No Financial Obstacles</h3>
+          <p className="elementor-image-box-description">We offer  students personalized financing options, including 100% financing. </p>
+          </div>
+          </div>
+
+
+          <div>
+            <figure>
+              <img loading="lazy" decoding="async" width="121" height="121" src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-3-1.png" className="attachment-full size-full" alt=""  sizes="auto, (max-width: 121px) 100vw, 121px"/>
+              </figure>
+             <div className="elementor-image-box-content">
+              <h3 className="elementor-image-box-title">Career Services</h3>
+              <p className="elementor-image-box-description">Full support to ensure  career success.</p>
+           </div>
+           </div>
       </div>
 
 </div>
   </>
-
 }
+

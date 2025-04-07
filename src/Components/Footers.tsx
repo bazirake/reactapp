@@ -24,13 +24,11 @@ function Footers() {
       <div className="col-md-4">
         <h5>Follow Us</h5>
         <NavLink to="#" className="me-3 text-dec"><i className="bi bi-facebook "></i></NavLink>
-        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-x"></i></NavLink>
+        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-twitter-x"></i></NavLink>
         <NavLink to="#" className="me-3 text-dec"><i className="bi bi-instagram"></i></NavLink>
         <NavLink to="#" className="me-3 text-dec"><i className="bi bi-linkedin"></i></NavLink>
         <NavLink to="#" className="me-3 text-dec"><i className="bi bi-instagram"></i></NavLink>
         <NavLink to="#" className="me-3 text-dec"><i className="bi bi-youtube"></i></NavLink>
-        
-       
         
         <br></br>
         <p className="text-dec">&copy; 2025 E.Tech Company. All rights reserved.</p>
