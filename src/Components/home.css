@@ -186,7 +186,7 @@ ol, ul {
 @media (max-width: 570px) {
 
     .rounded-c {
-        font-size: 5.5px!important;
+        font-size: 6px!important;
         height: 22px!important;
         padding-bottom: 20px!important;
         width: 100%!important;
