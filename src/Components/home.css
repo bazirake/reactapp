@@ -155,8 +155,9 @@ ol, ul {
 }
 
 .active-b{
-   
+   background-color: #009acc!important;
    font-weight:100;
+   color: white!important;
 }
 
 .round-career{

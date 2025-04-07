@@ -58,7 +58,6 @@ export default function Home() {
         </div>
        </div>
           <div className="col text-center back-image">
-
            <a href="#" className="btn btn-secondary joins">
               <i className="bi bi-arrow-right"></i>
                 Join Us
