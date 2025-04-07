@@ -182,7 +182,7 @@ ol, ul {
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 570px) {
 
     .rounded-c {
         font-size: 8.5px!important;
@@ -304,7 +304,7 @@ ol, ul {
 .stats {
     background:  #009acc!important;
     height: 76px;
-    position: relative;
+    position:relative;
     z-index: 1;
 }
 
@@ -330,7 +330,7 @@ ol, ul {
 
 
 .f-center {
-    align-items: center;
+    align-items:center;
     display: flex
 ;
 }
