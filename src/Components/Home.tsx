@@ -7,7 +7,7 @@ import { GoogleAds } from "./GoogleAds";
 import { useState } from "react";
 export default function Home() {
   const [stat,setstat]=useState(0)
- const mens=[{name:"Become Software Developer",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
+ const mens=[{name:"Become Software Eng",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
   ,{name:"Meet Software Engineers",path:"level",icons:"bi bi-people-fill"}]
   return <>
        <div className="container-fluid ">
