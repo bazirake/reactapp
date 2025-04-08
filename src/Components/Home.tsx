@@ -189,41 +189,84 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className="d-flex flex-row justify-content-center">
+      <div className="profile-area">
+      <div className="container">
+        <div className="row">
+           <div className="col-md-4">
+            <div className="card">
+              <div className="img1">
+                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
+              </div>
+              <div className="img2">
+                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
+              </div>
+              <div className="main-text">
+                <h2>Person One</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ea non
+                   debitis. Labore amet quidem maxime nostrum accusamus 
+                  delectus inventore deleniti ullam quos, ipsam voluptates ratione eligendi, explicabo dolor tempora? </p>
+              </div>
+              <div className="socials">
+                <i className="bi bi-facebook"></i>
+                <i className="bi bi-linkedin"></i>
+                <i className="bi bi-dribbble"></i>
+                <i className="bi bi-twitter"></i>
+              </div>
+            </div>
+           </div>
+
+           <div className="col-md-4">
+            <div className="card">
+              <div className="img1">
+                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
+              </div>
+              <div className="img2">
+                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
+              </div>
+              <div className="main-text">
+                <h2>Person two</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ea non
+                    debitis. Labore amet quidem maxime nostrum accusamus 
+                    delectus inventore deleniti ullam quos, ipsam voluptates ratione eligendi, explicabo dolor tempora? </p>
+              </div>
+              <div className="socials">
+                <i className="bi bi-facebook"></i>
+                <i className="bi bi-linkedin"></i>
+                <i className="bi bi-dribbble"></i>
+                <i className="bi bi-twitter"></i>
+              </div>
+            </div>
+           </div>
+
+
+           <div className="col-md-4">
+            <div className="card">
+              <div className="img1">
+                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
+              </div>
+              <div className="img2">
+                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
+              </div>
+              <div className="main-text">
+                <h2>Person three</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ea non
+                   debitis. Labore amet quidem maxime nostrum accusamus 
+                  delectus inventore deleniti ullam quos, ipsam voluptates ratione eligendi, explicabo dolor tempora? </p>
+              </div>
+              <div className="socials">
+                <i className="bi bi-facebook"></i>
+                <i className="bi bi-linkedin"></i>
+                <i className="bi bi-dribbble"></i>
+                <i className="bi bi-twitter"></i>
+              </div>
+            </div>
+           </div>
+
+        </div>
+      </div>
+      </div>
+
       
-      <div  className="justify-content-center">
-        <figure >
-          <img decoding="async" width="144" height="119" src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" className="attachment-full size-full" alt=""/>
-        </figure>
-        <div className="elementor-image-box-content">
-          <h3 className="elementor-image-box-title">Future Proof Your Skills</h3>
-          <p className="elementor-image-box-description">Gain access to the most in-demand career fields.</p>
-      </div>
-      </div>
-
-
-         <div>
-         <figure >
-          <img loading="lazy" decoding="async" width="168" height="111" src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-4-1.png" className="attachment-full size-full" alt="Online Full Stack Developer School"/>
-        </figure>
-        <div className="elementor-image-box-content">
-          <h3 className="elementor-image-box-title">No Financial Obstacles</h3>
-          <p className="elementor-image-box-description">We offer  students personalized financing options, including 100% financing. </p>
-          </div>
-          </div>
-
-
-          <div>
-            <figure>
-              <img loading="lazy" decoding="async" width="121" height="121" src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-3-1.png" className="attachment-full size-full" alt=""  sizes="auto, (max-width: 121px) 100vw, 121px"/>
-              </figure>
-             <div className="elementor-image-box-content">
-              <h3 className="elementor-image-box-title">Career Services</h3>
-              <p className="elementor-image-box-description">Full support to ensure  career success.</p>
-           </div>
-           </div>
-      </div>
-
 </div>
   </>
 }
