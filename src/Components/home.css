@@ -517,3 +517,96 @@ line-height: 54px;
     color: darkcyan;
     padding: 0 10px;
 }
+.my-section{
+    background-color: #eaf3fa;
+    padding: 40px 80px 10px;
+    box-sizing: border-box;
+    z-index: -999;
+}
+
+.text-center-salary{
+    text-align: center;
+}
+.profile-programining{
+
+}
+
+.time-heading{
+    
+    font-family: "Montserrat", Sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.06em;
+    letter-spacing: -1.2px;
+}
+
+.wrap-section{
+     position: relative;
+     width: 100%;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+     -ms-flex-line-pack: start;
+     align-content: flex-start;
+     padding: 0px 100px 30px;
+}
+
+.mypara{
+    font-style: italic;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.22em;
+    letter-spacing: -0.33px;
+}
+
+.web-back{
+    background-color: #1d1947;;
+  
+}
+
+.my-imagew  img{
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.my-list-style{
+    margin-bottom: 25px;
+}
+
+.my-list-style1{
+    color: #99a1c0;
+ }
+
+
+
+
+.title-list{
+     
+    font-family: "Montserrat", Sans-serif;
+    font-size: 57px;
+    font-weight: 800;
+    line-height: 1.1em;
+    letter-spacing: -1.46px;
+}
+
+
+
+.content-space h2{
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #ffffff 51%, #eaedf8 100%);
+}
+
+.my-content{
+  align-content: start;
+  position: relative;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  width: 100%;
+ 
+}

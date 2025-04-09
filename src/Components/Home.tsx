@@ -215,7 +215,7 @@ export default function Home() {
               <div className="main-text">
                 <h2>No Financial Obstacles</h2>
                 <p>
-                We offer students personalized financing options, including 100% financing.
+                We offer students personalized financing options, including financing Negociation.
                 </p>
               </div>
               
@@ -241,7 +241,49 @@ export default function Home() {
         </div>
       </div>
       </div>
+        <section className="my-section">
+        <div className="profile-programining">
+          <div className="wrap-section">
+            <span className="text-center-salary">$salary = i++</span> 
+          <h4 className="time-heading">It's time to make a change.</h4> 
+          <div>
+          <p >
+            <span>An education that’s future-proof doesn’t have to cost a fortune or take years to complete.</span>
+            <span className="mypara">You can have a seat at the table, upward mobility, and an exciting position in a fast-growing industry.</span>
+         </p>
+         </div>
+          </div>
+       </div>
+        </section>
 
+       <section className="web-back">
+       <div className="container-fluid">
+            <div className="row">
+              <div className="col-md-6 d-flex content-space">
+       <div className="my-content">
+
+       <h2 className="title-list">
+           Discover an exciting career path in the tech industry
+      </h2>
+  
+     <ul className="my-list-style1">
+     <li className="my-list-style">
+    The latest data showing why now is the perfect time to join this lucrative &amp;
+     growing field</li>
+     <li className="my-list-style"> Why job security is better in this industry than almost any other</li>
+     <li>  How to get started with no financial obstacles and be career-ready in less than a year</li></ul>
+     
+      </div>
+     </div>
+              <div className="col-md-6 my-imagew">
+               <div className="image-sizes">
+               <img src="https://kingslanduniversity.com/wp-content/uploads/2020/12/Home-WebinarCTA-v2-1024x646.jpg" width="1024" height="646" />
+               </div>
+              </div>
+            </div>
+          </div>
+       </section>
+      
       
 </div>
   </>
