@@ -194,71 +194,47 @@ export default function Home() {
         <div className="row">
            <div className="col-md-4">
             <div className="card">
-              <div className="img1">
-                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
-              </div>
               <div className="img2">
                 <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
               </div>
               <div className="main-text">
-                <h2>Person One</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ea non
-                   debitis. Labore amet quidem maxime nostrum accusamus 
-                  delectus inventore deleniti ullam quos, ipsam voluptates ratione eligendi, explicabo dolor tempora? </p>
+                <h2>Future Proof Your Skills</h2>
+                <p>
+                Gain access to the most in-demand career fields.
+                   </p>
               </div>
-              <div className="socials">
-                <i className="bi bi-facebook"></i>
-                <i className="bi bi-linkedin"></i>
-                <i className="bi bi-dribbble"></i>
-                <i className="bi bi-twitter"></i>
-              </div>
+              
             </div>
            </div>
 
            <div className="col-md-4">
             <div className="card">
-              <div className="img1">
-                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
-              </div>
               <div className="img2">
-                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
+                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-4-1.png" alt="" />
               </div>
               <div className="main-text">
-                <h2>Person two</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ea non
-                    debitis. Labore amet quidem maxime nostrum accusamus 
-                    delectus inventore deleniti ullam quos, ipsam voluptates ratione eligendi, explicabo dolor tempora? </p>
+                <h2>No Financial Obstacles</h2>
+                <p>
+                We offer students personalized financing options, including 100% financing.
+                </p>
               </div>
-              <div className="socials">
-                <i className="bi bi-facebook"></i>
-                <i className="bi bi-linkedin"></i>
-                <i className="bi bi-dribbble"></i>
-                <i className="bi bi-twitter"></i>
-              </div>
+              
             </div>
            </div>
 
 
            <div className="col-md-4">
             <div className="card">
-              <div className="img1">
-                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
-              </div>
               <div className="img2">
-                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-copy.jpg" alt="" />
+                <img src="https://kingslanduniversity.com/wp-content/uploads/2020/02/Folder-2-3-1.png" alt="" />
               </div>
               <div className="main-text">
-                <h2>Person three</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ea non
-                   debitis. Labore amet quidem maxime nostrum accusamus 
-                  delectus inventore deleniti ullam quos, ipsam voluptates ratione eligendi, explicabo dolor tempora? </p>
+                <h2>Career Services</h2>
+                <p>
+                Full support to ensure career success.
+                   </p>
               </div>
-              <div className="socials">
-                <i className="bi bi-facebook"></i>
-                <i className="bi bi-linkedin"></i>
-                <i className="bi bi-dribbble"></i>
-                <i className="bi bi-twitter"></i>
-              </div>
+             
             </div>
            </div>
 
