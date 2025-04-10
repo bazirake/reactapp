@@ -258,31 +258,37 @@ export default function Home() {
 
        <section className="web-back">
        <div className="container-fluid">
-            <div className="row">
-              <div className="col-md-6 d-flex content-space">
-       <div className="my-content">
+          <div className="row g-0">
+          <div className="col-md-6 ">
+            <div className="contents">
 
-       <h2 className="title-list">
-           Discover an exciting career path in the tech industry
-      </h2>
-  
-     <ul className="my-list-style1">
-     <li className="my-list-style">
-    The latest data showing why now is the perfect time to join this lucrative &amp;
-     growing field</li>
-     <li className="my-list-style"> Why job security is better in this industry than almost any other</li>
-     <li>  How to get started with no financial obstacles and be career-ready in less than a year</li></ul>
-     
-      </div>
-     </div>
-              <div className="col-md-6 my-imagew">
-               <div className="image-sizes">
-               <img src="https://kingslanduniversity.com/wp-content/uploads/2020/12/Home-WebinarCTA-v2-1024x646.jpg" width="1024" height="646" />
-               </div>
-              </div>
-            </div>
+            <div className="cta-header">
+            <h2 className="elementor-heading-title">
+             Discover an exciting career path in the tech industry
+            </h2>
+          </div> 
+          <div className="elementor-text-editor elementor-clearfix">
+          <ul className="cta-list">
+            <li className="list-data">
+              <i className="bi bi-check"></i>
+              The latest data showing why now is the perfect time to join this lucrative &amp; growing field</li>
+              <li className="list-data"> <i className="bi bi-check"></i>Why job security is better in this industry than almost any other</li>
+          <li> <i className="bi bi-check"></i>How to get started with no financial obstacles and be career-ready in less than a year</li>
+          </ul>
           </div>
-       </section>
+            </div>
+          
+         
+          
+          </div>
+          <div className="col-md-6 my-imagew">
+            <div className="image-sizes">
+            <img src="https://kingslanduniversity.com/wp-content/uploads/2020/12/Home-WebinarCTA-v2-1024x646.jpg" width="1024" height="646" />
+            </div>
+           </div>
+        </div>
+      </div>
+      </section>
       
       
 </div>
