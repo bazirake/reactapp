@@ -44,7 +44,6 @@ export default function Home() {
                       <button  className="btn btn-success mt-2 ">Start Now<i className="bi bi-chevron-compact-right"></i></button>
                     </div>
                    </div>
-
                 </div>
                  
               </div>
@@ -64,7 +63,7 @@ export default function Home() {
         </div>  */}
 
 
-        <div className="row">
+        <div className="row my-2">
           <div className="d-flex flex-row gap-3">
           <div className="card ">
       <span className="card-title card-title-color  text-white text-center">Who we are?</span>
@@ -78,7 +77,7 @@ export default function Home() {
         </div>
         </div>
 
-    <div className="card">
+    <div className="card col-md-6">
       <span className="card-title text-white text-center card-title-color">Our Services</span>
       <div className="card-body my-card-body">
       <ul className="card-text font-weight-card">
@@ -89,11 +88,7 @@ export default function Home() {
       </div>
         </div>
 
-        <div className="card">
-      
-         <GoogleAds/>
-   
-        </div>
+       
         </div>
        
         </div>
@@ -103,7 +98,7 @@ export default function Home() {
    <span className="font-wei rounded"> Do you want to become a professional software developer? Click on become button to meet  with our Software Engineers</span>
  
    </div>
-    <div className="row">
+    <div className="row my-2">
     <div className="col-md-3">
     <div className="card">
       <span className="card-title text-white text-center card-title-color">Trainee</span>
