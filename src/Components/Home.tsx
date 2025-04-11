@@ -29,21 +29,25 @@ export default function Home() {
         <section id="hero" className="hello-container">
          <div className="row g-0">
               <div className="col-md-4">
-                   <div>
-                    <h2 className="has-text">Become a Software Engineer</h2>
+                <div className="whole-hello-content">
+                <div>
+                    <h2 className="hero__title">Become a Software Engineer</h2>
                    </div>
-                   <div>
+                   <div className="Messages">
                     <p>
-                         <span>comprehensive training Programs for career Growth</span> 
-
+                      
+                         <span> Comprehensive training Programs for career Growth.</span> 
                          <span>
-                         Creating an ecosystem to foster talent development in deep tech areas within Europe
+                         Creating an ecosystem to foster talent development in deep tech areas within Africa
                          </span>
                     </p>
-                    <div>
-                      <button  className="btn btn-success ">Start Now<i className="bi bi-chevron-compact-right"></i></button>
+                    <div className="mx-2">
+                      <button  className="btn btn-success mt-2 ">Start Now<i className="bi bi-chevron-compact-right"></i></button>
                     </div>
                    </div>
+
+                </div>
+                 
               </div>
               <div className="col-md-8 img-container">
             
