@@ -3,6 +3,7 @@ import "./home.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css"
 import imageb from "../assets/Images/bannerb.jpg";
+import Icons from "../assets/Images/HappyIcon.webp";
 import { GoogleAds } from "./GoogleAds";
 import { useState } from "react";
 export default function Home() {
@@ -24,10 +25,48 @@ export default function Home() {
 
         </ul>
         </div>
-        <div className="row g-0">
-          <div className="col-md-2 ">
-          <div className="">
-          <div className="card">
+
+        <section id="hero" className="hello-container">
+         <div className="row g-0">
+              <div className="col-md-4">
+                   <div>
+                    <h2 className="has-text">Become a Software Engineer</h2>
+                   </div>
+                   <div>
+                    <p>
+                         <span>comprehensive training Programs for career Growth</span> 
+
+                         <span>
+                         Creating an ecosystem to foster talent development in deep tech areas within Europe
+                         </span>
+                    </p>
+                    <div>
+                      <button  className="btn btn-success ">Start Now<i className="bi bi-chevron-compact-right"></i></button>
+                    </div>
+                   </div>
+              </div>
+              <div className="col-md-8 img-container">
+            
+                <img src={Icons} className="back-imageh img-fluid w-100 rounded-pill" />
+               
+                 
+             </div>
+         </div>
+        </section>
+        {/* <div className="row g-0">
+        
+          <div className="col text-center back-image">
+           <a href="#" className="btn btn-secondary joins">
+              <i className="bi bi-arrow-right"></i>
+                Join Us
+            </a>
+          </div>
+        </div>  */}
+
+
+        <div className="row">
+          <div className="d-flex flex-row gap-3">
+          <div className="card ">
       <span className="card-title card-title-color  text-white text-center">Who we are?</span>
       <div className="card-body text-center">
       <p className="font-weight-card">The Exeptional Tech Company , is a Company which provides a high-quality software training
@@ -56,14 +95,8 @@ export default function Home() {
    
         </div>
         </div>
-       </div>
-          <div className="col text-center back-image">
-           <a href="#" className="btn btn-secondary joins">
-              <i className="bi bi-arrow-right"></i>
-                Join Us
-            </a>
-          </div>
-        </div> 
+       
+        </div>
 </div>
 <div  className="container-fluid">
    <div className="row text-center background-row">

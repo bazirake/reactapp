@@ -1,8 +1,48 @@
 
 .back-image{
-    background-image: url('../assets/Images/GoodOne.jpg');
+    background-image: url('https://bootstrapmade.com/content/demo/Bootslander/assets/img/hero-bg-2.jpg');
     min-height: 80vh;
 }
+.hello-container{
+   
+}
+
+.has-text{
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.071rem;
+    margin: 0 0 1.2rem;
+    font-weight: 400;
+}
+
+.button--blue {
+    background-color: #0970b7 !important;
+    color: #fff !important;
+}
+
+.button {
+ 
+    line-height: 1.7rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    text-decoration: unset;
+  
+    display: inline-block;
+    font-family: "Titillium Web";
+}
+
+.back-imageh{
+    background-color: #105a6d;;
+ max-height: 430px;
+}
+ 
+.img-container{
+    background-size: cover;
+}
+
+
+
 
 .back-image_banner1{
     background-image: url('../assets/Images/bannerb.jpg');
