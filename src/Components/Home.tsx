@@ -63,21 +63,21 @@ export default function Home() {
         </div>  */}
 
 
-        <div className="row my-2">
-          <div className="d-flex flex-row gap-3">
-          <div className="card ">
-      <span className="card-title card-title-color  text-white text-center">Who we are?</span>
-      <div className="card-body text-center">
-      <p className="font-weight-card">The Exeptional Tech Company , is a Company which provides a high-quality software training
-      <span className="text-center">
-          <br/>
-        <i>and</i>
-      </span> <br/>
+        <div className="row">
+          <div  className="wo-container">
+          <h2 className="text-center">Who we are?</h2>
+      <p className="text-starta">The Exeptional Tech Company , is a Company which provides a high-quality software training
+    
+          
+        and
+      
       Software development services to help individuals and businesses to Simplify Heavy daily Tasks performed.</p>
-        </div>
-        </div>
+          </div>
+     
+        
+       
 
-    <div className="card col-md-6">
+    {/* <div className="card col-md-6">
       <span className="card-title text-white text-center card-title-color">Our Services</span>
       <div className="card-body my-card-body">
       <ul className="card-text font-weight-card">
@@ -85,11 +85,11 @@ export default function Home() {
         <li className="bi bi-check">Web & Mobile App Development</li>
         <li className="bi bi-check">Custom Software Solutions</li>
     </ul>
-      </div>
-        </div>
+      </div> */}
+        {/* </div> */}
 
        
-        </div>
+        
        
         </div>
 </div>

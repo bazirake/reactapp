@@ -14,7 +14,15 @@
     font-weight: 400;
     margin: 0 0 2rem;
 }
-
+.text-starta{
+    text-align: start;
+}
+.wo-container
+ {
+    text-align: center;
+ 
+ padding: 12px 200px 12px ;
+}
 @media (min-width: 700px) {
     .hero__title {
         max-width: 25rem;
