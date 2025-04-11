@@ -61,6 +61,11 @@
 .Messages{
 
     margin-bottom: 2rem;
+    font-family: "Font Awesome 6 Free";
+}
+
+.soft{
+    font-style: italic;
 }
 
 
