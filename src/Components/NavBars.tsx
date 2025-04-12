@@ -22,36 +22,41 @@ function NavBars(){
     ]
 
     return(
+          <>
+          <div className='container-fluid fixed-top'>
+          <header id="header">fhkdsjfhksdfhkdsfdsfsd</header>
+          <nav className="navbar navbar-expand-lg nav-bar-bg-color ">
+       
+       <div className="container-fluid">
+         <NavLink className="navbar-brand" to={`/`}>
+          <img src={cicon} className='image-size'/>  
+         </NavLink> 
+         <button onClick={()=>setCol(!cola)} className="navbar-toggler btn btn-outline-success" type="button" data-bs-toggle="collapse"  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+           <span className="navbar-toggler-icon "></span>
+         </button>
+         <div className={`navbar-collapse ${cola ?"collapse":""}`}>
+           <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
+             {
+               menues.map((item)=>
+               <li className="nav-item">
+                   <NavLink className={({isActive})=>  `nav-link text-dec ${isActive? "myActive":"nav-link"}`} aria-current="page" to={item.path}>{item.names}</NavLink>
+                </li>   
+               )
+             }
+           
+           </ul>
+           <form className="d-flex" role="search">
+             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+             <button className="btn btn-success" type="submit">Search</button>
+           </form>
+         </div>
+       </div>
+     </nav>
 
-        <nav className="navbar navbar-expand-lg nav-bar-bg-color">
-        <div className="container-fluid">
-          
-          <NavLink className="navbar-brand" to={`/`}>
-          
-           <img src={cicon} className='image-size'/>  
-          </NavLink> 
-          <button onClick={()=>setCol(!cola)} className="navbar-toggler btn btn-outline-success" type="button" data-bs-toggle="collapse"  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon "></span>
-          </button>
-          <div className={`navbar-collapse ${cola ?"collapse":""}`}>
-            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
-              {
-                menues.map((item)=>
-                <li className="nav-item">
-                    <NavLink className={({isActive})=>  `nav-link text-dec ${isActive? "myActive":"nav-link"}`} aria-current="page" to={item.path}>{item.names}</NavLink>
-                 </li>   
-                )
-              }
-            
-              
-            </ul>
-            <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button className="btn btn-success" type="submit">Search</button>
-            </form>
+
           </div>
-        </div>
-      </nav>
+        
+      </>
 
     )
 }

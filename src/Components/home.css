@@ -23,19 +23,16 @@
  
  padding: 12px 200px 12px ;
 }
-
 .btn-color{
   background-color:  #1acc8d!important;
   border-radius: 20px!important;
-  
 }
 .icon-color{
     color: #ffbb2c;
 }
 .features-item{
     background-color: var(--surface-color);
-    display: flex
-;
+    display: flex;
     align-items: center;
     padding: 20px;
     transition: 0.3s;
@@ -91,7 +88,6 @@ color-mix(in srgb, var(--default-color), transparent 90%);
 section, .m-section {
     color: var(--default-color);
     background-color: #ffffff;
-    padding: 60px 0;
     scroll-margin-top: 100px;
     overflow: clip;
 }
@@ -338,6 +334,8 @@ ol, ul {
 
 .career{
     background-color: #f3f6f7!important;
+   margin-top: 100px;
+   margin-bottom: 10px;
 }
 
 .active-b{

@@ -11,10 +11,12 @@ export default function Home() {
  const mens=[{name:"Become Software Eng",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
   ,{name:"Meet Software Engineers",path:"level",icons:"bi bi-people-fill"}]
   return <>
-       <div className="container-fluid ">
-        <div className="row mb-1">
-   
-        <ul className="list-group clearfix d-flex career justify-content-center list-group-horizontal round-career ">
+<section>
+
+
+<div className="container-fluid">
+          <div className="row">
+          <ul className="list-group clearfix d-flex career justify-content-center list-group-horizontal ">
           {
              mens.map((item,index)=>
               <li key={index} onClick={()=>setstat(index)} className= {`list-group-item rounded-c ${stat==index ? "active-b":"list-group-item"}`} >
@@ -24,10 +26,12 @@ export default function Home() {
           }
 
         </ul>
-        </div>
+
+          </div>
+      
 
         <section id="hero" className="hello-container">
-         <div className="row g-0 my-2">
+         <div className="row g-0 ">
               <div className="col-md-4">
                 <div className="whole-hello-content">
                 <div>
@@ -129,6 +133,8 @@ export default function Home() {
           
         </div>
 </div>
+</section>
+    
 <div  className="container-fluid">
    <div className="row text-center background-row">
    <span className="font-wei rounded"> Do you want to become a professional software developer? Click on become button to meet  with our Software Engineers</span>

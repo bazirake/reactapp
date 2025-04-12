@@ -11,6 +11,19 @@
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 }
 
+  #header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 32px;
+    background: #023b6d;
+    display: flex
+;
+    align-items: center;
+}
+
+
 .LogIcon{
     height: 40px;
     width: 40px;
@@ -24,6 +37,7 @@
     background: #ffffff!important;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px ;
+    margin-top:32px;
 
 }
 

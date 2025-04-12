@@ -8,7 +8,7 @@ import Subfooter from "./Components/Subfooter";
 export default function App() {
   return(
     <>
-    <TopBar/>
+    
     <NavBars />
    <div className="container-fluid">
    <Outlet />
