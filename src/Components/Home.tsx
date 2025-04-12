@@ -79,7 +79,7 @@ export default function Home() {
        
 
     {/* <div className="card col-md-6">
-      <span className="card-title text-white text-center card-title-color">Our Services</span>
+      <span className="card-title text-white text-center card-title-color"></span>
       <div className="card-body my-card-body">
       <ul className="card-text font-weight-card">
         <li className="bi bi-check">Software Development Training</li>
@@ -94,6 +94,9 @@ export default function Home() {
        
         </div>
         <div className="row">
+          <h4>Our Services</h4>
+        </div>
+        <div className="row mysec">
 
         <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div className="features-item">
