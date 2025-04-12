@@ -10,9 +10,9 @@
     color: #009b5d;
     background-color:   #eaf3fa!important;
     font-weight: bold;
-    height: 45px;
+    min-height: 62px;
     font-size: 14px;
-    z-index: 999;
+    
 
   }
   .downloadIncon{
