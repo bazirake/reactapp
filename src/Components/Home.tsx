@@ -65,13 +65,14 @@ export default function Home() {
 
         <div className="row">
           <div  className="wo-container">
-          <h2 className="text-center">Who we are?</h2>
+          <h2 className="text-center">Who we are</h2>
       <p className="text-starta">The Exeptional Tech Company , is a Company which provides a high-quality software training
     
           
         and
       
       Software development services to help individuals and businesses to Simplify Heavy daily Tasks performed.</p>
+      <button className="btn btn-success">Read More</button>
           </div>
      
         
@@ -91,6 +92,38 @@ export default function Home() {
        
         
        
+        </div>
+        <div className="row">
+
+        <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div className="features-item">
+              <i className="bi bi-eye  icon-color" ></i>
+              <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
+            </div>
+          </div>
+
+
+          <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div className="features-item">
+              <i className="bi bi-eye  icon-color" ></i>
+              <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div className="features-item">
+              <i className="bi bi-eye  icon-color" ></i>
+              <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div className="features-item">
+              <i className="bi bi-eye  icon-color" ></i>
+              <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
+            </div>
+          </div>
+
         </div>
 </div>
 <div  className="container-fluid">
