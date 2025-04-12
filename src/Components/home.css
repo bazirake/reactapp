@@ -81,19 +81,58 @@ color-mix(in srgb, var(--default-color), transparent 90%);
     pointer-events: auto;
 }
 .mysec{
-
         color: var(--default-color);
         background-color: var(--background-color);
         padding: 15px 0;
         scroll-margin-top: 100px;
         overflow: clip;
-
 }
 
+section, .m-section {
+    color: var(--default-color);
+    background-color: #ffffff;
+    padding: 60px 0;
+    scroll-margin-top: 100px;
+    overflow: clip;
+}
 
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #444444;
+    position: relative;
+}
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background:#1acc8d;
+    margin: 4px 10px;
+}
+ .section-title div{
+    color: #040677;
+    margin: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family:"Raleway", sans-serif;
+ }
 
-
-
+ #gallery .gallery-item {
+    overflow: hidden;
+    border-right: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+#gallery .gallery-item img {
+    transition: all ease-in-out 0.4s;
+}
 
 
 @media (min-width: 700px) {
