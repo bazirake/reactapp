@@ -64,7 +64,6 @@ color-mix(in srgb, var(--default-color), transparent 90%);
     padding: 20px;
     transition: 0.3s;
     border: 1px solid #444444;
-
     position: relative;
 }
 

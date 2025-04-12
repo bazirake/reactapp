@@ -97,33 +97,33 @@ export default function Home() {
 
         <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div className="features-item">
-              <i className="bi bi-eye  icon-color" ></i>
-              <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
+              <i className="bi bi bi-mortarboard  icon-color" ></i>
+              <h3><a href="" className="stretched-link">Software Development Training</a></h3>
             </div>
           </div>
 
 
           <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div className="features-item">
-              <i className="bi bi-eye  icon-color" ></i>
-              <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
+              <i className="bi bi-shuffle  icon-color" ></i>
+              <h3><a href="" className="stretched-link">Web & Mobile App Development</a></h3>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div className="features-item">
-              <i className="bi bi-eye  icon-color" ></i>
-              <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
-            </div>
+                <i className="bi bi-command  icon-color" ></i>
+                <h3><a href="" className="stretched-link">Software Customization</a></h3>
+             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div className="features-item">
-              <i className="bi bi-eye  icon-color" ></i>
-              <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
+              <i className="bi bi-infinity  icon-color"></i>
+              <h3><a href="" className="stretched-link">System Design</a></h3>
             </div>
           </div>
-
+          
         </div>
 </div>
 <div  className="container-fluid">
