@@ -5,6 +5,11 @@
 }
 .whole-hello-content{
     padding: 40px 15px 0px 30px;
+    
+}
+
+.hello-container{
+    margin-top: 102px;
 }
 .hero__title {
     /* font-size: 30px; */
@@ -167,7 +172,7 @@ section, .m-section {
 
 .back-imageh{
     background-color: #105a6d;;
- max-height: 430px;
+    max-height: 430px;
 }
  
 .img-container{
@@ -334,8 +339,9 @@ ol, ul {
 
 .career{
     background-color: #f3f6f7!important;
-   margin-top: 130px;
+   margin-top: 120px;
    margin-bottom: 12px;
+ 
    
 }
 

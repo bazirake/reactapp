@@ -12,10 +12,8 @@ export default function Home() {
   ,{name:"Meet Software Engineers",path:"level",icons:"bi bi-people-fill"}]
   return <>
 <section>
-
-
 <div className="container-fluid">
-          <div className="row">
+          {/* <div className="row">
           <ul className="list-group clearfix d-flex career justify-content-center list-group-horizontal ">
             {
              mens.map((item,index)=>
@@ -25,12 +23,10 @@ export default function Home() {
             )
            }
         </ul>
-
-          </div>
+          </div> */}
       
-
         <section id="hero" className="hello-container">
-         <div className="row g-0 ">
+         <div className="row g-0 pt-3 ">
               <div className="col-md-4">
                 <div className="whole-hello-content">
                 <div>
