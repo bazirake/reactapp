@@ -521,8 +521,6 @@ ol, ul {
 }
 
 
-
-
 .font-sizee{
 font-size: 24px;
 font-weight: 900;
@@ -763,9 +761,6 @@ line-height: 54px;
     color: #99a1c0;
  }
 
-
-
-
 .title-list{
      
     font-family: "Montserrat", Sans-serif;
@@ -774,8 +769,6 @@ line-height: 54px;
     line-height: 1.1em;
     letter-spacing: -1.46px;
 }
-
-
 
 .content-space h2{
     -webkit-background-clip: text;
@@ -862,3 +855,23 @@ ol,ul {
 .image-sizes{
     padding: 100px;
 }
+
+
+
+
+.navigate {
+    display: flex;
+
+    margin-left: auto;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .current-template {
+        padding-left: 0;
+        margin-left: auto;
+    }
+}
+
+
+

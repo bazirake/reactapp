@@ -17,14 +17,13 @@ export default function Home() {
 <div className="container-fluid">
           <div className="row">
           <ul className="list-group clearfix d-flex career justify-content-center list-group-horizontal ">
-          {
+            {
              mens.map((item,index)=>
               <li key={index} onClick={()=>setstat(index)} className= {`list-group-item rounded-c ${stat==index ? "active-b":"list-group-item"}`} >
                  <i className={item.icons}></i>{item.name}
               </li>
             )
-          }
-
+           }
         </ul>
 
           </div>

@@ -24,9 +24,18 @@ function NavBars(){
     return(
           <>
           <div className='container-fluid fixed-top'>
-          <header id="header">fhkdsjfhksdfhkdsfdsfsd</header>
-          <nav className="navbar navbar-expand-lg nav-bar-bg-color ">
+          
+          <div className="d-flex bd-highlight top-wrapper fixed">
+      <div className="flex-fill p-2 bd-highlight">
+      <span className="px-2"><i className="bi bi-telephone"></i>250787124101</span>
+      <span><i className="bi bi-envelope"></i>info@exceptionaltech.rw</span>
+      </div>
+    
+   
+   <span className="downloadIncon"><i className="bi bi-download px-2"></i>Download</span>
+  </div>
        
+          <nav className="navbar navbar-expand-lg nav-bar-bg-color ">
        <div className="container-fluid">
          <NavLink className="navbar-brand" to={`/`}>
           <img src={cicon} className='image-size'/>  
