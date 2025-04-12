@@ -41,7 +41,7 @@ export default function Home() {
                         </span>
                     </p>
                     <div className="mx-2">
-                      <button  className="btn btn-success mt-2 ">Start Now<i className="bi bi-chevron-compact-right"></i></button>
+                      <button  className="btn btn-success mt-2 btn-color">Start Now<i className="bi bi-chevron-compact-right"></i></button>
                     </div>
                    </div>
                 </div>

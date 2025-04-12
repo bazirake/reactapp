@@ -23,6 +23,11 @@
  
  padding: 12px 200px 12px ;
 }
+
+.btn-color{
+  background-color:  #1acc8d!important;
+  
+}
 @media (min-width: 700px) {
     .hero__title {
         max-width: 25rem;
@@ -229,7 +234,7 @@ ol, ul {
 }
 
 .active-b{
-   background-color: #009acc!important;
+   background-color: #1acc8d!important;
    font-weight:100;
    color: white!important;
 }

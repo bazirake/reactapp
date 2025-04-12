@@ -21,7 +21,9 @@
 }
 
 .nav-bar-bg-color{
-    background: #ffffff!important
+    background: #ffffff!important;
+    z-index: -1;
+    
 }
 
 .icon-text-color{

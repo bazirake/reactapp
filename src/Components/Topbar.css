@@ -12,7 +12,16 @@
     font-weight: bold;
     height: 45px;
     font-size: 14px;
+    z-index: 999;
 
   }
-  
+  .downloadIncon{
+    background:#1acc8d!important;
+    color: white;
+    font-weight: 800;
+   position: relative;
+   margin-left: 20px;
+   padding: 6px 0px;
+   max-width: 100px;
+}
  

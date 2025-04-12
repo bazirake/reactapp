@@ -11,6 +11,7 @@ function TopBar() {
       </div>
     
    <span className="p-2 flex-fill bd-highlight "> <i className="bi bi-bell-fill px-1"></i> Exceptional Tech Company calls up you all to follow its products</span>
+   <span className="downloadIncon"><i className="bi bi-download px-2"></i>Download</span>
   </div>
   )
 }
