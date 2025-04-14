@@ -6,13 +6,22 @@ import imageb from "../assets/Images/bannerb.jpg";
 import Icons from "../assets/Images/HappyIcon.webp";
 import { GoogleAds } from "./GoogleAds";
 import { useState } from "react";
-export default function Home() {
+import CustomSlider from "./CustomSlider";
+import im1 from "../assets/Images/Career.png";
+import im2 from "../assets/Images/Developer.jpg";
+import im3 from "../assets/Images/Engineer.png";
+import im4 from "../assets/Images/Career.png";
+
+ const Imagesx=[im1,im2,im3,im4];
+
+ export default function Home() {
+  
   const [stat,setstat]=useState(0)
- const mens=[{name:"Become Software Eng",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
+   const mens=[{name:"Become Software Eng",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
   ,{name:"Meet Software Engineers",path:"level",icons:"bi bi-people-fill"}]
   return <>
-<section>
-<div className="container-fluid">
+  <section>
+   <div className="container-fluid">
           {/* <div className="row">
           <ul className="list-group clearfix d-flex career justify-content-center list-group-horizontal ">
             {
@@ -92,8 +101,8 @@ export default function Home() {
         
        
         </div>
-        <div className="row">
-          <h4>Our Services</h4>
+        <div className="row d-flex">
+          <h2 className="text-center">Our Services</h2>
         </div>
         <div className="row mysec">
 
@@ -407,12 +416,24 @@ export default function Home() {
             </div>
           </div>
            {/* End Gallery Item */}
-
+          
         </div>
 
       </div>
         </section>
 
+       
+        <div className="row" style={
+          {maxWidth:"1200px",
+            width:"100%",
+            height:"auto",
+            margin:"0 auto"
+          }
+          } >
+        <CustomSlider imageUrls={Imagesx}/>
+
+        </div>
+       
        <section className="web-back">
        <div className="container-fluid">
           <div className="row g-0">

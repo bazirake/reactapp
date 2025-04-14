@@ -1,4 +1,8 @@
-
+.mmm{
+    background-color: #260707;
+    height: 400px;
+    width: 500px;
+}
 .back-image{
     background-image: url('https://bootstrapmade.com/content/demo/Bootslander/assets/img/hero-bg-2.jpg');
     min-height: 80vh;
@@ -13,19 +17,18 @@
 }
 .hero__title {
     /* font-size: 30px; */
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    letter-spacing: -0.071rem;
-    font-weight: 400;
-    margin: 0 0 2rem;
+    font-size:2.5rem;
+    line-height:3.5rem;
+    letter-spacing:-0.071rem;
+    font-weight:400;
+    margin:0 0 2rem;
 }
 .text-starta{
     text-align: start;
 }
 .wo-container
  {
-    text-align: center;
- 
+ text-align: center;
  padding: 12px 200px 12px ;
 }
 .btn-color{
@@ -95,6 +98,7 @@ section, .m-section {
     background-color: #ffffff;
     scroll-margin-top: 100px;
     overflow: clip;
+    padding-top: 30px;
 }
 
 .section-title h2 {

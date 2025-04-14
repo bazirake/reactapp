@@ -38,7 +38,7 @@ function NavBars(){
           <nav className="navbar navbar-expand-lg nav-bar-bg-color ">
        <div className="container-fluid">
          <NavLink className="navbar-brand" to={`/`}>
-          <img src={cicon} className='image-size'/>  
+          <img src={cicon} className='image-size' alt='EXTECH'/>  
          </NavLink> 
          <button onClick={()=>setCol(!cola)} className="navbar-toggler btn btn-outline-success" type="button" data-bs-toggle="collapse"  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
            <span className="navbar-toggler-icon "></span>
