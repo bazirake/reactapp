@@ -25,8 +25,7 @@
   transition:background-color 100ms ease-in ease-out;
 }
 .img-slider-btn:hover > *{
-
-animation: squash 200s ease-in-out ;
+  animation: squash 200s ease-in-out;
 }
 .img-slider-btn :hover,
 .img-slider-btn :focus-visible{
@@ -68,11 +67,12 @@ animation: squash 200s ease-in-out ;
 }
 .img-slider-dot-btn:hover,
 .img-slider-dot-btn:focus-visible
-{
-  scale: 1.2;
-}
+ {
+   scale: 1.2;
+ }
 
 .img-slider-dot-btn:focus-visible,
 .img-slider-btn:focus-visible{
   outline: auto;
 }
+

@@ -1,4 +1,4 @@
-
+import './custom.css';
 import "./home.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css"
@@ -422,17 +422,13 @@ import im4 from "../assets/Images/Career.png";
       </div>
         </section>
 
-       
-        <div className="row" style={
-          {maxWidth:"1200px",
-            width:"100%",
-            height:"auto",
-            margin:"0 auto"
-          }
-          } >
-        <CustomSlider imageUrls={Imagesx}/>
+        
+         
+        
+         
+           
 
-        </div>
+      
        
        <section className="web-back">
        <div className="container-fluid">
