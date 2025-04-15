@@ -383,7 +383,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
       </div>
        {/* End Section Title */}
 
-       <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+       <div className="container-fluid aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 
         <div className="row g-0">
 
