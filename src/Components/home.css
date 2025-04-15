@@ -885,4 +885,34 @@ ol,ul {
 }
 
 
+.figure-caption h3{
+    font-weight: 700;
+    font-size: 23px;
+    color: black;
+}
+.figure-caption p{
+    font-family:'sans-serif';
+    font-weight:bold;
+    font-size: 17px;
+}
+
+.figure #img1:hover{
+    border-radius: 40px!important;
+
+}
+
+.figure #img2:hover{
+    border-radius: 40px!important;
+
+}
+.figure #img3:hover{
+    border-radius: 40px!important;
+
+}
+.figure #img4:hover{
+    border-radius: 40px!important;
+
+}
+
+
 

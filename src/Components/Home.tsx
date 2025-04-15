@@ -7,10 +7,13 @@ import Icons from "../assets/Images/HappyIcon.webp";
 import { GoogleAds } from "./GoogleAds";
 import { useState } from "react";
 import CustomSlider from "./CustomSlider";
-import im1 from "../assets/Images/Career.png";
+import im1 from "../assets/Images/GoodOne.jpg";
 import im2 from "../assets/Images/Developer.jpg";
-import im3 from "../assets/Images/Engineer.png";
-import im4 from "../assets/Images/Career.png";
+import im3 from "../assets/Images/HappyIcon.webp";
+import im4 from "../assets/Images/Engineer.png";
+import im5 from "../assets/Images/GettyImageIcon.jpg";
+import im6 from "../assets/Images/AfricanIcon.jpg";
+import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
  const Imagesx=[im1,im2,im3,im4];
 
@@ -104,7 +107,7 @@ import im4 from "../assets/Images/Career.png";
         <div className="row d-flex">
           <h2 className="text-center">Our Services</h2>
         </div>
-        <div className="row mysec">
+        {/* <div className="row mysec">
 
         <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div className="features-item">
@@ -135,6 +138,48 @@ import im4 from "../assets/Images/Career.png";
             </div>
           </div>
           
+        </div> */}
+
+        <div className="row">
+          <div className="col-md-3 col-lg-3">
+          <figure className="figure">
+          <img  id='img2' src={im7} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
+           <figcaption className="figure-caption text-center"><h3>Software Development Training</h3>
+           <p>Customized hardware to fit your business needs and gaming necessities</p>
+           </figcaption>
+         </figure>
+          </div>
+
+          <div className="col-md-3 col-lg-3">
+          <figure className="figure">
+          <img id='img1' src={im3} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
+           <figcaption className="figure-caption text-center">
+            <h3>Web & Mobile App Development</h3>
+            <p>Customized hardware to fit your business needs and gaming necessities</p>
+            
+            
+            </figcaption>
+         </figure>
+          </div>
+
+          <div className="col-md-3 col-lg-3">
+          <figure className="figure">
+          <img id='img3' src={im6} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
+           <figcaption className="figure-caption text-center"><h3>Software Customization</h3> 
+           <p>Customized hardware to fit your business needs and gaming necessities</p>
+           </figcaption>
+         </figure>
+          </div>
+
+          <div className="col-md-3 col-lg-3">
+          <figure className="figure">
+          <img id='img4' src={im5} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
+           <figcaption className="figure-caption text-center"><h3>System Design</h3>
+           <p>Unique, Sustainable, Technology-themed art for purchase</p>
+           </figcaption>
+         </figure>
+          </div>
+
         </div>
 </div>
 </section>
