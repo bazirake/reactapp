@@ -187,7 +187,6 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 <div  className="container-fluid">
    <div className="row text-center background-row">
    <span className="font-wei rounded"> Do you want to become a professional software developer? Click on become button to meet  with our Software Engineers</span>
- 
    </div>
     <div className="row my-2">
     <div className="col-md-3">
@@ -295,7 +294,6 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
           </a>  
           </li>
 
-
           <li>
           <a>
           <i className="bi bi-arrow-left-right"></i>
@@ -307,6 +305,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
           </li>
         </ul>
       </div>
+
 
       <div className="profile-area">
       <div className="container">
@@ -340,7 +339,6 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
               
             </div>
            </div>
-
 
            <div className="col-md-4">
             <div className="card">
@@ -467,13 +465,6 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
       </div>
         </section>
 
-        
-         
-        
-         
-           
-
-      
        
        <section className="web-back">
        <div className="container-fluid">
@@ -508,8 +499,99 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
         </div>
       </div>
       </section>
-      
-      
+
+
+      {/* <section id="gallery" className="gallery m-section"> */}
+         {/* start of section title  */}
+        {/* <div className="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Team</h2>
+        <div><span>Check Our Team</span></div>
+      </div> */}
+      {/* </section> */}
+
+
+      <section id="team" className="team section">
+
+     
+      <div className="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Team</h2>
+        <div><span>Check Our</span> <span className="description-title">Team</span></div>
+      </div>
+
+      <div className="container">
+
+        <div className="row gy-5">
+
+          <div className="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div className="member">
+              <div className="pic"><img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/team/team-1.jpg" className="img-fluid" alt=""/></div>
+              <div className="member-info">
+                <h4>BAZIRAKE Eric</h4>
+                <span>Chief Executive Officer</span>
+                <div className="social">
+                  <a href=""><i className="bi bi-twitter-x"></i></a>
+                  <a href=""><i className="bi bi-facebook"></i></a>
+                  <a href=""><i className="bi bi-instagram"></i></a>
+                  <a href=""><i className="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div className="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div className="member">
+              <div className="pic">
+                <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/team/team-2.jpg" className="img-fluid" alt=""/></div>
+              <div className="member-info">
+                <h4>Yumvagusenga Elipa</h4>
+                <span>Product & Marketing Manager</span>
+                <div className="social">
+                  <a href=""><i className="bi bi-twitter-x"></i></a>
+                  <a href=""><i className="bi bi-facebook"></i></a>
+                  <a href=""><i className="bi bi-instagram"></i></a>
+                  <a href=""><i className="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div className="member">
+              <div className="pic"><img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/team/team-3.jpg" className="img-fluid" alt=""/></div>
+              <div className="member-info">
+                <h4>Peter Joy</h4>
+                <span>Project Advisor</span>
+                <div className="social">
+                  <a href=""><i className="bi bi-twitter-x"></i></a>
+                  <a href=""><i className="bi bi-facebook"></i></a>
+                  <a href=""><i className="bi bi-instagram"></i></a>
+                  <a href=""><i className="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div className="member">
+              <div className="pic"><img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/team/team-3.jpg" className="img-fluid" alt=""/></div>
+              <div className="member-info">
+                <h4>Aime de Dieu</h4>
+                <span>Trainer & Software Engineer</span>
+                <div className="social">
+                  <a href=""><i className="bi bi-twitter-x"></i></a>
+                  <a href=""><i className="bi bi-facebook"></i></a>
+                  <a href=""><i className="bi bi-instagram"></i></a>
+                  <a href=""><i className="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 </div>
   </>
 }
