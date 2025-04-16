@@ -911,8 +911,71 @@ ol,ul {
 }
 .figure #img4:hover{
     border-radius: 40px!important;
-
 }
+
+.team .member {
+    position: relative;
+}
+.team .member .pic {
+    overflow: hidden;
+    margin-bottom: 50px!important;
+}
+
+[data-aos].aos-animate {
+    pointer-events: auto;
+}
+
+section, .section {
+    color:#444444;
+    background-color: #ffffff;
+    padding: 60px 0;
+    scroll-margin-top: 100px;
+    overflow: clip;
+}
+
+[data-aos][data-aos][data-aos-duration="600"], body[data-aos-duration="600"] [data-aos] {
+    transition-duration: .6s;
+}
+
+[data-aos][data-aos][data-aos-easing=ease-in-out], body[data-aos-easing=ease-in-out] [data-aos] {
+    transition-timing-function: ease-in-out;
+}
+
+[data-aos][data-aos][data-aos-delay="200"].aos-animate, body[data-aos-delay="200"] [data-aos].aos-animate {
+    transition-delay: .2s;
+}
+
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#040677;
+    font-family:"Raleway",sans-serif
+}
+
+.team .member .member-info {
+    background-color: #ffffff;
+    color: #444444;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    right: 20px;
+    padding: 20px 15px;
+    overflow: hidden;
+    transition: 0.5s;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.team .member .social {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
 
 
 

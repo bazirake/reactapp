@@ -526,8 +526,8 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
             <div className="member">
               <div className="pic"><img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/team/team-1.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
-                <h4>BAZIRAKE Eric</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Eric Bazirake </h4>
+                <span>Chief Executive Officer & Soft Eng</span>
                 <div className="social">
                   <a href=""><i className="bi bi-twitter-x"></i></a>
                   <a href=""><i className="bi bi-facebook"></i></a>
@@ -537,8 +537,6 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
               </div>
             </div>
           </div>
-          
-
 
           <div className="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
             <div className="member">
@@ -556,13 +554,13 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
               </div>
             </div>
           </div>
-
+          
           <div className="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
             <div className="member">
               <div className="pic"><img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/team/team-3.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
                 <h4>Peter Joy</h4>
-                <span>Project Advisor</span>
+                <span>Project Advisor & System Analyst</span>
                 <div className="social">
                   <a href=""><i className="bi bi-twitter-x"></i></a>
                   <a href=""><i className="bi bi-facebook"></i></a>
@@ -572,14 +570,13 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
               </div>
             </div>
           </div>
-
 
           <div className="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
             <div className="member">
               <div className="pic"><img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/team/team-3.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
                 <h4>Aime de Dieu</h4>
-                <span>Trainer & Software Engineer</span>
+                <span>Training Provider & Software Engineer</span>
                 <div className="social">
                   <a href=""><i className="bi bi-twitter-x"></i></a>
                   <a href=""><i className="bi bi-facebook"></i></a>
@@ -589,6 +586,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>
