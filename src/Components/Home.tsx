@@ -640,9 +640,9 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
     </div>
 
-    <div className="col-lg-5 order-1 order-lg-2">
-      <img src="assets/img/faq.jpg" className="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="100"/>
-    </div>
+     <div className="col-lg-5 order-1 order-lg-2">
+        <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/faq.jpg" className="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="100"/>
+     </div>
   </div>
 
 </div>
