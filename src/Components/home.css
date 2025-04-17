@@ -1058,3 +1058,7 @@ h1, h2, h3, h4, h5, h6 {
  color: #040677;
  font-family: "Raleway", sans-serif;
 }
+
+.faq .faq-container .faq-item:last-child {
+    margin-bottom: 0;
+}
