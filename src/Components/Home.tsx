@@ -17,9 +17,30 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
  const Imagesx=[im1,im2,im3,im4];
 
- export default function Home() {
-  
-  const [stat,setstat]=useState(0)
+  export default function Home() {
+    const [showf,setFre]=useState(false);
+    const [showf1,setFre1]=useState(false);
+    const [showf2,setFre2]=useState(false);
+  function FrequentAsked(){
+
+      setFre((item=>!item))
+
+   }
+
+   function FrequentAsked1(){
+
+    setFre1((item=>!item))
+
+ }
+ function FrequentAsked2(){
+
+  setFre2((item=>!item))
+
+}
+
+
+
+  const [stat,setstat]=useState(0);
    const mens=[{name:"Become Software Eng",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
   ,{name:"Meet Software Engineers",path:"level",icons:"bi bi-people-fill"}]
   return <>
@@ -348,8 +369,8 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
               <div className="main-text">
                 <h2>Career Services</h2>
                 <p>
-                Full support to ensure career success.
-                   </p>
+                    Full support to ensure career success.
+                </p>
               </div>
              
             </div>
@@ -364,7 +385,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
             <span className="text-center-salary">$salary = i++</span> 
           <h4 className="time-heading">It's time to make a change.</h4> 
           <div>
-          <p >
+          <p>
             <span>An education that’s future-proof doesn’t have to cost a fortune or take years to complete.</span>
             <span className="mypara">You can have a seat at the table, upward mobility, and an exciting position in a fast-growing industry.</span>
          </p>
@@ -401,7 +422,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
               </a>
             </div>
           </div>
-          
+
            {/* End Gallery Item */}
 
           <div className="col-lg-3 col-md-4">
@@ -487,8 +508,6 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
           </ul>
           </div>
             </div>
-          
-         
           
           </div>
           <div className="col-md-6 my-imagew">
@@ -586,7 +605,6 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
@@ -611,29 +629,44 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
           <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-          <div className="faq-content">
-            <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-          </div>
-          <i className="faq-toggle bi bi-chevron-right"></i>
+          {
+            showf && (
+             <div className="faq-content">
+             <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+              </div>
+             )
+              }
+          <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAsked}></i>
         </div>
         
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
           <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
-          <div className="faq-content">
-            <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-          </div>
-          <i className="faq-toggle bi bi-chevron-right"></i>
+          {
+
+           showf1 && (
+            <div className="faq-content">
+             <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+             </div>
+             )
+          }
+
+          <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAsked1}></i>
         </div>
 
 
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
           <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-          <div className="faq-content">
-            <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-          </div>
-          <i className="faq-toggle bi bi-chevron-right"></i>
+          {
+            showf2 && (
+              <div className="faq-content">
+               <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
+               </div>
+              )
+          }
+       
+          <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAsked2}></i>
         </div>
 
       </div>
