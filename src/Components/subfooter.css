@@ -21,3 +21,10 @@
   .sub-line-height{
     line-height: 3;
   }
+
+  .footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
