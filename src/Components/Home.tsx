@@ -21,6 +21,11 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
     const [showf,setFre]=useState(false);
     const [showfx,setFrex]=useState(false);
     const [showf2,setFre2]=useState(false);
+    const [messageSt,sendMessage]=useState(false)
+
+    function SendMessage() {
+      sendMessage(true)
+    }
   function FrequentAsked(){
 
       setFre((item=>!item))
@@ -638,6 +643,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
           <h3 onClick={FrequentAskedx}>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+
            {
              showfx && (
               <div className="faq-content">
@@ -645,17 +651,19 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
                </div>
               )
            }
+
           <i className={`faq-toggle bi bi-chevron-right ${showfx ? "downicon":"righticon" }`} onClick={FrequentAskedx}></i>
         </div>
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
           <h3 onClick={FrequentAsked2}>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+
             {
-              showf2 && (
-              <div className="faq-content">
-               <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
-               </div>
-              )
+             showf2 && (
+                <div className="faq-content">
+                <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
+                </div>
+               )
            }
 
           <i className={`faq-toggle bi bi-chevron-right ${showf2 ? "downicon":"righticon" }`} onClick={FrequentAsked2}></i>
@@ -668,6 +676,101 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
   </div>
 </div>
 </section>
+
+<section id="contact" className="contact section">
+
+      
+      <div className="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Contact</h2>
+        <div><span>Check EXTECH</span> <span className="description-title">Contact</span></div>
+      </div>
+
+      <div className="container aos-init aos-animate" data-aos="fade" data-aos-delay="100">
+
+        <div className="row gy-4">
+
+          <div className="col-lg-4">
+            <div className="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <i className="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>
+                23M7+249, KN 123 St, Kigali, Rwanda</p>
+              </div>
+            </div>
+
+            <div className="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+              <i className="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+250787124101</p>
+              </div>
+            </div>
+
+
+            <div className="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+              <i className="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Mail Us</h3>
+                <p>extech.rw</p>
+              </div>
+            </div>
+            
+
+          </div>
+
+          <div className="col-lg-8">
+            <form action="forms/contact.php" method="post" className="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div className="row gy-4">
+
+                <div className="col-md-6">
+                  <input type="text" name="name" className="form-control" placeholder="Your Name" />
+                </div>
+
+                <div className="col-md-6 ">
+                  <input type="email" className="form-control" name="email" placeholder="Your Email" />
+                </div>
+
+                <div className="col-md-12">
+                  <input type="text" className="form-control" name="subject" placeholder="Subject" />
+                </div>
+
+                <div className="col-md-12">
+                  <textarea className="form-control"  name="message"  placeholder="Leave a Message" ></textarea>
+                </div>
+
+                <div className="col-md-12 text-center">
+                  <div className="loading">Loading</div>
+                 {
+                  messageSt && (
+
+                   <div className="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                   <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                   </div>
+                  )
+                 }
+
+
+                  
+                  {/* <div className="sent-message">ddadadadad
+                    ufyyfiffifiifififififififfiffi
+                    ydutududuudduudtudt
+                    Your message has been sent. Thank you!</div> */}
+
+                  <button type="button" className='submit' onClick={SendMessage}>Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+
 </div>
   </>
 }

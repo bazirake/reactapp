@@ -720,9 +720,6 @@ line-height: 54px;
 .text-center-salary{
     text-align: center;
 }
-.profile-programining{
-
-}
 
 .time-heading{
     
@@ -1084,3 +1081,147 @@ h1, h2, h3, h4, h5, h6 {
      transform: rotate(0deg);
      transition: transform 0.3s ease;
   }
+
+  /* Contact us Form-section */
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #444444;
+
+    position: relative;
+}
+
+.section-title {
+    padding-bottom: 60px;
+    position: relative;
+}
+@media (max-width: 1199px) {
+    section, .section {
+        scroll-margin-top: 66px;
+    }
+}
+
+.section-title div {
+    color: #040677;
+    margin: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family:"Raleway", sans-serif;
+}
+
+.contact .info-item i {
+    color:#1acc8d;
+    background: #1acc8d,transparent 92%;
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+
+}
+
+.contact .info-item:hover i {
+    background: #1acc8d;
+    color: #ffffff;
+}
+
+.contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.contact .info-item h3 {
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.contact .php-email-form {
+    height: 100%;
+}
+
+.contact .php-email-form input[type=text], .contact .php-email-form input[type=email], .contact .php-email-form textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #444444;
+    background-color: #ffffff, transparent 50%;
+    border-color: #444444, transparent 80%;
+}
+
+.form-control:focus{
+    outline: none;
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+    border-radius:0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.php-email-form .loading {
+    display: none;
+    background: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+}
+
+.php-email-form .error-message {
+    display:none;
+    background: #df1529;
+    color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.php-email-form .sent-message {
+    display: none;
+    color: #ffffff;
+    background: #059652!important;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+
+
+.contact .php-email-form .submit {
+    color:#ffffff;
+    background:#1acc8d;
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+}
