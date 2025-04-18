@@ -1136,6 +1136,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
 }
 
+.contact .info-item+.info-item {
+    margin-top: 40px;
+}
 .contact .info-item p {
     padding: 0;
     margin-bottom: 0;
@@ -1225,10 +1228,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 30px;
     transition: 0.4s;
     border-radius: 50px;
-}
-
-.message-color{
-   
 }
 
 
