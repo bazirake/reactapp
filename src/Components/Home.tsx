@@ -612,11 +612,8 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
     <section id="faq" className="faq section light-background">
 
 <div className="container-fluid">
-
   <div className="row gy-5">
-
     <div className="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-
       <div className="content px-xl-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
         <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
         <p>
@@ -625,60 +622,52 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
       </div>
 
       <div className="faq-container px-xl-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
           <h3 onClick={FrequentAsked}>Non consectetur a erat nam at lectus urna duis?</h3>
-          {
+           {
             showf && (
-               <div className="faq-content">
-               <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-               </div>
+             <div className="faq-content">
+              <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+              </div>
              )
               }
-          <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAsked}></i>
+          <i className={`faq-toggle bi bi-chevron-right ${showf ? "downicon":"righticon" }`} onClick={FrequentAsked}></i>
         </div>
 
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
           <h3 onClick={FrequentAskedx}>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
-          {
-
-            showfx && (
-            <div className="faq-content">
-             <p >Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-             </div>
-             )
-          }
-          <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAskedx}></i>
+           {
+             showfx && (
+              <div className="faq-content">
+              <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+               </div>
+              )
+           }
+          <i className={`faq-toggle bi bi-chevron-right ${showfx ? "downicon":"righticon" }`} onClick={FrequentAskedx}></i>
         </div>
-
-
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
           <h3 onClick={FrequentAsked2}>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-          {
-            showf2 && (
+            {
+              showf2 && (
               <div className="faq-content">
                <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
                </div>
               )
-          }
-       
-          <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAsked2}></i>
+           }
+
+          <i className={`faq-toggle bi bi-chevron-right ${showf2 ? "downicon":"righticon" }`} onClick={FrequentAsked2}></i>
         </div>
       </div>
     </div>
-
      <div className="col-lg-5 order-1 order-lg-2">
-        <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/faq.jpg" className="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="100"/>
+       <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/faq.jpg" className="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="100"/>
      </div>
   </div>
-
 </div>
-
 </section>
-
 </div>
   </>
 }
