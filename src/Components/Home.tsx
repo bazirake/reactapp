@@ -19,7 +19,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
   export default function Home() {
     const [showf,setFre]=useState(false);
-    const [showf1,setFre1]=useState(false);
+    const [showfx,setFrex]=useState(false);
     const [showf2,setFre2]=useState(false);
   function FrequentAsked(){
 
@@ -27,9 +27,9 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
    }
 
-   function FrequentAsked1(){
+   function FrequentAskedx(){
 
-    setFre1((item=>!item))
+    setFrex((itemx=>!itemx))
 
  }
  function FrequentAsked2(){
@@ -613,7 +613,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
 <div className="container-fluid">
 
-  <div className="row gy-4">
+  <div className="row gy-5">
 
     <div className="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
 
@@ -631,27 +631,26 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
           <h3 onClick={FrequentAsked}>Non consectetur a erat nam at lectus urna duis?</h3>
           {
             showf && (
-             <div className="faq-content">
-             <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-              </div>
+               <div className="faq-content">
+               <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+               </div>
              )
               }
           <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAsked}></i>
         </div>
-        
+
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
-          <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+          <h3 onClick={FrequentAskedx}>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
           {
 
-           showf1 && (
+            showfx && (
             <div className="faq-content">
-             <p onClick={FrequentAsked1}>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+             <p >Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
              </div>
              )
           }
-
-          <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAsked1}></i>
+          <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAskedx}></i>
         </div>
 
 
@@ -668,9 +667,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
        
           <i className="faq-toggle bi bi-chevron-right" onClick={FrequentAsked2}></i>
         </div>
-
       </div>
-
     </div>
 
      <div className="col-lg-5 order-1 order-lg-2">
@@ -681,9 +678,6 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 </div>
 
 </section>
-
-
-
 
 </div>
   </>

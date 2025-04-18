@@ -1062,3 +1062,11 @@ h1, h2, h3, h4, h5, h6 {
 .faq .faq-container .faq-item:last-child {
     margin-bottom: 0;
 }
+
+.faq .faq-container h3:hover {
+    color: #1acc8d;
+}
+
+/* .faq.faq-container h3 :hover {
+    color: #1acc8d;
+} */
