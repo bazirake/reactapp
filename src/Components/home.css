@@ -1218,6 +1218,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .contact .php-email-form .submit {
+    background-image: url("../assets/Images/close-button-svgrepo-com.svg");
     color:#ffffff;
     background:#1acc8d;
     border: 0;
@@ -1225,3 +1226,11 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.4s;
     border-radius: 50px;
 }
+
+.message-color{
+   
+}
+
+
+
+

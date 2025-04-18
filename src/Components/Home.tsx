@@ -23,27 +23,23 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
     const [showf2,setFre2]=useState(false);
     const [messageSt,sendMessage]=useState(false)
 
+    function CloseMessage() {
+      sendMessage(false)
+    }
+
     function SendMessage() {
       sendMessage(true)
     }
   function FrequentAsked(){
-
       setFre((item=>!item))
-
    }
 
    function FrequentAskedx(){
-
     setFrex((itemx=>!itemx))
-
  }
  function FrequentAsked2(){
-
   setFre2((item=>!item))
-
 }
-
-
 
   const [stat,setstat]=useState(0);
    const mens=[{name:"Become Software Eng",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
@@ -744,9 +740,9 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
                  {
                   messageSt && (
 
-                   <div className="alert alert-warning alert-dismissible fade show" role="alert">
-                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-                   <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                   <div className="alert  message-color alert-dismissible fade show" role="alert">
+                    <i className="bi bi-envelope px-1"></i><strong>Your message has been sent!</strong> Thank you!.
+                   <button type="button" className="btn-close" onClick={CloseMessage} data-bs-dismiss="alert" aria-label="Close"></button>
                    </div>
                   )
                  }
