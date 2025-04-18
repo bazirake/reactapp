@@ -628,7 +628,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
-          <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+          <h3 onClick={FrequentAsked}>Non consectetur a erat nam at lectus urna duis?</h3>
           {
             showf && (
              <div className="faq-content">
@@ -646,7 +646,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
            showf1 && (
             <div className="faq-content">
-             <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+             <p onClick={FrequentAsked1}>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
              </div>
              )
           }
@@ -657,7 +657,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
-          <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+          <h3 onClick={FrequentAsked2}>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
           {
             showf2 && (
               <div className="faq-content">
