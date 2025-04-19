@@ -4,13 +4,17 @@ import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 
 const containerStyle = {
   width: "100%",
-  height: "400px",
+  height: "90vh",
 };
 
 const center = {
-  lat:-1.989147 , // Example: Rwampala
-  lng:30.054046,
+  lat:-1.9232708126675075, // Example: San Francisco
+  lng:30.06544834744921,
+
+  
 };
+
+
 
 
 export const GoogleMaps = () => {
