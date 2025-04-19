@@ -5,7 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css"
 import imageb from "../assets/Images/bannerb.jpg";
 import Icons from "../assets/Images/HappyIcon.webp";
 import { GoogleAds } from "./GoogleAds";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CustomSlider from "./CustomSlider";
 import im1 from "../assets/Images/GoodOne.jpg";
 import im2 from "../assets/Images/Developer.jpg";
@@ -21,7 +21,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
     const [showf,setFre]=useState(false);
     const [showfx,setFrex]=useState(false);
     const [showf2,setFre2]=useState(false);
-    const [messageSt,sendMessage]=useState(false)
+    const [messageSt,sendMessage]=useState(false);
 
     function CloseMessage() {
       sendMessage(false)
