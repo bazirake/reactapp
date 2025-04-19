@@ -21,13 +21,13 @@ export default function Subfooter() {
                     <a href="/payment_info">Safety</a>
                 </li>
                 <li>
-                    <a href="/payment_info">ETech rights</a>
+                    <a href="/payment_info">ExTech rights</a>
                 </li>
                 <li>
                     <a href="/payment_info"><img src="/public/photos/content/paypal.png" alt=""/></a>
                 </li>
             </ul>
-      
+            <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center active"><i className="bi bi-arrow-up-short"></i></a>
     </div>
   )
 }

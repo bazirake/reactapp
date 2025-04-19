@@ -8,13 +8,14 @@ import Subfooter from "./Components/Subfooter";
 export default function App() {
   return(
     <>
-    
     <NavBars />
    <div className="container-fluid">
    <Outlet />
-   </div>
+     </div>
     <Footers/>
     <Subfooter/>
+
+
     </>
   )
 }

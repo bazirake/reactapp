@@ -11,7 +11,7 @@ function Footers() {
     <div className="row">
       <div className="col-lg-3  col-md-4">
         <h5>About Us</h5>
-        <p className="text-dec">ExTech is Exeptional Techcompany aiming at delivering tech Services than wherever you can find</p>
+        <p className="text-dec">ExTech is Exeptional Techcompany aiming at delivering tech Services than wherever you can find.</p>
       </div>
       <div className="col-lg-3  col-md-4">
         <h5>Useful Links</h5>
@@ -53,6 +53,9 @@ function Footers() {
 
     </div>
   </div>
+  <div>
+         
+            </div> 
 </footer>
   )
 }
