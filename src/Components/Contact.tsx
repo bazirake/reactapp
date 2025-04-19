@@ -3,6 +3,7 @@ import "../Components/contact.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css"
 import image_bac from "../assets/Images/Career.png";
+import { GoogleMaps } from "./GoogleMaps";
 function Contact() {
 
    const [messageSt,sendMessage]=useState(false);
@@ -123,6 +124,12 @@ function Contact() {
 </div>
 
 </section>
+
+
+<div className="container">
+
+  <GoogleMaps/>
+</div>
        
     </div>
    

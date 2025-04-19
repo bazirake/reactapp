@@ -8,6 +8,8 @@
 
   "dependencies": {
 
+    "@react-google-maps/api": "^2.20.6",
+
     "@testing-library/dom": "^10.4.0",
 
     "@testing-library/jest-dom": "^6.6.3",
