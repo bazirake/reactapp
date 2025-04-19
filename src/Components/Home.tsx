@@ -26,14 +26,12 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
     function CloseMessage() {
       sendMessage(false)
     }
-
     function SendMessage() {
       sendMessage(true)
     }
   function FrequentAsked(){
       setFre((item=>!item))
    }
-
    function FrequentAskedx(){
     setFrex((itemx=>!itemx))
  }

@@ -50,8 +50,8 @@
 }
 
 .scroll-top .active {
-  visibility:visible;
-  opacity:1;
+  visibility:hidden;
+  opacity:0;
 
 }
 

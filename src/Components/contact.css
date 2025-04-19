@@ -1,0 +1,55 @@
+/* 
+/* .bg_image{
+   background-image: url('https://shoptechgallery.com/wp-content/uploads/2023/01/contact-page.jpg');
+
+   background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    background-color:#ffffff;
+    opacity: 0.8;
+    transition: background 0.5s, border-radius 0.3s, opacity 0.3s;
+
+}
+
+.contact-container> * {
+    box-sizing: border-box;
+}
+
+.contactus{
+   
+
+}  */
+
+.contacts-container{
+   margin-top: 120px;
+   display:flex;
+   flex-wrap:nowrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+ .h22{
+    text-shadow: 2px 2px 5px #040677;
+    padding: 10px 0px;
+ }
+
+.pp2{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: 17px;
+}
+/* .line1{
+    margin-top: 60px;
+    color: #8b6a44;
+    background-color: #b58d5e;
+    height: 9px;
+    border: 0px;
+    border-radius: 50%;
+    margin-left: 30px;
+    box-shadow: 0px 1px 5px 0px darkgrey;
+} */
