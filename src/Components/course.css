@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.course-container{
+    background-color: #2a2b3f!important;
+    padding: 50px 0px;
+}
+ .container-mt{
+    margin-top: 120px;
+ }
+
+.ext-header{
+    font-family: SuisseWorks,Georgia,Times,"Times New Roman",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    padding-top: 15px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -.016rem;
+    max-width: 36em;
+    color: #2a2b3f;
+    font-size:1.5rem;
+}
+.ext-text{
+    color: #595c73;
+    margin-top: .8rem;
+    max-width: 96rem;
+} 
+
+/* Tabs stying */
+
+.nav-links{
+    font-size: 1rem!important;
+    font-family:"Udemy Sans",-apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.nav-link{
+
+    color: #595c73!important;
+    font-weight: 700!important;
+    line-height: 1.2;
+    letter-spacing: 0;
+    border-left: 0px !important;
+    border-right:0px !important;
+    border-top: 0px !important;
+
+    padding: 0.5rem 0rem  0rem  0rem !important;
+    margin: 0px 1.5rem 0rem 0rem!important;
+}
+
+.active{
+    border-bottom: 0.1rem solid #33364a!important;
+    color: #2a2b3f!important;
+    font-weight: bold!important;
+    border-left: 0px !important;
+    border-right:0px !important;
+    border-top: 0px !important;
+}
+
+ol, ul {
+     margin: 0 0 0 0!important; 
+}
+

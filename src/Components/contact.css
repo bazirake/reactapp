@@ -36,12 +36,21 @@
  }
 
 .pp2{
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+   
     font-family: sans-serif;
     font-weight: 100;
-    padding: 20px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
     text-align: center;
     font-size: 17px;
+}
+
+.par-wid{
+width: 50%!important;
+display: flex;
+}
+
+.section{
+    padding: 5px 0 !important;
 }
 /* .line1{
     margin-top: 60px;

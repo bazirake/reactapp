@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Login from "./Login";
 import Sign from "./Sign";
 import Service from "./Service";
+import Course from "./Course";
 
 export const router=createBrowserRouter([
   {
@@ -34,8 +35,12 @@ export const router=createBrowserRouter([
           element:<Sign/>
        },
         {
-         path:"/service",
-         element:<Service/>
+          path:"/service",
+          element:<Service/>
+        },
+        {
+          path:"/courses",
+          element:<Course/>
         }
         ]
     }

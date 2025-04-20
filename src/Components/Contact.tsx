@@ -21,9 +21,13 @@ function Contact() {
     <div className="container-fluid">
        <div className="container">
        <div className=" row d-flex d-flex justify-content-center align-items-center contacts-container">
-     
-      <p className="pp2">Got any questions about ExTech Product,Services or Scaling on our platform?
-       We are here to help. Chat to Our friendly team  24/7 and get onboard in less than 5 minutes.</p>
+           <h2 className="h22 text-center">ExTech Contacts</h2>
+           <div className="par-wid">
+
+           <p className="pp2">Got any questions about ExTech Product,Services or Scaling on our platform?
+           We are here to help. Chat to Our friendly team  24/7 and get onboard in less than 5 minutes.</p>
+           </div>
+    
       
     
     </div>
@@ -35,8 +39,8 @@ function Contact() {
     <section id="contact" className="contact section">
    
 <div className="container section-title aos-init aos-animate" data-aos="fade-up">
-  <h2>Contact</h2>
-  <div><span>Check EXTECH</span> <span className="description-title">Contact</span></div>
+  {/* <h2>Contact</h2> */}
+  {/* <div><span>Check EXTECH</span> <span className="description-title">Contact</span></div> */}
 </div>
 
 <div className="container aos-init aos-animate" data-aos="fade" data-aos-delay="100">
@@ -66,7 +70,7 @@ function Contact() {
         <i className="bi bi-envelope flex-shrink-0"></i>
         <div>
           <h3>Mail Us</h3>
-          <p>extech.rw</p>
+          <p>extech@info.rw</p>
         </div>
       </div>
       
@@ -94,7 +98,7 @@ function Contact() {
           </div>
 
           <div className="col-md-12 text-center">
-            <div className="loading">Loading</div>
+            {/* <div className="loading">Loading</div> */}
            {
             messageSt && (
 
@@ -105,12 +109,6 @@ function Contact() {
             )
            }
 
-
-            
-            {/* <div className="sent-message">ddadadadad
-              ufyyfiffifiifififififififfiffi
-              ydutududuudduudtudt
-              Your message has been sent. Thank you!</div> */}
 
             <button type="button" className='submit' onClick={SendMessage}>Send Message</button>
           </div>

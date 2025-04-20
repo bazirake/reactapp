@@ -4,33 +4,29 @@ import "../Components/Navbars.css";
 
 function Login() {
 
-  function Hello(){
-    let x=45;
-    let y=454;
-    var sums=x+y;
-    alert("sum="+sums);
-
-  }
+ 
 
   return (
-    <div className="row d-flex justify-content-center align-items-center">
-     <div className="card col-md-6">
-     <h1 className="card card-header bg bg-primary text-white">Login form</h1>  
-
-     <form className="card card-body">
-  <input type="text" className="form-control my-3"  placeholder="Username"/>
-  <input type="password"  className="form-control" placeholder="Password"/>
-  <button type="button" className="btn-p my-3" onClick={Hello}>Sum</button>
-</form>
-      </div> 
-
-    <div>
+    <div className='bg-success'>
 
 
-    </div>
-      
-      
-      </div>
+    <div className="container-fluid">
+           <div className="container">
+           <div className=" row d-flex d-flex justify-content-center align-items-center contacts-container">
+               <h2 className="h22 text-center">ExTech Login</h2>
+               <div className="par-wid">
+    
+               <p className="pp2">Got any questions about ExTech Product,Services or Scaling on our platform?
+               We are here to help. Chat to Our friendly team  24/7 and get onboard in less than 5 minutes.</p>
+               </div>
+        
+          
+        
+        </div>
+    
+           </div>
+           </div>
+         </div>
   )
 }
 

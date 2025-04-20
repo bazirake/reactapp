@@ -2,7 +2,7 @@
 
 function Product() {
   return (
-    <div>Product</div>
+           <div>Product</div>
   )
 }
 

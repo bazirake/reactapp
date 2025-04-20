@@ -11,13 +11,10 @@ const center = {
   lat:-1.9232708126675075, // Example: San Francisco
   lng:30.06544834744921,
 
-  
 };
 
+export const GoogleMaps =()=>{
 
-
-
-export const GoogleMaps = () => {
   return (
     <LoadScript googleMapsApiKey="AIzaSyDJLjOtSfa-g14Zt9e9AzI2FqJ1ECXHsy8">
     <GoogleMap
@@ -29,4 +26,5 @@ export const GoogleMaps = () => {
     </GoogleMap>
   </LoadScript>
   )
+  
 }

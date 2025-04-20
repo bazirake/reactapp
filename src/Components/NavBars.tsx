@@ -13,11 +13,11 @@ function NavBars(){
     
         const menues=[{path:"/",names:"Home"},
 
-        {path:"/course",names:"Courses"},
+        {path:"/courses",names:"Course"},
 
-        {path:"/service",names:"Services"},
+        {path:"/service",names:"Service"},
         {path:"/contact",names:"Contact"},
-        {path:"/sign",names:"Sign-in"},
+        {path:"/sign",names:"Registration"},
         {path:"/login",names:"Login"}
     ]
 
@@ -34,7 +34,6 @@ function NavBars(){
    
    <span className="downloadIncon"><i className="bi bi-download px-2"></i>Download</span>
   </div>
-       
           <nav className="navbar navbar-expand-lg nav-bar-bg-color ">
        <div className="container-fluid">
          <NavLink className="navbar-brand" to={`/`}>
@@ -43,16 +42,16 @@ function NavBars(){
          <button onClick={()=>setCol(!cola)} className="navbar-toggler btn btn-outline-success" type="button" data-bs-toggle="collapse"  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
            <span className="navbar-toggler-icon "></span>
          </button>
-         <div className={`navbar-collapse ${cola ?"collapse":""}`}>
+         <div className={`navbar-collapse ${cola ? "collapse":"" }`}>
            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
              {
                menues.map((item)=>
                <li className="nav-item">
-                   <NavLink className={({isActive})=>  `nav-link text-dec ${isActive? "myActive":"nav-link"}`} aria-current="page" to={item.path}>{item.names}</NavLink>
+                  <NavLink className={({isActive})=>`nav-link text-dec ${isActive? "myActive":"nav-link"}`} aria-current="page" to={item.path}>{item.names}</NavLink>
                 </li>   
                )
              }
-           
+
            </ul>
            <form className="d-flex" role="search">
              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -61,7 +60,6 @@ function NavBars(){
          </div>
        </div>
      </nav>
-
 
           </div>
         

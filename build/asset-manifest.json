@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/bazirake.github.io/static/css/main.aaf53416.css",
-    "main.js": "/bazirake.github.io/static/js/main.94124723.js",
-    "static/js/453.b9b4a01c.chunk.js": "/bazirake.github.io/static/js/453.b9b4a01c.chunk.js",
-    "static/media/GoodOne.jpg": "/bazirake.github.io/static/media/GoodOne.fd42bd52fed5168d72e2.jpg",
-    "static/media/bootstrap-icons.woff?": "/bazirake.github.io/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/bazirake.github.io/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "index.html": "/bazirake.github.io/index.html",
-    "main.aaf53416.css.map": "/bazirake.github.io/static/css/main.aaf53416.css.map",
-    "main.94124723.js.map": "/bazirake.github.io/static/js/main.94124723.js.map",
-    "453.b9b4a01c.chunk.js.map": "/bazirake.github.io/static/js/453.b9b4a01c.chunk.js.map"
+    "main.css": "/static/css/main.56be888f.css",
+    "main.js": "/static/js/main.82df86c0.js",
+    "static/js/453.b9b4a01c.chunk.js": "/static/js/453.b9b4a01c.chunk.js",
+    "static/media/GoodOne.jpg": "/static/media/GoodOne.fd42bd52fed5168d72e2.jpg",
+    "static/media/Developer.jpg": "/static/media/Developer.bb09c468c2e638f3c8b6.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/GettyImageIcon.jpg": "/static/media/GettyImageIcon.3f40083ec7302b3f6c2d.jpg",
+    "static/media/Engineer.png": "/static/media/Engineer.ddc4787082d27d5e79de.png",
+    "static/media/AfricanIcon.jpg": "/static/media/AfricanIcon.85eb2d6c33fe5f01ff79.jpg",
+    "static/media/more-tech-institutes.jpeg": "/static/media/more-tech-institutes.1063e75824d92ea07474.jpeg",
+    "static/media/bannerb.jpg": "/static/media/bannerb.03533441a7f4d34be0e0.jpg",
+    "static/media/HappyIcon.webp": "/static/media/HappyIcon.e2520951c892c6af6c29.webp",
+    "static/media/close-button-svgrepo-com.svg": "/static/media/close-button-svgrepo-com.a14d7cea6bb8425e8480.svg",
+    "index.html": "/index.html",
+    "main.56be888f.css.map": "/static/css/main.56be888f.css.map",
+    "main.82df86c0.js.map": "/static/js/main.82df86c0.js.map",
+    "453.b9b4a01c.chunk.js.map": "/static/js/453.b9b4a01c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaf53416.css",
-    "static/js/main.94124723.js"
+    "static/css/main.56be888f.css",
+    "static/js/main.82df86c0.js"
   ]
 }
