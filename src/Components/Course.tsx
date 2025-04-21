@@ -426,9 +426,7 @@ function Course() {
           )
           }
 
-          <div>
-            <button className='btn btn-outline-success my-4' onClick={ShowAllWebCourse}>Show all Web Development courses</button>
-          </div>
+          
           </div>,
         },
         {
@@ -480,12 +478,65 @@ function Course() {
         <div className="card col-lg-3 col-md-4" style={{width: "18rem"}}>
                <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
                <div className="card-body">
-                 <h5 className="card-title fw-bolder">Advanced .dotnet(csharp)</h5>
+                 <h5 className="card-title fw-bolder">Introduction to Postgresql</h5>
                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                  <a href="#" className="btn btn-primary">Join for Free</a>
                </div>
              </div>
           </div>
+
+          {
+            allcourseStatd&&(
+              <div className='row'>
+              <div className='col-lg-3 col-md-4'>
+               <div className="card " style={{width: "18rem"}}>
+               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+               <div className="card-body">
+                 <h5 className="card-title fw-bolder ">Intermediate Postgresql</h5>
+                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" className="btn btn-primary">Join for Free</a>
+               </div>
+             </div>
+              </div>
+      <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder "> Advanced Postgresql</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+     
+     <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder">Introduction+Intermediate Mysql</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+
+        <div className="card col-lg-3 col-md-4" style={{width: "18rem"}}>
+               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+               <div className="card-body">
+                 <h5 className="card-title fw-bolder">Advanced Mysql</h5>
+                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" className="btn btn-primary">Join for Free</a>
+               </div>
+             </div>
+          </div>
+
+
+            )
+          }
+          <div>
+            <button className='btn btn-outline-success my-4' onClick={ShowAllDbCourse}>Show all Database design courses</button>
+          </div>
+          
           </div>,
         }
       ];
