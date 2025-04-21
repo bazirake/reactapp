@@ -65,3 +65,10 @@ ol, ul {
      margin: 0 0 0 0!important; 
 }
 
+/* web course */
+
+.card {
+     box-shadow: 0 0 0px rgba(0, 0, 0, 0.0); 
+    overflow: hidden;
+    border-radius: 15px;
+}

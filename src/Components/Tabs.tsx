@@ -52,6 +52,12 @@ function Tabs({tabs}:TabsProps) {
 
     {/* Tab content */}
     <div className="mt-4">{tabs[activeIndex].content}</div>
+
+
+
+
+
+  
   </div>
   )
 }
