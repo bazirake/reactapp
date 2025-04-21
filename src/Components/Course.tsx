@@ -8,6 +8,7 @@ function Course() {
   const[allcourseStatw,setAllCoursew]=useState(false);
 
   const[allcourseStatd,setAllCoursed]=useState(false);
+  const[allcourseStatmo,setAllCourseMo]=useState(false);
   function ShowAllWebCourse(){
    setAllCoursew((item)=>!item)
   }
@@ -15,6 +16,11 @@ function Course() {
   function ShowAllDbCourse(){
     setAllCoursed((item)=>!item)
    }
+
+   function ShowAllMoCourse(){
+    setAllCourseMo((item)=>!item)
+   }
+
     const tabData = [
         {
           label: 'Web Development',
@@ -172,6 +178,7 @@ function Course() {
                </div>
              </div>
               </div>
+
       <div className='col-lg-3 col-md-4'>
      <div className="card " style={{width: "18rem"}}>
       <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
@@ -184,7 +191,7 @@ function Course() {
      </div>
      
      <div className='col-lg-3 col-md-4'>
-     <div className="card " style={{width: "18rem"}}>
+     <div className="card " style={{width:"18rem"}}>
       <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title fw-bolder">Advanced vanilla Javascript</h5>
@@ -414,24 +421,172 @@ function Course() {
      </div>
 
         <div className="card col-lg-3 col-md-4" style={{width: "18rem"}}>
-               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
-               <div className="card-body">
-                 <h5 className="card-title fw-bolder">Java+Api Integration</h5>
-                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 <a href="#" className="btn btn-primary">Join for Free</a>
+             <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+             <div className="card-body">
+             <h5 className="card-title fw-bolder">Java+Api Integration</h5>
+               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="#" className="btn btn-primary">Join for Free</a>
                </div>
              </div>
           </div>
       </div>
           )
           }
+           <div>
+            <button className='btn btn-outline-success my-4' onClick={ShowAllWebCourse}>Show all Database design courses</button>
+          </div>
 
           
           </div>,
         },
         {
           label: 'Mobile App development',
-          content: <div>Mobile development</div>,
+          content:
+           <div className='container'>
+            
+            <div className='row'>
+              <div className='col-lg-3 col-md-4'>
+               <div className="card " style={{width: "18rem"}}>
+               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+               <div className="card-body">
+                 <h5 className="card-title fw-bolder ">Introduction to Native Android app in Java or  Kotlin</h5>
+                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" className="btn btn-primary">Join for Free</a>
+               </div>
+             </div>
+              </div>
+      <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder "> Intermediate Native Android app in Java or  Kotlin </h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+     
+     <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder">Advanced Native Android app in Java or  Kotlin</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+
+        <div className="card col-lg-3 col-md-4" style={{width: "18rem"}}>
+             <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+             <div className="card-body">
+             <h5 className="card-title fw-bolder">Introduction to Native iOS app in Swift or Objective-C</h5>
+               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="#" className="btn btn-primary">Join for Free</a>
+               </div>
+             </div>
+          </div>
+
+        
+ {
+  allcourseStatmo &&(
+    <div className='container'>
+    <div className='row'>
+    <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+     <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+     <div className="card-body">
+       <h5 className="card-title fw-bolder ">Introduction to Mobile app Cross-platform in React Native or Flutter</h5>
+       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <a href="#" className="btn btn-primary">Join for Free</a>
+     </div>
+   </div>
+    </div>
+<div className='col-lg-3 col-md-4'>
+<div className="card " style={{width: "18rem"}}>
+<img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+<div className="card-body">
+<h5 className="card-title fw-bolder "> Intermediate Mobile app Cross-platform in React Native or Flutter</h5>
+<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<a href="#" className="btn btn-primary">Join for Free</a>
+</div>
+</div>
+</div>
+
+<div className='col-lg-3 col-md-4'>
+<div className="card " style={{width: "18rem"}}>
+<img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+<div className="card-body">
+<h5 className="card-title fw-bolder">Advanced Mobile app Cross-platform in React Native or Flutter </h5>
+<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<a href="#" className="btn btn-primary">Join for Free</a>
+</div>
+</div>
+</div>
+
+<div className="card col-lg-3 col-md-4" style={{width: "18rem"}}>
+   <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+   <div className="card-body">
+   <h5 className="card-title fw-bolder"> Mobile app Hosting</h5>
+     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+     <a href="#" className="btn btn-primary">Join for Free</a>
+     </div>
+  </div>
+</div>
+  <div className='row'>
+  <div className='col-lg-3 col-md-4'>
+   <div className="card " style={{width: "18rem"}}>
+   <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+   <div className="card-body">
+     <h5 className="card-title fw-bolder ">Intermediate Native iOS app in Swift or Objective-C</h5>
+     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+     <a href="#" className="btn btn-primary">Join for Free</a>
+   </div>
+ </div>
+  </div>
+<div className='col-lg-3 col-md-4'>
+<div className="card " style={{width: "18rem"}}>
+<img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+<div className="card-body">
+<h5 className="card-title fw-bolder "> Advanced Native iOS app in Swift or Objective-C </h5>
+<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<a href="#" className="btn btn-primary">Join for Free</a>
+</div>
+</div>
+</div>
+
+<div className='col-lg-3 col-md-4'>
+<div className="card " style={{width: "18rem"}}>
+<img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+<div className="card-body">
+<h5 className="card-title fw-bolder">Intermediate Mobile Web app </h5>
+<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<a href="#" className="btn btn-primary">Join for Free</a>
+</div>
+</div>
+</div>
+
+<div className="card col-lg-3 col-md-4" style={{width: "18rem"}}>
+ <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+ <div className="card-body">
+ <h5 className="card-title fw-bolder">Advanced Mobile Web app</h5>
+   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   <a href="#" className="btn btn-primary">Join for Free</a>
+   </div>
+ </div>
+</div>
+</div>
+
+
+
+  )
+ }
+
+   
+          <div>
+            <button className='btn btn-outline-success my-4' onClick={ShowAllMoCourse}>Show all Mobile App Development courses</button>
+          </div>
+           </div>,
         },
         {
           label:'System Design',
