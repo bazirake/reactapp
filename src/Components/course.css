@@ -32,14 +32,14 @@
 
 .nav-links{
     font-size: 1rem!important;
-    font-family:"Udemy Sans",-apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
-    font-weight: 700;
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+    font-weight: bolder;
     line-height: 1.2;
     letter-spacing: 0;
 }
 
-.nav-link{
 
+.nav-link{
     color: #595c73!important;
     font-weight: 700!important;
     line-height: 1.2;
@@ -47,7 +47,6 @@
     border-left: 0px !important;
     border-right:0px !important;
     border-top: 0px !important;
-
     padding: 0.5rem 0rem  0rem  0rem !important;
     margin: 0px 1.5rem 0rem 0rem!important;
     cursor: pointer;

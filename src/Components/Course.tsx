@@ -9,16 +9,21 @@ function Course() {
 
   const[allcourseStatd,setAllCoursed]=useState(false);
   const[allcourseStatmo,setAllCourseMo]=useState(false);
+  const[allcourseStatDes,setAllCourseDes]=useState(false);
   function ShowAllWebCourse(){
    setAllCoursew((item)=>!item)
   }
 
-  function ShowAllDbCourse(){
-    setAllCoursed((item)=>!item)
-   }
+    function ShowAllDbCourse(){
+      setAllCoursed((item)=>!item)
+    }
 
-   function ShowAllMoCourse(){
-    setAllCourseMo((item)=>!item)
+    function ShowAllMoCourse(){
+      setAllCourseMo((item)=>!item)
+    }
+
+   function ShowAllMoCourseDes(){
+      setAllCourseDes((item)=>!item)
    }
 
     const tabData = [
@@ -210,7 +215,6 @@ function Course() {
                </div>
              </div>
           </div>
-
 
           <div className='row'>
               <div className='col-lg-3 col-md-4'>
@@ -488,8 +492,8 @@ function Course() {
           </div>
 
         
- {
-  allcourseStatmo &&(
+   {
+    allcourseStatmo &&(
     <div className='container'>
     <div className='row'>
     <div className='col-lg-3 col-md-4'>
@@ -577,12 +581,8 @@ function Course() {
 </div>
 </div>
 
-
-
-  )
- }
-
-   
+    )
+   }
           <div>
             <button className='btn btn-outline-success my-4' onClick={ShowAllMoCourse}>Show all Mobile App Development courses</button>
           </div>
@@ -590,12 +590,110 @@ function Course() {
         },
         {
           label:'System Design',
-          content: <div>System Design</div>,
+          content: <div className='container'>
+              <div className='row'>
+              <div className='col-lg-3 col-md-4'>
+               <div className="card " style={{width: "18rem"}}>
+               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+               <div className="card-body">
+                 <h5 className="card-title fw-bolder ">Introduction to mysql workbench</h5>
+                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" className="btn btn-primary">Join for Free</a>
+               </div>
+             </div>
+              </div>
+      <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder "> Intermediate mysql workbench </h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+     
+     <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder">Advanced mysql workbench</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+
+        <div className="card col-lg-3 col-md-4" style={{width: "18rem"}}>
+               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+               <div className="card-body">
+                 <h5 className="card-title fw-bolder">Introduction to Figma Design tool</h5>
+                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" className="btn btn-primary">Join for Free</a>
+               </div>
+             </div>
+          </div>
+
+
+            {
+               allcourseStatDes  && (
+               <div className='container'>
+              <div className='row'>
+              <div className='col-lg-3 col-md-4'>
+               <div className="card " style={{width: "18rem"}}>
+               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+               <div className="card-body">
+                 <h5 className="card-title fw-bolder ">Intermediate Figma Design tool</h5>
+                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" className="btn btn-primary">Join for Free</a>
+               </div>
+             </div>
+              </div>
+      <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder "> Advanced Figma Design tool </h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+     
+     <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder">Intermediate EdrawMax</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+
+        <div className="card col-lg-3 col-md-4" style={{width: "18rem"}}>
+               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+               <div className="card-body">
+                 <h5 className="card-title fw-bolder">Advanced EdrawMax</h5>
+                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" className="btn btn-primary">Join for Free</a>
+               </div>
+             </div>
+             </div>
+            </div>
+              )
+              
+            }
+                <div>
+              <button className='btn btn-outline-success my-4' onClick={ShowAllMoCourseDes}>Show all System design courses</button>
+            </div>
+        
+            </div>,
         },
 
         {
           label:'Database Administration ',
-          content: <div className='container'>
+          content:<div className='container'>
           
           <div className='row'>
               <div className='col-lg-3 col-md-4'>
@@ -684,7 +782,6 @@ function Course() {
                </div>
              </div>
           </div>
-
 
             )
           }
