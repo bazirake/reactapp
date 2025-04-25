@@ -437,7 +437,7 @@ function Course() {
           )
           }
            <div>
-            <button className='btn btn-outline-success my-4' onClick={ShowAllWebCourse}>Show all Database design courses</button>
+            <button className='btn btn-outline-success my-4' onClick={ShowAllWebCourse}> {allcourseStatw ? "Show less Web development courses":"Show all Web development courses"}</button>
           </div>
 
           
@@ -583,10 +583,10 @@ function Course() {
 
     )
    }
-          <div>
-            <button className='btn btn-outline-success my-4' onClick={ShowAllMoCourse}>Show all Mobile App Development courses</button>
-          </div>
-           </div>,
+    <div>
+   <button className='btn btn-outline-success my-4' onClick={ShowAllMoCourse}>{allcourseStatmo ? "Show less Mobile App Development courses" :"Show all Mobile App Development courses"}</button>
+     </div>
+      </div>,
         },
         {
           label:'System Design',
@@ -682,24 +682,20 @@ function Course() {
              </div>
             </div>
               )
-              
             }
-                <div>
-              <button className='btn btn-outline-success my-4' onClick={ShowAllMoCourseDes}>Show all System design courses</button>
+              <div className=' mx-auto justify-content-center'>
+              <button className='btn btn-outline-success my-4' onClick={ShowAllMoCourseDes}>{allcourseStatDes ? "Show less System design courses" :"Show more System design courses"}</button>
             </div>
-        
             </div>,
-        },
-
-        {
-          label:'Database Administration ',
-          content:<div className='container'>
-          
-          <div className='row'>
+          },
+          {
+            label:'Database Administration ',
+            content:<div className='container'>
+             <div className='row'>
               <div className='col-lg-3 col-md-4'>
                <div className="card " style={{width: "18rem"}}>
-               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
-               <div className="card-body">
+                <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+                <div className="card-body">
                  <h5 className="card-title fw-bolder ">Introduction to SQL Database</h5>
                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                  <a href="#" className="btn btn-primary">Join for Free</a>
@@ -786,15 +782,59 @@ function Course() {
             )
           }
           <div>
-            <button className='btn btn-outline-success my-4' onClick={ShowAllDbCourse}>Show all Database design courses</button>
+            <button className='btn btn-outline-success my-4' onClick={ShowAllDbCourse}>{allcourseStatd ? "Show less Database Administration courses":"Show all Database Administration courses"}</button>
           </div>
           
           </div>,
+        },
+        {
+          label:'Api development',
+          content:<div className='container'>
+            <div className='row'>
+              <div className='col-lg-3 col-md-4'>
+               <div className="card " style={{width: "18rem"}}>
+                <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+                <div className="card-body">
+                 <h5 className="card-title fw-bolder ">Introduction to  Api development in Php</h5>
+                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" className="btn btn-primary">Join for Free</a>
+               </div>
+             </div>
+              </div>
+      <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder ">Advanced Api development in Php</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+     
+     <div className='col-lg-3 col-md-4'>
+     <div className="card " style={{width: "18rem"}}>
+      <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title fw-bolder">Introduction to Api development in C#</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Join for Free</a>
+      </div>
+     </div>
+     </div>
+
+        <div className="card col-lg-3 col-md-4" style={{width: "18rem"}}>
+               <img src="https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg" className="card-img-top" alt="..."/>
+             <div className="card-body">
+                <h5 className="card-title fw-bolder">Advanced Api development in C#</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" className="btn btn-primary">Join for Free</a>
+             </div>
+        </div>
+        </div>
+        </div>
         }
       ];
-
-   
-
 
  return (
   <div className='container container-mt'>
