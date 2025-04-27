@@ -1,0 +1,28 @@
+
+.card-m{
+    padding: 0px 0px!important;
+}
+
+.panel-color
+{
+   background-color:  #f5f5f5;
+   color: #333!important;
+    
+    border-color: #ddd!important;
+}
+
+
+
+
+.form-field:focus{
+    outline: none!important;
+   border: 0px !important;
+    box-shadow: none!important;
+}
+.form-field{
+border-radius: 0px!important;
+}
+
+.custom-control-label{
+    font-size: 14px;
+}

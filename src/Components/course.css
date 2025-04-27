@@ -73,3 +73,40 @@ ol, ul {
     overflow: hidden;
     border-radius: 15px;
 }
+
+.single-course-unit_course-headline__sKuVM {
+    display: block !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    white-space: normal!important;
+}
+
+.ext-text-sm {
+    font-size: 1rem;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.single-course-unit_info-row__vHTl8 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.single-course-unit_main-content____XkX>:not(:last-child) {
+    margin-bottom: .4rem;
+}
+a {
+    color: #6d28d2;
+    text-decoration: none;
+}
+

@@ -1,7 +1,7 @@
 import React, { ReactNode, useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css"
-type Tab = {
+type Tab ={
   label: string;
   content: ReactNode;
 };
@@ -13,15 +13,13 @@ type TabsProps = {
 
 function Tabs({tabs}:TabsProps) {
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex]=useState(0);
   return (
-
 
     <div >
     {/* Tab headers */}
 
     <ul className="nav nav-tabs">
-
      {
       tabs.map((tab,index)=>(
       
@@ -31,8 +29,7 @@ function Tabs({tabs}:TabsProps) {
       ))
      }
   
-   
-    
+
   </ul>
     {/* <div className="flex border-b">
       {tabs.map((tab, index) => (
@@ -53,11 +50,6 @@ function Tabs({tabs}:TabsProps) {
     {/* Tab content */}
     <div className="mt-4">{tabs[activeIndex].content}</div>
 
-
-
-
-
-  
   </div>
   )
 }
