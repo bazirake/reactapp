@@ -22,7 +22,7 @@ padding: 50px;
     border-radius: 50px;
 }
 
-.form-control{
+.form-control-login{
     color: rgba(0, 0,0 blue, .97);
     border-bottom-color: rgba(0, 0,00, .42);
     box-shadow: none!important;
