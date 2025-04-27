@@ -32,18 +32,18 @@ padding: 50px;
     border-radius: 4px 4px 0 0;
 }
 
-h4{
+.h44{
     font-size: 2rem;
     font-weight: 700;
+    text-emphasis: triangle blue; 
 }
+
 .form-label{
     font-weight: 100;
 }
 
-
-
-@media (max-width: 600px) {
+@media(max-width: 600px){
     .form-custom {
-      width: 100%;
+       width:100%;
     }
   }

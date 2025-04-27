@@ -4,7 +4,7 @@ function Login() {
   return (
     <div className="container-fluid container-custom" style={{marginTop:"120px"}}>
   <form className="mx-auto form-custom">
-    <h4 className="text-center">Login</h4>
+    <h4 className="text-center h44">Login</h4>
        <div className="form-group">
         <label >Username</label>
         <input type="email" className="form-control form-control-login" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
