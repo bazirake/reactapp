@@ -1,34 +1,26 @@
-
-
-import "../Components/Navbars.css";
-
+import "./login.css"
 function Login() {
 
- 
-
   return (
-    <div className='bg-success'>
-
-
-    <div className="container-fluid">
-           <div className="container">
-           <div className=" row d-flex d-flex justify-content-center align-items-center contacts-container">
-               <h2 className="h22 text-center">ExTech Login</h2>
-               <div className="par-wid">
+    <div className="container-fluid container-custom" style={{marginTop:"120px"}}>
+<form className="mx-auto form-custom">
+  <h4 className="text-center">Login</h4>
+    <div className="form-group">
+      <label >Username</label>
+      <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+      
+      </div>
+     <div className="form-group">
+    <label>Password</label>
+    <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
+    <div id="emailHelp" className="form-text mt-3">Forgetpassword?</div>
+     </div>
     
-               <p className="pp2">Got any questions about ExTech Product,Services or Scaling on our platform?
-               We are here to help. Chat to Our friendly team  24/7 and get onboard in less than 5 minutes.</p>
-               </div>
-        
-          
-        
-        </div>
-    
-           </div>
-           </div>
-         </div>
+   <button type="submit" className="btn btn-primary mt-4">Login</button>
+   </form>   
+  </div>
   )
+         
 }
-
 
 export default Login

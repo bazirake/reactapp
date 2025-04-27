@@ -45,12 +45,9 @@ function Sign() {
                 </form>
             </div>
             <div className="card-footer text-end">
-     <small>Register with Extech</small>
+                   <small>Register with Extech</small>
             </div>
-
           </div>
-               
-
         </div>
            </div>
            </div>

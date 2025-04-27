@@ -1,0 +1,48 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.container-custom{
+   
+}
+.form-custom{
+   border: 1px solid;
+    font-family: 'poppins',sans-serif;
+background-color: white;
+padding: 50px;
+    width: 24%;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.btn-primary{
+    width: 100%;
+    background: linear-gradient(90deg,rgba(2,0,36,1)0%,rgba(75,14,154,1)35%,rgba(0,212,255,1)100%);
+    border-radius: 50px;
+}
+
+.form-control{
+    color: rgba(0, 0,0 blue, .97);
+    border-bottom-color: rgba(0, 0,00, .42);
+    box-shadow: none!important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.form-label{
+    font-weight: 100;
+}
+
+
+
+@media (max-width: 600px) {
+    .form-custom {
+      width: 100%;
+    }
+  }
