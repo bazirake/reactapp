@@ -45,5 +45,6 @@ padding: 50px;
 @media(max-width: 600px){
     .form-custom {
        width:100%;
+
     }
   }

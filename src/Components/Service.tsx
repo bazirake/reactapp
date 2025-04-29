@@ -30,7 +30,7 @@ function Service() {
           <img  id='img2' src={im7} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
            <figcaption className="figure-caption text-center"><h3>Software Development Training</h3>
            <p>Get hands on Skills in mobile and web development</p>
-           < a className="btn btn-success">Meet Engineer</a>
+           < a className="btn  btn-color-service">Meet Engineer</a>
            </figcaption>
          </figure>
           </div>
@@ -42,7 +42,7 @@ function Service() {
             <h3>Web & Mobile App Development</h3>
             <p>Get Commercial Software for low price than wherever</p>
             
-            < a className="btn btn-success">Meet Engineer</a>
+            < a className="btn  btn-color-service">Meet Engineer</a>
             </figcaption>
          </figure>
           </div>
@@ -52,7 +52,7 @@ function Service() {
           <img id='img3' src={im6} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
            <figcaption className="figure-caption text-center"><h3>Software Customization</h3> 
            <p>Extech makes your existing Software System more desireble</p>
-           < a className="btn btn-success">Meet Engineer</a>
+           < a className="btn  btn-color-service">Meet Engineer</a>
            </figcaption>
          </figure>
           </div>
@@ -62,11 +62,15 @@ function Service() {
           <img id='img4' src={im5} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
            <figcaption className="figure-caption text-center"><h3>System Design</h3>
            <p>Meet Extech Software engineers to help you get Skills in Designing Any software System </p>
-           < a className="btn btn-success">Meet Engineer</a>
+           < a className="btn  btn-color-service">Meet Engineer</a>
            </figcaption>
          </figure>
           </div>
 
+        </div>
+
+        <div className="row d-flex py-3">
+          <button className="btn btn-primary  text-center m-auto">View all Services</button>
         </div>
     </div>
 

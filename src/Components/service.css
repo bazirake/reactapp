@@ -1,0 +1,38 @@
+.btn-primary {
+    width:20%;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(75, 14, 154, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-radius:50px;
+}
+
+@media(max-width:600px){
+    .btn-primary{
+     width:35%;
+     background: black!important;
+    }
+}
+
+@media(max-width:768px){
+    .btn-primary{
+     width:35%;
+    
+    }
+}
+
+@media(max-width:1024px) {
+    .btn-primary{
+         width:35%;
+      
+    }
+}
+
+
+.btn-color-service{
+    background-color: #10CCC9;
+    color: #ffffff;
+    border-radius: 20px;
+  }
+  .btn-color-service:hover{
+    color: black;
+    border: 1px solid rgb(6, 6, 8);
+    border-radius: 20px;
+  }
