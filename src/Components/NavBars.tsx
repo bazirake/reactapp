@@ -32,7 +32,7 @@ function NavBars(){
       </div>
     
    
-   <span className="downloadIncon"><i className="bi bi-download px-2"></i>Download</span>
+   <span className="downloadIncon">23M7+249, KN 123 St, Kigali, Rwanda</span>
   </div>
           <nav className="navbar navbar-expand-lg nav-bar-bg-color ">
        <div className="container-fluid">

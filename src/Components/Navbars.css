@@ -117,13 +117,14 @@ font-weight: bolder!important;
   
 }
 .downloadIncon{
-  background:#1acc8d!important;
-  color: white;
-  font-weight: 800;
+  
+  color: #009b5d;
+  font-weight: 600;
  position: relative;
- margin-left: 20px;
- padding: 6px 0px;
- max-width: 100px;
+padding-right: 20px;
+padding-top: 6px ;
+padding-bottom: 6px ;
+ max-width: 50%;
  line-height: 2;
 }
 
