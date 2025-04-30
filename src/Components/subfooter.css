@@ -70,3 +70,10 @@ color: #1acc8d;
   text-decoration: none;
   transition: 0.3s;
 }
+
+
+
+.sub-margin{
+line-height: 2rem;
+padding-top: 30px;
+}

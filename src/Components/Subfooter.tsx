@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "../Components/subfooter.css";
 import React, { useEffect, useState } from 'react'
+import { Baseline } from 'lucide-react';
 
 export default function Subfooter() {
 
@@ -26,9 +27,9 @@ export default function Subfooter() {
 
 
   return (
-    <div className='container-fluid d-flex bg-success py-3'>
-
-     <p className="font-14 text-white p-2 flex-grow-1">Copyright©
+    <div className='container-fluid d-flex  sub-margin' style={{backgroundColor:"#10ccc9"}}>
+     
+     <p className="font-14 text-white text-sm p-2 flex-grow-1">Copyright©
           2025  </p>
           &nbsp;
 
@@ -49,6 +50,7 @@ export default function Subfooter() {
             </ul>
             <a href="#" id="scroll-top" className={`d-flex align-items-center justify-content-center ${scrolledDown ? "scroll-top":"active"}`}><i className="bi bi-arrow-up-short"></i></a>
     </div>
+   
   )
 }
 

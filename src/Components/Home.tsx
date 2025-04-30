@@ -512,7 +512,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
           </div>
           <div className="col-md-6 my-imagew">
             <div className="image-sizes">
-            <img src="https://kingslanduniversity.com/wp-content/uploads/2020/12/Home-WebinarCTA-v2-1024x646.jpg" width="1024" height="646" />
+            <img src="https://etech-kappa.vercel.app/static/media/more-tech-institutes.1063e75824d92ea07474.jpeg" width="1024" height="800" />
             </div>
            </div>
         </div>

@@ -850,7 +850,7 @@ ol,ul {
         color: black;
 }
 .contents{
-    padding:40px 0px 0px 100px; 
+    padding:30px 0px 0px 50px; 
 }
 
 .elementor-text-editor{
@@ -862,7 +862,7 @@ ol,ul {
 }
 
 .image-sizes{
-    padding: 100px;
+    padding: 50px;
 }
 
 
@@ -926,7 +926,7 @@ ol,ul {
 section, .section {
     color:#444444;
     background-color: #ffffff;
-    padding: 50px 0;
+   
     scroll-margin-top: 100px;
     overflow: clip;
 }
@@ -1224,7 +1224,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact .php-email-form .submit {
     background-image: url("../assets/Images/close-button-svgrepo-com.svg");
     color:#ffffff;
-    background:#1acc8d;
+    background:#10CCC9;
     border: 0;
     padding: 10px 30px;
     transition: 0.4s;
