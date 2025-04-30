@@ -486,8 +486,9 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
         </section>
 
        
-       <section className="web-back">
+       <section className="">
        <div className="container-fluid">
+        <div className='container web-back'>
           <div className="row g-0">
           <div className="col-md-6 ">
             <div className="contents">
@@ -514,6 +515,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
             <img src="https://kingslanduniversity.com/wp-content/uploads/2020/12/Home-WebinarCTA-v2-1024x646.jpg" width="1024" height="646" />
             </div>
            </div>
+        </div>
         </div>
       </div>
       </section>

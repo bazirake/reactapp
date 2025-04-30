@@ -436,7 +436,7 @@ ol, ul {
     font-family:"Font Awesome 6 Free";
 }
 .card-title-color{
-   background-color:  #009acc!important;
+   background-color:  #10CCC9!important;
 }
 
 .card{
@@ -748,7 +748,10 @@ line-height: 54px;
 }
 
 .web-back{
-    background-color: #1d1947;;
+    padding: 20px;
+    box-shadow:
+    0px 0px #10CCC9,
+    0px 0px 1px #10CCC9;
   
 }
 
@@ -816,10 +819,10 @@ ol,ul {
 
 .elementor-text-editor{
     text-align: left;
-    color: #99A1C0;
+ 
     font-family: "Montserrat", Sans-serif;
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 200;
     line-height: 1.47em;
     letter-spacing: -0.27px;
 }
@@ -835,7 +838,6 @@ ol,ul {
 
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-image: linear-gradient(to right, #ffffff 51%, #eaedf8 100%);
 }
 .elementor-heading-title{
@@ -845,6 +847,7 @@ ol,ul {
         font-weight:800;
         line-height:1.1em;
         letter-spacing:-1.46px;
+        color: black;
 }
 .contents{
     padding:40px 0px 0px 100px; 
