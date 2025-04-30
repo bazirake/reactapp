@@ -4,9 +4,7 @@
 }
 
 
-.container-custom{
-   
-}
+
 .form-custom{
    border: 1px solid;
     font-family: 'poppins',sans-serif;
@@ -44,7 +42,12 @@ padding: 50px;
 
 @media(max-width: 600px){
     .form-custom {
-       width:100%;
-
+     width:100%;
     }
   }
+
+  @media(max-width:600px){
+    .btn-primary{
+     width:35%;
+    }
+}

@@ -17,6 +17,7 @@ function NavBars(){
 
         {path:"/service",names:"Service"},
         {path:"/contact",names:"Contact"},
+        {path:"/about",names:"About"},
         {path:"/sign",names:"Registration"},
         {path:"/login",names:"Login"}
     ]
@@ -54,8 +55,8 @@ function NavBars(){
 
            </ul>
            <form className="d-flex" role="search">
-             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-             <button className="btn btn-success" type="submit">Search</button>
+             <input className="form-control me-2 searchf" type="search" placeholder="Search" aria-label="Search"/>
+             
            </form>
          </div>
        </div>

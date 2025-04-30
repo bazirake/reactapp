@@ -72,7 +72,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
                         </span>
                     </p>
                     <div className="mx-2">
-                      <button  className="btn btn-success mt-2 btn-color">Start Now<i className="bi bi-chevron-compact-right"></i></button>
+                      <button  className="btn btn-color-service mt-2 ">Start Now<i className="bi bi-chevron-compact-right"></i></button>
                     </div>
                    </div>
                 </div>
@@ -103,7 +103,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
         and
       
       Software development services to help individuals and businesses to Simplify Heavy daily Tasks performed.</p>
-      <button className="btn btn-success">Read More</button>
+      <button className="btn btn-color-service">Read More</button>
           </div>
      
         
