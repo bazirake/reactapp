@@ -497,13 +497,13 @@ ol, ul {
 }
 /* #0b2441; */
 .stats {
-    background:  #009acc!important;
+    background:  rgb(234, 243, 250)!important;
     min-height: 50px;
 
 }
 .explorediv{
-    background-color:#eaf3fa;
 
+    
 }
 .explorediv ul li{
         align-items: center;
@@ -525,7 +525,7 @@ ol, ul {
 
 .explorediv ul li h4{
     font-weight: 400!important;
-    color: #009acc!important;
+ 
     font-size: 18px!important;
 }
 
@@ -550,7 +550,7 @@ line-height: 54px;
 
 .stats li {
     align-items: center;
-    color: #fff;
+   color:black;
     display: flex
 ;
     margin-right: 64px;
@@ -634,8 +634,9 @@ line-height: 54px;
 
 .stats li {
     align-items: center;
-    color: #fff;
+    color:black;
     display: flex;
+    font-weight: 100;
     margin-right: 64px;
 }
 
@@ -709,7 +710,7 @@ line-height: 54px;
     padding: 0 10px;
 }
 .my-section{
-    background-color: #eaf3fa;
+    background-color:rgb(234, 243, 250)!important;
     padding: 40px 80px 10px;
     box-sizing: border-box;
     z-index: -999;

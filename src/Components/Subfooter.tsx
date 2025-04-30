@@ -27,13 +27,13 @@ export default function Subfooter() {
 
 
   return (
-    <div className='container-fluid d-flex  sub-margin' style={{backgroundColor:"#10ccc9"}}>
+    <div className='container-fluid d-flex  sub-margin' style={{backgroundColor:"#eaf3fa"}}>
      
-     <p className="font-14 text-white text-sm p-2 flex-grow-1">Copyright©
+     <p className="font-14 fonts-w text-sm p-2 flex-grow-1">Copyright©
           2025  </p>
           &nbsp;
 
-            <ul className="d-flex list-unstyled gap-3 ">
+            <ul className="d-flex list-unstyled gap-3 gaps ">
                 <li>
                     <a href="/payment_info" className='rem-under'>Terms&conditions</a>
                 </li>
