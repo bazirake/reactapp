@@ -675,16 +675,16 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
 <div className='container-fluid'>
 <div className='container'>
-  <h1 className='text-center'>Client Testimonials</h1>
+  <h1 className='text-center py-2'>Client Testimonials</h1>
   <div className='row pb-3 gap-3'>
     <div className="col-md-4">
     "RLF has been working with Lane Technology Solutions for nearly two decades.
      Their experience and expertise are second to none. When they recommend an IT solution, 
     I can always put my trust and faith in the decisions made... All support requests are answered quickly and followed through..."
     <div className="elementor-testimonial-details">
-					<div className="elementor-testimonial-name">Joseph Habimana</div>
-						<div className="elementor-testimonial-job">Loan Supervisor </div>
-					</div>
+			  	<div className="elementor-testimonial-name">Joseph Habimana</div>
+					<div className="elementor-testimonial-job">Loan Supervisor </div>
+				</div>
     </div>
     <div className="col">
     "Recently we converted to office 365. The thing that most impressed us was
@@ -692,7 +692,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
      call when you leave a message. From my 30 years in Information Technology,
       it’s all about service. Thank you, Lane Technology!"
       <div className="elementor-testimonial-details">
-					<div className="elementor-testimonial-name">Angelique Uwera</div>
+				  	<div className="elementor-testimonial-name">Angelique Uwera</div>
 						<div className="elementor-testimonial-job">IT Manager </div>
 					</div>
     </div>
@@ -701,7 +701,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
      patient, knowledgeable, efficient and reassuring!! It was a very satisfying
      conclusion to a worrisome project I needed to get done very quickly. Thank you for making your talented staff available!"
      <div className="elementor-testimonial-details">
-					<div className="elementor-testimonial-name">John E. Spangler</div>
+					  <div className="elementor-testimonial-name">John E. Spangler</div>
 						<div className="elementor-testimonial-job">Business Owner</div>
 					</div>
     </div>
@@ -710,17 +710,13 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 </div>
 
 <section id="contact" className="contact section">
-
-      
       <div className="container section-title aos-init aos-animate" data-aos="fade-up">
         <h2>Contact</h2>
         <div><span>Check EXTECH</span> <span className="description-title">Contact</span></div>
       </div>
-
       <div className="container aos-init aos-animate" data-aos="fade" data-aos-delay="100">
 
         <div className="row gy-4">
-
           <div className="col-lg-4">
             <div className="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
               <i className="bi bi-geo-alt flex-shrink-0"></i>
