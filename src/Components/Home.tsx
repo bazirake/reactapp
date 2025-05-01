@@ -620,18 +620,19 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
       <div className="content px-xl-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
         <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+        Frequently asked questions about technology cover
+         a wide range of topics, from Beginner software developer  to advanced  and ethical considerations.
         </p>
       </div>
 
       <div className="faq-container px-xl-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
-          <h3 onClick={FrequentAsked}>Non consectetur a erat nam at lectus urna duis?</h3>
+          <h3 onClick={FrequentAsked}>What does  Extech Stand for ?</h3>
            {
             showf && (
              <div className="faq-content">
-              <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+              <p>Extech is an Exceptional technology Limited company that provides Software development Services.</p>
               </div>
              )
               }
@@ -640,26 +641,26 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
-          <h3 onClick={FrequentAskedx}>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+          <h3 onClick={FrequentAskedx}>What are the Requirements to become a member of Extech Company?</h3>
 
            {
              showfx && (
               <div className="faq-content">
-              <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              <p>to become a member of Extech,you should first be interested in technology industry then start registration proccess on this platform.</p>
                </div>
               )
            }
 
-          <i className={`faq-toggle bi bi-chevron-right ${showfx ? "downicon":"righticon" }`} onClick={FrequentAskedx}></i>
+          <i className={`faq-toggle bi bi-chevron-right ${showfx ? "downicon":"righticon"}`} onClick={FrequentAskedx}></i>
         </div>
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
-          <h3 onClick={FrequentAsked2}>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+          <h3 onClick={FrequentAsked2}>How long does it to become a software developer in Extech?</h3>
 
             {
              showf2 && (
                 <div className="faq-content">
-                <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
+                <p>To become a software developer in Extech , it does not take long time only within three months.</p>
                 </div>
                )
            }
