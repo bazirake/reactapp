@@ -1232,6 +1232,15 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50px;
 }
 
+.elementor-testimonial-details{
+    padding-top: 12px;
+    font-weight: 100;
+     font-style: italic;
+}
+.elementor-testimonial-job{
+    color: rgb(135, 155, 235);
+}
+
 
 
 
