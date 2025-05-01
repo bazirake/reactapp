@@ -37,7 +37,7 @@ function About() {
         </div>
         <div className="col-md-6 elementor-element-dd02713">
          
-          <img  src='https://shoptechgallery.com/wp-content/uploads/2023/01/lane-technology-2022-4.jpg'/>
+          <img  src='https://shoptechgallery.com/wp-content/uploads/2023/02/STG-Sales.jpg'/>
          
          
         </div>
