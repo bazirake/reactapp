@@ -380,6 +380,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
       </div>
         <section className="my-section">
         <div className="profile-programining">
+          <div className='container'>
           <div className="wrap-section">
             <span className="text-center-salary">$salary = i++</span> 
           <h4 className="time-heading">It's time to make a change.</h4> 
@@ -388,6 +389,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
             <span>An education that’s future-proof doesn’t have to cost a fortune or take years to complete.</span>
             <span className="mypara">You can have a seat at the table, upward mobility, and an exciting position in a fast-growing industry.</span>
          </p>
+         </div>
          </div>
           </div>
        </div>

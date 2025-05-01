@@ -653,7 +653,7 @@ line-height: 54px;
   
 }
 .profile-area{
-    padding: 30px 0;
+    padding: 10px 0;
 }
 .card{
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
@@ -703,15 +703,13 @@ line-height: 54px;
     text-align: center;
     padding-bottom: 20px;
 }
-
 .socials i{
     font-size: 20px;
     color: darkcyan;
     padding: 0 10px;
 }
 .my-section{
-    background-color:rgb(234, 243, 250)!important;
-    padding: 40px 80px 10px;
+    
     box-sizing: border-box;
     z-index: -999;
 }
@@ -721,7 +719,6 @@ line-height: 54px;
 }
 
 .time-heading{
-    
     font-family: "Montserrat", Sans-serif;
     font-size: 30px;
     font-weight: 800;
@@ -730,13 +727,16 @@ line-height: 54px;
 }
 
 .wrap-section{
-     position: relative;
-     width: 100%;
-     -ms-flex-wrap: wrap;
-     flex-wrap: wrap;
-     -ms-flex-line-pack: start;
-     align-content: flex-start;
-     padding: 0px 100px 30px;
+    position: relative;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    padding:  10px 10px;
+    
+    box-shadow: 0px 0px  #10CCC9, 0px 0px 1px #10CCC9;
+  
 }
 
 .mypara{
