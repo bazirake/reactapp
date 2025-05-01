@@ -655,7 +655,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
         </div>
         <div className="faq-item">
           <i className="faq-icon bi bi-question-circle"></i>
-          <h3 onClick={FrequentAsked2}>How long does it to become a software developer in Extech?</h3>
+          <h3 onClick={FrequentAsked2}>How long does it take to become a software developer in Extech?</h3>
 
             {
              showf2 && (

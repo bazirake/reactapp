@@ -40,7 +40,7 @@ function Course() {
             <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling lost in coding courses? This course fills the gaps beginners face—tools,
                concepts, and how programming works.</p>
-            <button className="btn btn-primary">Join for Free</button>
+            <button className="btn btn-color-service">Join for Free</button>
           </div>
         </div>
          </div>
@@ -54,7 +54,7 @@ function Course() {
    <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps intermediate learners face—tools,
                concepts, and how html works.</p>
-               <button className="btn btn-primary">Join for Free</button>
+               <button className="btn btn-color-service">Join for Free</button>
  </div>
 </div>
 </div>
@@ -68,7 +68,7 @@ function Course() {
    <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how html works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
  </div>
 </div>
 </div>
@@ -80,7 +80,7 @@ function Course() {
             <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps beginners face—tools,
               concepts,and how css works.</p>
-            <a href="#" className="btn btn-primary">Join for Free</a>
+            <a href="#" className="btn btn-color-service">Join for Free</a>
           </div>
         </div>
           </div>
@@ -101,7 +101,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                   Feeling in coding courses? This course fills the gaps intermediate learners face—tools,
                   concepts,and how vanilla css works.</p>
-                  <button className="btn btn-primary">Join for Free</button>
+                  <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -113,7 +113,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how vanilla css works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -126,7 +126,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps beginners face—tools,
               concepts,and how bootstrap works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -138,7 +138,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                   Feeling in coding courses? This course fills the gaps intermediate learners face—tools,
                   concepts,and how bootstrap works.</p>
-                  <button className="btn btn-primary">Join for Free</button>
+                  <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -153,7 +153,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how bootstrap works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -165,7 +165,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps beginners face—tools,
               concepts,and how Tailwind css works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -178,7 +178,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps intermediate learners face—tools,
               concepts,and how Tailwind css works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -190,7 +190,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how Tailwind css works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -204,7 +204,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps beginners face—tools,
               concepts,and how vanilla Javascript works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -217,7 +217,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Intermediate learners face—tools,
               concepts,and how vanilla Javascript works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -230,7 +230,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how vanilla Javascript works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -242,7 +242,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps beginners face—tools,
               concepts,and how jQuery works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -256,7 +256,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps beginners learners face—tools,
               concepts,and how Typescript works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -268,7 +268,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps intermediate learners face—tools,
               concepts,and how Typescript works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -281,7 +281,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how Typescript works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -293,7 +293,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps beginners face—tools,
               concepts,and how ReactTs works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -307,7 +307,7 @@ function Course() {
                  <h5 className="card-title fw-bolder ">Html+Javascript+css full course</h5>
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM">
                    Feeling in coding courses? This course will help the learners to get hands on skills in project development.</p>
-                   <button className="btn btn-primary">Join for Free</button>
+                   <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -319,7 +319,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Intermediate learners face—tools,
               concepts,and how ReactTs works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -332,7 +332,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how ReactTs works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -344,7 +344,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM">
                   Feeling in coding courses? This course fills the gaps beginners face—tools,
                   concepts,and how Php works.</p>
-                  <button className="btn btn-primary">Join for Free</button>
+                  <button className="btn btn-color-service">Join for Free</button>
                </div>
         </div>
         </div>
@@ -358,7 +358,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Intermediate learners face—tools,
               concepts,and how Php works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -370,7 +370,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how Php works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -383,7 +383,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course will help the Learners to get hands
                on practice in developing interactive System.</p>
-               <button className="btn btn-primary">Join for Free</button>
+               <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -395,7 +395,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Beginners face—tools,
               concepts,and how Java programming works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -410,7 +410,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Intermediate learners face—tools,
               concepts,and how Java programming works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -422,7 +422,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how Java programming works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -435,7 +435,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps beginners face—tools,
               concepts,and how NextJs works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -447,7 +447,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Intermediate learners face—tools,
               concepts,and how NextJs works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -462,7 +462,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced learners face—tools,
               concepts,and how NextJs works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -473,7 +473,7 @@ function Course() {
         <h5 className="card-title fw-bolder "> React+Api Integration </h5>
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course will help the Learners to know to integrate api to front-end(ReactTs).</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -485,7 +485,7 @@ function Course() {
         <h5 className="card-title fw-bolder">NextJS+Api Integration</h5>
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
         Feeling in coding courses? This course will help the Learners to know to integrate api to front-end(NextJS).</p>
-        <button className="btn btn-primary">Join for Free</button>
+        <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -496,7 +496,7 @@ function Course() {
              <h5 className="card-title fw-bolder">Java+Api Integration</h5>
              <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                Feeling in coding courses? This course will help the Learners to know to integrate api to front-end(Java).</p>
-               <button className="btn btn-primary">Join for Free</button>
+               <button className="btn btn-color-service">Join for Free</button>
            </div>
          </div>
           </div>
@@ -524,7 +524,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Beginners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -536,7 +536,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Intermediate Learners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -549,7 +549,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced Learners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -561,7 +561,7 @@ function Course() {
              <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Beginners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -579,7 +579,7 @@ function Course() {
        <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Beginners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
      </div>
    </div>
     </div>
@@ -591,7 +591,7 @@ function Course() {
 <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Intermediate face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
 </div>
 </div>
 </div>
@@ -604,7 +604,7 @@ function Course() {
 <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced Learners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
 </div>
 </div>
 </div>
@@ -616,7 +616,7 @@ function Course() {
    <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in Hosting courses? This course fills the gaps developers face when trying to host the project,
               </p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
      </div>
   </div>
 </div>
@@ -629,7 +629,7 @@ function Course() {
      <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Intermediate Learners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
    </div>
  </div>
   </div>
@@ -641,7 +641,7 @@ function Course() {
 <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced Learners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
 </div>
 </div>
 </div>
@@ -654,7 +654,7 @@ function Course() {
 <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Intermediate Learners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
 </div>
 </div>
 </div>
@@ -666,7 +666,7 @@ function Course() {
  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in coding courses? This course fills the gaps Advanced Learners face—tools,
               concepts,and how Mobile app development is done.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
    </div>
  </div>
 </div>
@@ -691,7 +691,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in mysql workbench courses? This course fills the gaps Beginners face—tools,
               concepts,and how mysql workbench works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -703,7 +703,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in mysql workbench courses? This course fills the gaps Intermediate face—tools,
               concepts,and how mysql workbench works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -716,7 +716,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in mysql workbench courses? This course fills the Advanced Learners face—tools,
               concepts,and how mysql workbench works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -728,7 +728,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in Figma Design tool courses? This course fills the gaps Beginners face—tools,
               concepts,and how Figma Design tool works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -746,7 +746,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in Figma Design tool courses? This course fills the gaps Intermediate Learners face—tools,
               concepts,and how Figma Design tool works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -758,7 +758,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in Figma Design tool courses? This course fills the gaps Advanced Learners face—tools,
               concepts,and how Figma Design tool works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -771,7 +771,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in EdrawMax Design tool courses? This course fills the gaps beginners face—tools,
               concepts,and how EdrawMax Design tool works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -783,7 +783,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
               Feeling in EdrawMax Design tool courses? This course fills the gaps Advanced face—tools,
               concepts,and how EdrawMax Design tool works.</p>
-              <button className="btn btn-primary">Join for Free</button>
+              <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
              </div>
@@ -807,7 +807,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Sql database courses? This course fills the gaps beginners face—tools,
                  concepts,and how Sql database works.</p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -819,7 +819,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Sql database courses? This course fills the gaps Intermediate face—tools,
                  concepts,and how Sql database works.</p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -832,7 +832,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Sql database courses? This course fills the gaps Advanced face—tools,
                  concepts,and how Sql database works.</p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -844,7 +844,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Postgresql courses? This course fills the gaps beginners face—tools,
                  concepts,and how Postgresql works.</p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -860,7 +860,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Postgresql courses? This course fills the gaps Intermediate face—tools,
                  concepts,and how Postgresql works.</p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -872,7 +872,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Postgresql courses? This course fills the gaps Advanced face—tools,
                  concepts,and how Postgresql works.</p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -885,7 +885,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Mysql courses? This course fills the gaps Learners face—tools,
                  concepts,and how Mysql works.</p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -897,7 +897,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Mysql courses? This course fills the gaps Advanced Learners face—tools,
                  concepts,and how Mysql works.</p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
           </div>
@@ -922,7 +922,7 @@ function Course() {
                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Api development courses? This course fills the gaps Beginners face—tools,
                  concepts,and how Api development  works.</p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
                </div>
              </div>
               </div>
@@ -934,7 +934,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Api development courses? This course fills the gaps Advanced Learners face—tools,
                  concepts,and how Api development  works. </p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -947,7 +947,7 @@ function Course() {
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
                  Feeling in Api development courses? This course fills the gaps beginners face—tools,
                  concepts,and how Api development  works. </p>
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -960,7 +960,7 @@ function Course() {
                  Feeling in Api development courses? This course fills the gaps Advanced Learners face—tools,
                  concepts,and how Api development  works. </p>
                  
-                 <button className="btn btn-primary">Join for Free</button>
+                 <button className="btn btn-color-service">Join for Free</button>
              </div>
         </div>
         </div>
