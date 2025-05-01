@@ -218,7 +218,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
         As the name implies, trainees are neophytes in software development and are still learning to ply their trade.
         Trainees are, often, students of some level with a focus on computer science and software engineering. 
       </p>
-      < a className="btn btn-outline-success w-75"> <i className="bi bi-arrow-return-right"></i> Become</a>
+      < a className="btn btn-color-service w-75"> <i className="bi bi-arrow-return-right"></i> Become</a>
         </div>
         </div>
     </div>
@@ -232,7 +232,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
        of the subject matter. The main difference between the two is that junior-level developers have a modicum of
         work experience under their belts and have learned from their trainee phase. 
       </p>
-       <a className="btn btn-outline-success w-75"><i className="bi bi-arrow-return-right"></i> Become</a>
+       <a className="btn btn-color-service w-75"><i className="bi bi-arrow-return-right"></i> Become</a>
         </div>
       </div>
     </div>
@@ -246,7 +246,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
        junior-level developers that have worked in a professional capacity for at least two to three years. 
        Mid-level developers generally have enough experience to complete projects independently.
       </p>
-      < a className="btn btn-outline-success w-75"><i className="bi bi-arrow-return-right"></i>Become</a>
+      < a className="btn btn-color-service w-75"><i className="bi bi-arrow-return-right"></i>Become</a>
         </div>
         </div>
     </div>
@@ -261,7 +261,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
        expertise toward the marketing and
         business transactions of the company.
        </p>
-        < a className="btn btn-outline-success w-75"><i className="bi bi-arrow-return-right"></i>Become</a>
+        < a className="btn btn-color-service w-75"><i className="bi bi-arrow-return-right"></i>Become</a>
         </div>
         </div>
     </div>
@@ -726,12 +726,11 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
                 23M7+249, KN 123 St, Kigali, Rwanda</p>
               </div>
             </div>
-
             <div className="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
               <i className="bi bi-telephone flex-shrink-0"></i>
               <div>
-                <h3>Call Us</h3>
-                <p>+250787124101</p>
+              <h3>Call Us</h3>
+               <p>+250787124101</p>
               </div>
             </div>
 
