@@ -14,7 +14,7 @@ function Login() {
       <input type="password" className="form-control form-control-login" id="exampleInputPassword1" placeholder="Password"/>
       <div id="emailHelp" className="form-text mt-3">Forgetpassword?</div>
      </div>
-   <button type="submit" className="btn btn-primary mt-4">Login</button>
+   <button type="submit" className="btn  btn-primarx mt-4">Login</button>
    </form>   
   </div>
   )     

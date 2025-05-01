@@ -6,8 +6,8 @@
 
 
 .form-custom{
-   border: 1px solid;
-    font-family: 'poppins',sans-serif;
+border: 1px solid;
+font-family:'poppins',sans-serif;
 background-color: white;
 border-color: #ddd !important;;
 padding: 50px;
@@ -15,10 +15,17 @@ padding: 50px;
     border-radius: 20px;
     margin-top: 150px;
 }
-.btn-primary{
+
+
+.btn-primarx{
     width: 100%;
     background: linear-gradient(90deg,rgba(2,0,36,1)0%,rgba(75,14,154,1)35%,rgba(0,212,255,1)100%);
     border-radius: 50px;
+    color: white;
+}
+.btn-primarx:hover{
+    color: white;
+    font-weight: 300;
 }
 
 .form-control-login{
@@ -33,21 +40,31 @@ padding: 50px;
 .h44{
     font-size: 2rem;
     font-weight: 700;
-
 }
-
 .form-label{
     font-weight: 100;
 }
-
 @media(max-width: 600px){
     .form-custom {
      width:100%;
+    
     }
   }
 
   @media(max-width:600px){
-    .btn-primary{
-     width:35%;
+    .btn-primarx{
+     width:100%;
     }
 }
+
+@media(max-width:992px) {
+    .btn-primarx{
+        width:100%;
+       }
+  }
+
+  @media(max-width:992px){
+    .form-custom{
+        width:40%;
+       }
+  }
