@@ -30,25 +30,8 @@ export default function Subfooter() {
   return (
     <div className='container-fluid d-flex  sub-margin' style={{backgroundColor:"#eaf3fa"}}>
      
-     <p className="font-14 fonts-w text-sm p-2 flex-grow-1">Copyright©
-          2025  </p>
-          &nbsp;
-
-            <ul className="d-flex list-unstyled gap-3 gaps ">
-                <li>
-                    <a href="/payment_info" className='rem-under'>Terms&conditions</a>
-                </li>
-               
-                <li>
-                    <a href="/payment_info">Safety</a>
-                </li>
-                <li>
-                    <a href="/payment_info">ExTech rights</a>
-                </li>
-                <li>
-                    <a href="/payment_info"><img src="/public/photos/content/paypal.png" alt=""/></a>
-                </li>
-            </ul>
+     <p className="font-14 fonts-w text-sm p-2 flex-grow-1 text-center">Website by ExTechnology Solutions</p>
+       
             <a href="#" id="scroll-top" className={`d-flex align-items-center justify-content-center ${scrolledDown ? "scroll-top":"active"}`}><i className="bi bi-arrow-up-short"></i></a>
     </div>
   )

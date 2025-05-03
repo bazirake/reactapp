@@ -6,7 +6,7 @@ function Sign() {
    
     <div className="container-fluid">
            <div className="container">
-           <div className=" row col-md-6 offset-md-3 d-flex d-flex justify-content-center align-items-center" style={{marginTop:"120px"}}>
+           <div className=" row col-md-6 offset-md-3 d-flex d-flex justify-content-center align-items-center" style={{marginTop:"140px",marginBottom:"40px"}}>
           <div className="card card-m ">
             <div className="card-header panel-color">
              <h4 className='text-center'>Registration form</h4> 
@@ -28,7 +28,6 @@ function Sign() {
                     <div className='form-group'>
                     <label>Select country</label>
                     <select className='form-control form-field'>
-                 
                       <option value="Rwanda">Rwanda</option>
                       <option value="Burundi">Burundi</option>
                       <option value="Tanzania">Tanzania</option>
@@ -36,7 +35,6 @@ function Sign() {
                       <option value="Kenya">Kenya</option>
                     </select>
                     </div>
-
                     <div className="custom-control custom-checkbox my-2">
                     <input type="checkbox" className="custom-control-input" id="customCheckDisabled" />
                    <label className="custom-control-label">Accept terms and conditions</label>

@@ -22,40 +22,34 @@ function Footers() {
           <li><NavLink to={`/product`} className="text-dark text-dec">Product</NavLink></li>
         </ul>
       </div>
-      <div className=" col-lg-3  col-md-4">
+      <div className=" col-lg-3 col-md-4">
         <h5>Follow Us</h5>
-        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-facebook "></i></NavLink>
-        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-twitter-x"></i></NavLink>
-        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-instagram"></i></NavLink>
-        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-linkedin"></i></NavLink>
-        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-instagram"></i></NavLink>
-        <NavLink to="#" className="me-3 text-dec"><i className="bi bi-youtube"></i></NavLink>
-        
-        <br></br>
-        <p className="text-dec">&copy; 2025 E.Tech Company. All rights reserved.</p>
+        <a href="#" className="me-3 text-dec"><i className="bi bi-facebook "></i></a>
+        <a href="#" className="me-3 text-dec"><i className="bi bi-twitter-x"></i></a>
+        <a href=""  className="me-3 text-dec"><i className="bi bi-instagram"></i></a>
+        <a href=""  className="me-3 text-dec"><i className="bi bi-linkedin"></i></a>
+        <a href=""  className="me-3 text-dec"><i className="bi bi-instagram"></i></a>
+        <a href=""  className="me-3 text-dec"><i className="bi bi-youtube"></i></a>      
+        <p className="text-dec">&copy; 2025 ExTech Company. All rights reserved.</p>
       </div>
 
       <div className="col-lg-3 col-md-4">
       <h5>ExTech Ltd</h5>
 
-      <p>Subscribe to ExTech Ltd and receive the latest Updates about our products and services!</p>
+      <p className="text-dec">Subscribe to ExTech Ltd and receive the latest Updates about our products and services!</p>
       <form  method="post" className="php-email-form">
-
-      <div className="newsletter-form">
+       <div className="newsletter-form">
         <input type="email" className="form-control" name="email"/>
-        <button type="button">Subscribe</button></div>
-            
+         <button type="button">Subscribe</button></div>
             <div className="loading">Loading</div>
             <div className="error-message"></div>
             <div className="sent-message">Your subscription request has been sent. Thank you!</div>
           </form>
       </div>
-
     </div>
   </div>
-  <div>
-         
-            </div> 
+  <div> 
+  </div> 
 </footer>
   )
 }

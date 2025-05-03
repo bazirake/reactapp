@@ -36,10 +36,7 @@ function About() {
         </p>
         </div>
         <div className="col-md-6 elementor-element-dd02713">
-         
           <img  src='https://shoptechgallery.com/wp-content/uploads/2023/02/STG-Sales.jpg'/>
-         
-         
         </div>
       </div>
       <div className='py-3'>
@@ -53,7 +50,6 @@ function About() {
     <p className="card-text">A walk around the Tech Gallery brings you art created with recycled technology. 
       All artwork proceeds go to the Lane Technology Foundation, a 501(c)(3)
        scholarship program that supports underserved individuals seeking a career in business technology.</p>
-
   </div>
 </div>
 
@@ -72,7 +68,6 @@ function About() {
     <h5 className="card-title">Valuing Inclusivity</h5>
     <p className="card-text">We stand strong against systemic bias and discrimination and believe 
       in equal access to opportunities and resources for those who might be otherwise excluded or marginalized.</p>
-
   </div>
   </div>
   </div>

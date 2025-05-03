@@ -10,8 +10,6 @@
  
     transition: 0.3s;
 }
-
-
 .php-email-form .newsletter-form input[type=email]:focus{
 border-color: #1acc8d;
 }
@@ -61,6 +59,16 @@ border-color: #1acc8d;
 .footer-color{
     background-color: rgb(234, 243, 250)!important;
 }
+.text-dec{
+    text-decoration: none!important;
+}
+
+.text-dec{
+    text-decoration: none;
+    font: 400 14px Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+}
+
 
 /* .scroll-top {
     position: fixed;
