@@ -58,6 +58,10 @@ border-color: #1acc8d;
 
 }
 
+.footer-color{
+    background-color: rgb(234, 243, 250)!important;
+}
+
 /* .scroll-top {
     position: fixed;
     visibility:visible;

@@ -27,6 +27,13 @@
 
 
 .btn-color-service{
+
+    background-color: #10CCC9;
+    color: #ffffff;
+    border-radius: 20px;
+  }
+  .btn-color-servicex{
+    width:20%;
     background-color: #10CCC9;
     color: #ffffff;
     border-radius: 20px;
