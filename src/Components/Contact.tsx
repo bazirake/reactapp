@@ -21,7 +21,7 @@ function Contact() {
     <div className="container-fluid">
        <div className="container">
        <div className=" row d-flex d-flex justify-content-center align-items-center contacts-container">
-           <h2 className="h22 text-center">ExTech Contacts</h2>
+           <h3 className="h22 text-center">ExTech Contacts</h3>
            <div className="par-wid">
 
            <p className="pp2">Got any questions about ExTech Product,Services or Scaling on our platform?
