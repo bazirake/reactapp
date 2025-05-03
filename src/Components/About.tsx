@@ -42,10 +42,41 @@ function About() {
          
         </div>
       </div>
+      <div className='py-3'>
+      <h2 className='text-center'>Our Core Values</h2>
+      </div>
+      <div className="row gap-2">
+      <div className="card col-md-4 card-borders px-0" style={{maxWidth:"400px"}}>
+   <img src="https://shoptechgallery.com/wp-content/uploads/2023/02/Gork-Hatchling-8-1024x1024.jpg" className="card-img-top" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Supporting Students and Artists</h5>
+    <p className="card-text">A walk around the Tech Gallery brings you art created with recycled technology. 
+      All artwork proceeds go to the Lane Technology Foundation, a 501(c)(3)
+       scholarship program that supports underserved individuals seeking a career in business technology.</p>
 
+  </div>
+</div>
 
+<div className="card col-md-4 card-borders px-0" style={{maxWidth:"400px"}}>
+  <img src="https://shoptechgallery.com/wp-content/uploads/2023/02/Building-Community-Relationships.jpg" className="card-img-top" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Building Community Relationships</h5>
+    <p className="card-text">We connect with our community through our trustee partnerships with the Winter Park Chamber of Commerce,
+       the Florida Association of Veteran Owned Businesses (FAVOB) and the Orlando Tech College (OTC).</p>
+  </div>
+  </div> 
 
-    </div>
+<div className="card card-borders  col-md-4 px-0" style={{maxWidth:"400px"}}>
+  <img src="https://shoptechgallery.com/wp-content/uploads/2023/02/Valuing-Inclusivity.jpg"  className="card-img-top img-fluid" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Valuing Inclusivity</h5>
+    <p className="card-text">We stand strong against systemic bias and discrimination and believe 
+      in equal access to opportunities and resources for those who might be otherwise excluded or marginalized.</p>
+
+  </div>
+  </div>
+  </div>
+  </div>
   )
 }
 

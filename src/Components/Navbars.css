@@ -2,7 +2,8 @@
 .myActive{
   
     color: rgba(0, 0, 0, 0.885)!important;
-    border-radius: 10px;
+    border-bottom: 1px solid black!important;
+    font-weight: bolder!important;
 }
 
 .nav-link{
@@ -131,11 +132,13 @@ padding-bottom: 6px ;
  .searchf{
   width: 200px!important;
   box-shadow: none!important;
+  border-radius: 20px!important;
  }
 
  .searchf:focus{
   width: 300px!important;
   box-shadow: none!important;
+  border-radius: 20px;
  }
 
  .searchf:focus{
