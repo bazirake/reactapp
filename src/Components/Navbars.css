@@ -128,12 +128,19 @@ padding-bottom: 6px ;
  line-height: 2;
 }
 
-.searchf{
+ .searchf{
+  width: 200px!important;
+  box-shadow: none!important;
+ }
+
+ .searchf:focus{
   width: 300px!important;
-}
-.searchf:focus{
+  box-shadow: none!important;
+ }
+
+ .searchf:focus{
   outline: none;
   box-shadow: none;
-}
+ }
 
 

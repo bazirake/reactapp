@@ -41,7 +41,7 @@ function Sign() {
                     <input type="checkbox" className="custom-control-input" id="customCheckDisabled" />
                    <label className="custom-control-label">Accept terms and conditions</label>
                  </div>
-                  <button type='submit'  className='btn btn-primary my-2'>RegisterNow</button>
+                  <button type='submit'  className='btn btn-color-service my-2'>RegisterNow</button>
                 </form>
             </div>
             <div className="card-footer text-end">

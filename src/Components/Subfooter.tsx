@@ -11,7 +11,8 @@ export default function Subfooter() {
     useEffect(() => {
       const handleScrollx = () => {
         const scrollY = window.scrollY;
-        if (scrollY > 100) {
+      
+        if (scrollY >100) {
           setScrolledDownx(true);
         } else {
           setScrolledDownx(false);
@@ -50,7 +51,6 @@ export default function Subfooter() {
             </ul>
             <a href="#" id="scroll-top" className={`d-flex align-items-center justify-content-center ${scrolledDown ? "scroll-top":"active"}`}><i className="bi bi-arrow-up-short"></i></a>
     </div>
-   
   )
 }
 
