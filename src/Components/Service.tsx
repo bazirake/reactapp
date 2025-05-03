@@ -69,9 +69,7 @@ function Service() {
 
         </div>
 
-        <div className="row d-flex py-3">
-          <button className="btn btn-color-servicex  text-center m-auto">View all Services</button>
-        </div>
+      
     </div>
 
        </div>

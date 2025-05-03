@@ -45,7 +45,7 @@ function About() {
       <div className='py-3'>
       <h2 className='text-center'>Our Core Values</h2>
       </div>
-      <div className="row gap-2">
+      <div className="row gap-2 mb-4">
       <div className="card col-md-4 card-borders px-0" style={{maxWidth:"400px"}}>
    <img src="https://shoptechgallery.com/wp-content/uploads/2023/02/Gork-Hatchling-8-1024x1024.jpg" className="card-img-top" alt="..."/>
   <div className="card-body">
