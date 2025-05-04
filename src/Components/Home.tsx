@@ -51,19 +51,9 @@ function ReadMore() {
   return <>
   <section>
    <div className="container-fluid">
-          {/* <div className="row">
-          <ul className="list-group clearfix d-flex career justify-content-center list-group-horizontal ">
-            {
-             mens.map((item,index)=>
-              <li key={index} onClick={()=>setstat(index)} className= {`list-group-item rounded-c ${stat==index ? "active-b":"list-group-item"}`} >
-                 <i className={item.icons}></i>{item.name}
-              </li>
-            )
-           }
-        </ul>
-          </div> */}
+          
       
-        <section id="hero" className="hello-container">
+        <section id="hero" className="hello-container" style={{marginTop:"60px"}}>
          <div className="row g-0 pt-3 ">
               <div className="col-md-4">
                 <div className="whole-hello-content">
