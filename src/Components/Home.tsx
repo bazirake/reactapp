@@ -14,6 +14,7 @@ import im4 from "../assets/Images/Engineer.png";
 import im5 from "../assets/Images/GettyImageIcon.jpg";
 import im6 from "../assets/Images/AfricanIcon.jpg";
 import im7 from "../assets/Images/more-tech-institutes.jpeg";
+import imaged from "../Components/mockdata/Imagedata";
 
  const Imagesx=[im1,im2,im3,im4];
 
@@ -22,6 +23,7 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
     const [showfx,setFrex]=useState(false);
     const [showf2,setFre2]=useState(false);
     const [messageSt,sendMessage]=useState(false);
+    const[readv,setRead]=useState(false);
 
     function CloseMessage() {
       sendMessage(false)
@@ -39,6 +41,10 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
   setFre2((item=>!item))
 }
 
+function ReadMore() {
+
+  setRead(item=>!item);
+}
   const [stat,setstat]=useState(0);
    const mens=[{name:"Become Software Eng",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
   ,{name:"Meet Software Engineers",path:"level",icons:"bi bi-people-fill"}]
@@ -103,8 +109,23 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
         and
       
       Software development services to help individuals and businesses to Simplify Heavy daily Tasks performed.</p>
-      <button className="btn btn-color-service">Read More</button>
-          </div>
+      {
+        readv && (
+          <p className="text-starta">
+           We are pleased to announce a software training session designed to help you become more proficient with C#,...
+            This session will cover key features, best practices, and practical tips to enhance your productivity and confidence using the platform..
+          </p>
+        )
+      }
+
+     
+
+      <button className="btn btn-color-service" onClick={ReadMore}> {readv ?"Read Less":"Read More"} </button>
+
+
+    
+
+       </div>
      
         
        
@@ -407,77 +428,25 @@ import im7 from "../assets/Images/more-tech-institutes.jpeg";
 
         <div className="row g-0">
 
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a href="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-1.jpg" className="glightbox" data-gallery="images-gallery">
-                <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-1.jpg" alt="" className="img-fluid"/>
-              </a>
-            </div>
-          </div>
-          {/* End Gallery Item */}
 
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a href="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-2.jpg" className="glightbox" data-gallery="images-gallery">
-                <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-2.jpg" alt="" className="img-fluid"/>
+         {
+          imaged.map((item)=>{
+          return  (
+              
+              <div className="col-lg-3 col-md-4">
+               <div className="gallery-item">
+              <a href={item.urils} className="glightbox" data-gallery="images-gallery">
+                <img src={item.urils} alt="" className="img-fluid"/>
               </a>
             </div>
-          </div>
-
-           {/* End Gallery Item */}
-
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a href="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-3.jpg" className="glightbox" data-gallery="images-gallery">
-                <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-3.jpg" alt="" className="img-fluid"/>
-              </a>
-            </div>
-          </div>
-          {/* End Gallery Item */}
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a href="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-4.jpg" className="glightbox" data-gallery="images-gallery">
-                <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-4.jpg" alt="" className="img-fluid"/>
-              </a>
-            </div>
-          </div>
-          {/* End Gallery Item  */}
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a href="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-4.jpg" className="glightbox" data-gallery="images-gallery">
-                <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-4.jpg" alt="" className="img-fluid"/>
-              </a>
-            </div>
-          </div>
-           {/* End Gallery Item */}
-
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a href="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-5.jpg" className="glightbox" data-gallery="images-gallery">
-                <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-5.jpg" alt="" className="img-fluid"/>
-              </a>
-            </div>
-          </div>
-          
-          {/* End Gallery Item */}
-
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a href="	https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-6.jpg" className="glightbox" data-gallery="images-gallery">
-                <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-6.jpg" alt="" className="img-fluid"/>
-              </a>
-            </div>
-          </div>
-          {/* End Gallery Item  */}
-
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a href="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-7.jpg" className="glightbox" data-gallery="images-gallery">
-                <img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/gallery/gallery-7.jpg" alt="" className="img-fluid"/>
-              </a>
-            </div>
-          </div>
-           {/* End Gallery Item */}
+          </div> 
+              
+            )
+          })
+        }
+         
+         
+    
           
         </div>
 

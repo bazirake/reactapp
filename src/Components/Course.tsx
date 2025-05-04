@@ -504,7 +504,7 @@ function Course() {
           )
           }
            <div>
-            <button className='btn btn-outline-success my-4' onClick={ShowAllWebCourse}> {allcourseStatw ? "Show less Web development courses":"Show all Web development courses"}</button>
+            <button className='btn btn-color-service my-4' onClick={ShowAllWebCourse}> {allcourseStatw ? "Show less Web development courses":"Show all Web development courses"}</button>
           </div>
 
           
@@ -675,7 +675,7 @@ function Course() {
     )
    }
     <div>
-   <button className='btn btn-outline-success my-4' onClick={ShowAllMoCourse}>{allcourseStatmo ? "Show less Mobile App Development courses" :"Show all Mobile App Development courses"}</button>
+   <button className='btn btn-color-service my-4' onClick={ShowAllMoCourse}>{allcourseStatmo ? "Show less Mobile App Development courses" :"Show all Mobile App Development courses"}</button>
      </div>
       </div>,
         },
@@ -791,7 +791,7 @@ function Course() {
               )
             }
               <div className=' mx-auto justify-content-center'>
-              <button className='btn btn-outline-success my-4' onClick={ShowAllMoCourseDes}>{allcourseStatDes ? "Show less System design courses" :"Show more System design courses"}</button>
+              <button className='btn btn-color-service my-4' onClick={ShowAllMoCourseDes}>{allcourseStatDes ? "Show less System design courses" :"Show more System design courses"}</button>
             </div>
             </div>,
           },
@@ -870,9 +870,9 @@ function Course() {
       <div className="card-body">
         <h5 className="card-title fw-bolder "> Advanced Postgresql</h5>
         <p className="ext-text-sm single-course-unit_course-headline__sKuVM" >
-                 Feeling in Postgresql courses? This course fills the gaps Advanced face—tools,
-                 concepts,and how Postgresql works.</p>
-                 <button className="btn btn-color-service">Join for Free</button>
+                Feeling in Postgresql courses? This course fills the gaps Advanced face—tools,
+                concepts,and how Postgresql works.</p>
+            <button className="btn btn-color-service">Join for Free</button>
       </div>
      </div>
      </div>
@@ -905,7 +905,7 @@ function Course() {
             )
           }
           <div>
-            <button className='btn btn-outline-success my-4' onClick={ShowAllDbCourse}>{allcourseStatd ? "Show less Database Administration courses":"Show all Database Administration courses"}</button>
+            <button className='btn btn-color-service my-4' onClick={ShowAllDbCourse}>{allcourseStatd ? "Show less Database Administration courses":"Show all Database Administration courses"}</button>
           </div>
           
           </div>,
@@ -971,9 +971,9 @@ function Course() {
  return (
   <div className='container container-mt'>
   <div>
-   <h2 className='ext-header'>All the skills you need in one place with ExTech</h2>  
-  <div className='ext-text'>From theoretical skills to hands on skills, ExTech supports your professional development.</div>
- <Tabs tabs={tabData}/> 
+      <h2 className='ext-header'>All the skills you need in one place with ExTech</h2>  
+      <div className='ext-text'>From theoretical skills to hands on skills, ExTech supports your professional development.</div>
+      <Tabs tabs={tabData}/> 
  </div>   
   </div>
   

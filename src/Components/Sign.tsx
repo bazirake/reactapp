@@ -3,7 +3,6 @@ import "./sign.css"
 
 function Sign() {
   return (
-   
     <div className="container-fluid">
            <div className="container">
            <div className=" row col-md-6 offset-md-3 d-flex d-flex justify-content-center align-items-center" style={{marginTop:"140px",marginBottom:"40px"}}>
@@ -49,7 +48,6 @@ function Sign() {
         </div>
            </div>
            </div>
-       
   )
 }
 

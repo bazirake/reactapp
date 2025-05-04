@@ -28,7 +28,6 @@ function Tabs({tabs}:TabsProps) {
     </li>
       ))
      }
-  
 
   </ul>
     {/* <div className="flex border-b">
@@ -46,12 +45,10 @@ function Tabs({tabs}:TabsProps) {
         </button>
       ))}
     </div> */}
-
     {/* Tab content */}
-    <div className="mt-4">{tabs[activeIndex].content}</div>
 
+    <div className="mt-4">{tabs[activeIndex].content}</div>
   </div>
   )
 }
-
 export default Tabs

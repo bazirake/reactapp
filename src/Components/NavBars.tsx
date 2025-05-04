@@ -61,11 +61,8 @@ function NavBars(){
          </div>
        </div>
      </nav>
-
           </div>
-        
       </>
-
     )
 }
 
