@@ -19,7 +19,8 @@ function Footers() {
           <li><NavLink to={`/`} className="text-dark text-dec">Home</NavLink></li>
           <li><NavLink to={`/service`} className="text-dark text-dec">Services</NavLink></li>
           <li><NavLink to={`/contact`} className="text-dark text-dec">Contact</NavLink></li>
-          <li><NavLink to={`/product`} className="text-dark text-dec">Product</NavLink></li>
+          <li><NavLink to={`/courses`} className="text-dark text-dec">Course</NavLink></li>
+          <li><NavLink to={`/about`} className="text-dark text-dec">About us</NavLink></li>
         </ul>
       </div>
       <div className=" col-lg-3 col-md-4">

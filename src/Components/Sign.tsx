@@ -1,7 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./sign.css"
 
+import { useState } from 'react';
+import Modal from './Modal';
+
+
 function Sign() {
+
+  
+  const [modalOpen, setModalOpen] = useState(false);
+  function ShowModel(){
+  alert("Model showed");
+  }
   return (
     <div className="container-fluid">
            <div className="container">
@@ -38,16 +48,22 @@ function Sign() {
                     <input type="checkbox" className="custom-control-input" id="customCheckDisabled" />
                    <label className="custom-control-label">Accept terms and conditions</label>
                  </div>
-                  <button type='submit'  className='btn btn-color-service my-2'>RegisterNow</button>
+                  <button type='submit'  onClick={ShowModel} className='btn btn-color-service my-2'>RegisterNow</button>
                 </form>
             </div>
             <div className="card-footer text-end">
                    <small>Register with Extech</small>
             </div>
           </div>
+
+      
+
+       
+    
         </div>
            </div>
            </div>
+
   )
 }
 

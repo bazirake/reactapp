@@ -17,7 +17,7 @@ function NavBars(){
 
         {path:"/service",names:"Service"},
         {path:"/contact",names:"Contact"},
-        {path:"/about",names:"About"},
+        {path:"/about",names:"About us"},
         {path:"/sign",names:"Registration"},
         {path:"/login",names:"Login"}
     ]
