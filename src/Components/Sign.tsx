@@ -15,7 +15,7 @@ function Sign() {
   return (
     <div className="container-fluid">
            <div className="container">
-           <div className=" row col-md-6 offset-md-3 d-flex d-flex justify-content-center align-items-center" style={{marginTop:"140px",marginBottom:"40px"}}>
+           <div className=" row col-md-4 offset-md-4 d-flex d-flex justify-content-center align-items-center" style={{marginTop:"140px",marginBottom:"40px"}}>
           <div className="card card-m ">
             <div className="card-header panel-color">
              <h4 className='text-center'>Registration form</h4> 
@@ -48,7 +48,8 @@ function Sign() {
                     <input type="checkbox" className="custom-control-input" id="customCheckDisabled" />
                    <label className="custom-control-label">Accept terms and conditions</label>
                  </div>
-                  <button type='submit'  onClick={ShowModel} className='btn btn-color-service my-2'>RegisterNow</button>
+                 <div className='d-flex align-items-center justify-content-center'><button type='submit'  onClick={ShowModel} className='btn btn-color-service my-2 mx-auto w-50'>RegisterNow</button></div>
+                  
                 </form>
             </div>
             <div className="card-footer text-end">
