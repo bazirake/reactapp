@@ -10,7 +10,6 @@ import Service from "./Service";
 import Course from "./Course";
 import About from "./About";
 
-
 export const router=createBrowserRouter([
   {
      path:"/",
@@ -41,16 +40,13 @@ export const router=createBrowserRouter([
           element:<Service/>
         },
         {
-          
          path:"/courses",
-          element:<Course/>
+         element:<Course/>
         },
         {
-          
           path:"/about",
-           element:<About/>
-         }
-       
+          element:<About/>
+        }
         ]
     }
 ])
