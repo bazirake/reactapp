@@ -215,7 +215,7 @@ const courses:course_category[]=[
                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                 description:"Feeling in coding courses? This course will help the Learners to know to integrate api to front-end(Java)."
              },
-              {
+             {
                 id:0,
                 title:"Java+Web socket",
                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",

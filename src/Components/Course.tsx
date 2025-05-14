@@ -31,8 +31,10 @@ function Course() {
   content:(
     <div className="container">
       <div className="row">
-        {category.courses.map((course, index) =>(
-          <div key={index} className="col-lg-3 col-md-4 mb-4">
+        {
+        
+        category.courses.map((course, index) =>(
+          <div key={course.id} className="col-lg-3 col-md-4 mb-4">
             <div className="card" style={{ width: "18rem" }}>
               <img
                 src={course.image}
@@ -44,7 +46,7 @@ function Course() {
                 <p className="ext-text-sm single-course-unit_course-headline__sKuVM">
                   {course.description}
                 </p>
-                <button className="btn btn-color-service">Join for Free</button>
+                <button className="btn btn-color-service" onClick={()=>alert(course.id)}>Join for Free</button>
               </div>
             </div>
           </div>
