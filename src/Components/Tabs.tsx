@@ -20,7 +20,7 @@ function Tabs({tabs}:TabsProps){
      {
       courset.map((tab,index)=>(
        <li onClick={() => setActiveIndex(index)}  key={index} className={`nav-item`}>
-         <a className={`nav-link ${index === activeIndex ? 'active':'nav-link'}`}>{tab.corse_name}</a>
+         <a className={`nav-link ${index ===activeIndex ? 'active':'nav-link' }`}>{tab.corse_name}</a>
        </li>
       ))
      }
@@ -28,7 +28,6 @@ function Tabs({tabs}:TabsProps){
   <div className="mt-4">{tabs[activeIndex].content}</div>
   </div>
   )
-
 }
 
 export default Tabs

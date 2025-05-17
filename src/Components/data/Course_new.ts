@@ -2,6 +2,7 @@
 interface Course {
   id: number;
   title: string;
+  ccode:string,
   image: string;
   description: string;
 }

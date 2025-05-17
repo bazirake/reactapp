@@ -9,12 +9,13 @@ import Sign from "./Sign";
 import Service from "./Service";
 import Course from "./Course";
 import About from "./About";
+import CourseDetails from "./CourseDetails";
 
 export const router=createBrowserRouter([
   {
-     path:"/",
-     element:<App/>,
-     children:[
+      path:"/",
+      element:<App/>,
+      children:[
        {
          path:"/",
          element:<Home/>
@@ -44,9 +45,14 @@ export const router=createBrowserRouter([
          element:<Course/>
         },
         {
+          path:"/courses/:cate/:id",
+          element:<CourseDetails/>
+        },
+        {
           path:"/about",
           element:<About/>
         }
+      
         ]
     }
 ])

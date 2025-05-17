@@ -3,6 +3,7 @@ import "./course.css";
 import Tabs from './Tabs';
 import { useState } from 'react';
 import courses from "../Components/mockdata/mockCourseNew";
+import { useLocation, useNavigate } from 'react-router-dom';
 
 function Course() {
 
@@ -11,6 +12,7 @@ function Course() {
   const[allcourseStatd,setAllCoursed]=useState(false);
   const[allcourseStatmo,setAllCourseMo]=useState(false);
   const[allcourseStatDes,setAllCourseDes]=useState(false);
+   const location = useLocation();
   function ShowAllWebCourse(){
        setAllCoursew((item)=>!item)
      }
@@ -27,14 +29,21 @@ function Course() {
       setAllCourseDes((item)=>!item)
    }
 
-   const tabData = courses.map((category) =>({
+    const navigate = useNavigate();
+
+  const goTocourse = (cate:number,id:number) => {
+   
+    navigate(`${location.pathname}/${cate}/${id}`);
+  };
+
+
+   const tabData = courses.map((category,item) =>({
   content:(
     <div className="container">
       <div className="row">
         {
-        
         category.courses.map((course, index) =>(
-          <div key={course.id} className="col-lg-3 col-md-4 mb-4">
+          <div key={index} className="col-lg-3 col-md-4 mb-4">
             <div className="card" style={{ width: "18rem" }}>
               <img
                 src={course.image}
@@ -43,10 +52,10 @@ function Course() {
                 />
               <div className="card-body">
                 <h5 className="card-title fw-bolder">{course.title}</h5>
-                <p className="ext-text-sm single-course-unit_course-headline__sKuVM">
-                  {course.description}
-                </p>
-                <button className="btn btn-color-service" onClick={()=>alert(course.id)}>Join for Free</button>
+                  <p className="ext-text-sm single-course-unit_course-headline__sKuVM">
+                     {course.description}
+                  </p>
+                <button className="btn btn-color-service" onClick={()=>goTocourse(item,index)}>Join for Free</button>
               </div>
             </div>
           </div>
