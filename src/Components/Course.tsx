@@ -43,13 +43,13 @@ function Course() {
       <div className="row">
         {
         category.courses.map((course, index) =>(
-          <div key={index} className="col-lg-3 col-md-4 mb-4">
+          <div key={index} onClick={()=>goTocourse(item,index)} className="col-lg-3 col-md-4 mb-4">
             <div className="card" style={{ width: "18rem" }}>
               <img
                 src={course.image}
                 className="card-img-top"
                 alt={course.title}
-                />
+              />
               <div className="card-body">
                 <h5 className="card-title fw-bolder">{course.title}</h5>
                   <p className="ext-text-sm single-course-unit_course-headline__sKuVM">
@@ -65,16 +65,14 @@ function Course() {
   )
 }));
 
-
- return (
+ return(
   <div className='container container-mt'>
   <div>
-      <h2 className='ext-header'>All the skills you need in one place with ExTech</h2>  
-      <div className='ext-text'>From theoretical skills to hands on skills, ExTech supports your professional development.</div>
-      <Tabs tabs={tabData}/> 
+       <h2 className='ext-header'>All the skills you need in one place with ExTech</h2>  
+       <div className='ext-text'>From theoretical skills to hands on skills, ExTech supports your professional development.</div>
+       <Tabs tabs={tabData}/> 
  </div>   
   </div>
-  
    )
    }
 

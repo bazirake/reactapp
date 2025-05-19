@@ -15,7 +15,7 @@ const courses:course_category[]=[
             {
                 id:0,
                  ccode:"02",
-                title:"Html for learner Intermediate",
+                title:"Html for Intermediate learner ",
                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                 description:"Feeling in coding courses? This course fills the gaps intermediate learners face—tools, concepts, and how html works."
             },
