@@ -1,0 +1,66 @@
+.course-margin{
+    margin-top:120px;
+    margin-bottom: 20px;
+}
+
+.css-1nd9583 {
+   position: absolute;
+ margin-top: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.css-1nd9583 .cds-breadcrumbs-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: var(--cds-spacing-50) 0;
+    margin-left: calc(var(--cds-spacing-100) * -1);
+    list-style: none;
+}
+.css-tvqrra {
+    margin: 0;
+    font: 400 1rem / 1.5rem Source Sans Pro,Arial,sans-serif;
+    letter-spacing: 0em;
+    color: inherit;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.css-ngd472 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
+}
+.css-6ecy9b {
+    margin: 0;
+    font: 600 1rem / 1.25rem Source Sans Pro,Arial,sans-serif;
+    letter-spacing: -0.003em;
+    color: #0f1114;
+}
+
+.css-kimdhf {
+    margin: 0;
+    font: 400 0.875rem / 1.25rem Source Sans Pro,Arial,sans-serif;
+    letter-spacing:0em;
+    color: #0f1114;
+}
+
+@media (max-width: 1439.95px) {
+    .css-125uo4z {
+        width: calc(100% + 32px);
+        margin: calc(20px);
+        margin-right: calc(var16px * -1);
+        margin-left: 0;
+    }
+}

@@ -224,35 +224,35 @@ const courses:course_category[]=[
             },
              {
                 id:0,
-                ccode:"031",
+                ccode:"032",
                 title:"Advanced NextJS",
                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                 description:"Feeling in coding courses? This course fills the gaps Advanced learners face—tools, concepts,and how NextJs works."
              },
              {
                 id:0,
-                ccode:"032",
+                ccode:"033",
                 title:"React+Api Integration",
                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                 description:"Feeling in coding courses? This course will help the Learners to know to integrate api to front-end(ReactTs)."
              },
             {
                 id:0,
-                ccode:"033",
+                ccode:"034",
                 title:"NextJS+Api Integration",
                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                 description:"Feeling in coding courses? This course will help the Learners to know to integrate api to front-end(NextJS)."
              },
              {
                 id:0,
-                ccode:"034",
+                ccode:"035",
                 title:"Java+Api Integration",
                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                 description:"Feeling in coding courses? This course will help the Learners to know to integrate api to front-end(Java)."
              },
              {
                 id:0,
-                ccode:"035",
+                ccode:"036",
                 title:"Java+Web socket",
                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                 description:"Feeling in coding courses? This course will help the Learners to know to integrate api to front-end(Java)."
@@ -415,7 +415,7 @@ const courses:course_category[]=[
             {
                id:3,
                 ccode:"30",
-                title:"Introduction to mysql workbench",
+                title:"Introduction to SQL Database",
                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                 description:"Feeling in Sql database courses? This course fills the gaps beginners face—tools, concepts,and how Sql database works."
              },
@@ -429,28 +429,28 @@ const courses:course_category[]=[
              {
                id:3,
                 ccode:"32",
-               title:"Advanced mysql workbench",
+               title:"Advanced SQL Database",
                image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                description:"Feeling in mysql workbench courses? This course fills the Advanced Learners face—tools, concepts,and how mysql workbench works."
              },
              {
                id:3,
                 ccode:"33",
-               title:"Introduction to Figma Design tool",
+               title:"Introduction to mysql",
                image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                description:"Feeling in Figma Design tool courses? This course fills the gaps Beginners face—tools, concepts,and how Figma Design tool works."
               },
                {
                id:3,
                 ccode:"34",
-               title:"Intermediate  Figma Design tool",
+               title:"Intermediate  mysql",
                image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                description:"Feeling in Figma Design tool courses? This course fills the gaps Beginners face—tools, concepts,and how Figma Design tool works."
               },
               {
                id:3,
                 ccode:"35",
-               title:"advanced  Figma Design tool",
+               title:"advanced  mysql",
                image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                description:"Feeling in Figma Design tool courses? This course fills the gaps Beginners face—tools, concepts,and how Figma Design tool works."
               },
@@ -474,28 +474,8 @@ const courses:course_category[]=[
                  title:"Advanced Postgresql",
                  image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
                  description:"Feeling in Postgresql courses? This course fills the gaps Advanced face—tools, concepts,and how Postgresql works."
-               },
-                 {
-                 id:3,
-                  ccode:"39",
-                 title:"Advanced EdrawMax",
-                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
-                 description:"Feeling in EdrawMax Design tool courses? This course fills the gaps Advanced face—tools, concepts,and how EdrawMax Design tool works."
-               },
-                {
-                 id:3,
-                  ccode:"340",
-                 title:"Introduction+Intermediate Mysql",
-                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
-                 description:"Feeling in Mysql courses? This course fills the gaps Learners face—tools, concepts,and how Mysql works."
-               },
-               {
-                 id:3,
-                  ccode:"341",
-                 title:"Advanced Mysql",
-                 image:"https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
-                 description:"Feeling in Mysql courses? This course fills the gaps Advanced Learners face—tools, concepts,and how Mysql works."
                }
+               
             ]
         },
         {
