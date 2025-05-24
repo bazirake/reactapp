@@ -57,10 +57,14 @@
 }
 
 @media (max-width: 1439.95px) {
-    .css-125uo4z {
+    .css-125uo4z{
         width: calc(100% + 32px);
         margin: calc(20px);
         margin-right: calc(var16px * -1);
         margin-left: 0;
     }
+}
+
+.fw-s{
+    font-weight: bolder;
 }
