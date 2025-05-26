@@ -437,15 +437,19 @@ if(id==='24' && cate==='0'){
 
   }
    if(id==='0' && cate==='1'){
-    courseTi=<h3 className="h22 text-center">Mobile App development</h3>
+    courseTi=<h3 className="h22 text-center">Introduction to Native Android app in Java or Kotlin</h3>
       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Native mobile apps are applications developed to target either Android or iOS.</span>
+    </p><p className="css-kimdhf"> Developers usually code applications in a specific programming language depending on the operating system they are developing for. You write native Android applications using the Java or Kotlin programming languages.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop native Android apps in Java or Kotlin, you'll need a solid foundation in programming,
+   including object-oriented programming (OOP) principles. Specifically, you should be proficient in Java or Kotlin, 
+   have a good understanding of the Android development environment, and be familiar with various application components and version 
+   control. Additionally, 
+  having a computer with sufficient resources and familiarity with the Android development tools like Android Studio is essential. </span></p></div></div>
 
   }
     if(id==='1' && cate==='1'){
@@ -453,23 +457,31 @@ if(id==='24' && cate==='0'){
       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Native mobile apps are applications developed to target either Android or iOS.</span>
+    </p><p className="css-kimdhf"> Developers usually code applications in a specific programming language depending on the operating system they are developing for. You write native Android applications using the Java or Kotlin programming languages.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop native Android apps in Java or Kotlin, you'll need a solid foundation in programming,
+   including object-oriented programming (OOP) principles. Specifically, you should be proficient in Java or Kotlin, 
+   have a good understanding of the Android development environment, and be familiar with various application components and version 
+   control. Additionally, 
+  having a computer with sufficient resources and familiarity with the Android development tools like Android Studio is essential. </span></p></div></div>
 
   }
     if(id==='2' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Advanced Native Android app in Java or Kotlin</h3>
-      courseCont=<div className="css-tvqrra">
+     courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Native mobile apps are applications developed to target either Android or iOS.</span>
+    </p><p className="css-kimdhf"> Developers usually code applications in a specific programming language depending on the operating system they are developing for. You write native Android applications using the Java or Kotlin programming languages.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop native Android apps in Java or Kotlin, you'll need a solid foundation in programming,
+   including object-oriented programming (OOP) principles. Specifically, you should be proficient in Java or Kotlin, 
+   have a good understanding of the Android development environment, and be familiar with various application components and version 
+   control. Additionally, 
+  having a computer with sufficient resources and familiarity with the Android development tools like Android Studio is essential. </span></p></div></div>
 
   }
      if(id==='3' && cate==='1'){
@@ -477,47 +489,47 @@ if(id==='24' && cate==='0'){
       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Native iOS applications are built specifically for Apple's iOS operating system, using platform-specific languages like Swift or Objective-C.</span>
+    </p><p className="css-kimdhf"> A native app is developed within Xcode and follows Apple's Human Interface Guidelines to ensure a smooth and consistent user.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop native iOS apps using Swift or Objective-C, you'll need a few prerequisites: a compatible Mac computer, Xcode IDE, and a strong understanding of the respective programming language and the iOS platform frameworks.</span></p></div></div>
 
   }
     if(id==='4' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Introduction to Mobile app Cross-platform in React Native or Flutter</h3>
-      courseCont=<div className="css-tvqrra">
+       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Flutter provides the following advantages to developers over developing native applications individually</span>
+    </p><p className="css-kimdhf">Cross-platform compatibility: Like React Native, Flutter allows you to use a single codebase for multiple platforms, such as Android, iOS, and desktop, to save time, resources, and effort.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>You will need Node, Watchman, the React Native command line interface, a JDK, and Android Studio. While you can use any editor of your choice to develop your app, you will need to install Android Studio in order to set up the necessary tooling to build your React Native app for Android.</span></p></div></div>
 
   }
     if(id==='5' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Intermediate Mobile app Cross-platform in React Native or Flutter</h3>
-      courseCont=<div className="css-tvqrra">
+       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Flutter provides the following advantages to developers over developing native applications individually</span>
+    </p><p className="css-kimdhf">Cross-platform compatibility: Like React Native, Flutter allows you to use a single codebase for multiple platforms, such as Android, iOS, and desktop, to save time, resources, and effort.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>You will need Node, Watchman, the React Native command line interface, a JDK, and Android Studio. While you can use any editor of your choice to develop your app, you will need to install Android Studio in order to set up the necessary tooling to build your React Native app for Android.</span></p></div></div>
 
   }
    if(id==='6' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Advanced Mobile app Cross-platform in React Native or Flutter</h3>
-      courseCont=<div className="css-tvqrra">
+       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Flutter provides the following advantages to developers over developing native applications individually</span>
+    </p><p className="css-kimdhf">Cross-platform compatibility: Like React Native, Flutter allows you to use a single codebase for multiple platforms, such as Android, iOS, and desktop, to save time, resources, and effort.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>You will need Node, Watchman, the React Native command line interface, a JDK, and Android Studio. While you can use any editor of your choice to develop your app, you will need to install Android Studio in order to set up the necessary tooling to build your React Native app for Android.</span></p></div></div>
 
   }
     if(id==='7' && cate==='1'){
@@ -525,23 +537,23 @@ if(id==='24' && cate==='0'){
       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>The simplest way to understand how hosting for mobile apps works is to imagine a computer (called a server) containing an application's files.</span>
+    </p><p className="css-kimdhf"> which is always on and makes the app or any information in it accessible to developers and users 24/7. 
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To successfully host a mobile app, you'll need a few key prerequisites. These include setting up a backend server, choosing the right hosting platform, and ensuring the app can connect with the server and users. You'll also need a database to store data and handle user interactions, and secure your app with SSL.</span></p></div></div>
 
   }
     if(id==='8' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Intermediate Native iOS app in Swift or Objective-C</h3>
-      courseCont=<div className="css-tvqrra">
+       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Native iOS applications are built specifically for Apple's iOS operating system, using platform-specific languages like Swift or Objective-C.</span>
+    </p><p className="css-kimdhf"> A native app is developed within Xcode and follows Apple's Human Interface Guidelines to ensure a smooth and consistent user.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop native iOS apps using Swift or Objective-C, you'll need a few prerequisites: a compatible Mac computer, Xcode IDE, and a strong understanding of the respective programming language and the iOS platform frameworks.</span></p></div></div>
 
   }
      if(id==='9' && cate==='1'){
@@ -549,35 +561,35 @@ if(id==='24' && cate==='0'){
       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Native iOS applications are built specifically for Apple's iOS operating system, using platform-specific languages like Swift or Objective-C.</span>
+    </p><p className="css-kimdhf"> A native app is developed within Xcode and follows Apple's Human Interface Guidelines to ensure a smooth and consistent user.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop native iOS apps using Swift or Objective-C, you'll need a few prerequisites: a compatible Mac computer, Xcode IDE, and a strong understanding of the respective programming language and the iOS platform frameworks.</span></p></div></div>
 
   }
   if(id==='10' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Intermediate Mobile Web app</h3>
-      courseCont=<div className="css-tvqrra">
+       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Native iOS applications are built specifically for Apple's iOS operating system, using platform-specific languages like Swift or Objective-C.</span>
+    </p><p className="css-kimdhf"> A native app is developed within Xcode and follows Apple's Human Interface Guidelines to ensure a smooth and consistent user.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop native iOS apps using Swift or Objective-C, you'll need a few prerequisites: a compatible Mac computer, Xcode IDE, and a strong understanding of the respective programming language and the iOS platform frameworks.</span></p></div></div>
 
   }
   if(id==='11' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Advanced Mobile Web app</h3>
-      courseCont=<div className="css-tvqrra">
+       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Native iOS applications are built specifically for Apple's iOS operating system, using platform-specific languages like Swift or Objective-C.</span>
+    </p><p className="css-kimdhf"> A native app is developed within Xcode and follows Apple's Human Interface Guidelines to ensure a smooth and consistent user.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop native iOS apps using Swift or Objective-C, you'll need a few prerequisites: a compatible Mac computer, Xcode IDE, and a strong understanding of the respective programming language and the iOS platform frameworks.</span></p></div></div>
 
   }
    if(id==='0' && cate==='2'){
@@ -585,23 +597,25 @@ if(id==='24' && cate==='0'){
       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>MySQL Workbench is a unified visual tool that simplifies database design, development, and administration tasks for MySQL.</span>
+    </p><p className="css-kimdhf"> It provides a graphical interface for interacting with MySQL databases, offering features like visual database schema design, 
+      SQL development, and comprehensive administration tools.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To effectively use MySQL Workbench, a solid foundation in SQL and a basic understanding of databases is highly recommended. Familiarity with programming concepts and command-line skills can also be helpful.</span></p></div></div>
 
   }
   if(id==='1' && cate==='2'){
     courseTi=<h3 className="h22 text-center">Intermediate mysql workbench</h3>
-      courseCont=<div className="css-tvqrra">
+     courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>MySQL Workbench is a unified visual tool that simplifies database design, development, and administration tasks for MySQL.</span>
+    </p><p className="css-kimdhf"> It provides a graphical interface for interacting with MySQL databases, offering features like visual database schema design, 
+      SQL development, and comprehensive administration tools.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To effectively use MySQL Workbench, a solid foundation in SQL and a basic understanding of databases is highly recommended. Familiarity with programming concepts and command-line skills can also be helpful.</span></p></div></div>
 
   }
     if(id==='2' && cate==='2'){
@@ -609,71 +623,78 @@ if(id==='24' && cate==='0'){
       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>MySQL Workbench is a unified visual tool that simplifies database design, development, and administration tasks for MySQL.</span>
+    </p><p className="css-kimdhf"> It provides a graphical interface for interacting with MySQL databases, offering features like visual database schema design, 
+      SQL development, and comprehensive administration tools.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To effectively use MySQL Workbench, a solid foundation in SQL and a basic understanding of databases is highly recommended. Familiarity with programming concepts and command-line skills can also be helpful.</span></p></div></div>
 
   }
   if(id==='3' && cate==='2'){
     courseTi=<h3 className="h22 text-center">Introduction to Figma Design tool</h3>
-      courseCont=<div className="css-tvqrra">
+     courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Figma is a cloud-based design tool primarily used for creating and testing websites and applications.</span>
+    </p><p className="css-kimdhf"> It's a popular choice among UX and UI designers for designing user interfaces, creating prototypes, and managing design systems.
+      Figma allows for real-time collaboration, sharing designs, and generating code for export. 
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To effectively use Figma, a popular interface design tool, it's beneficial to have a foundational understanding of vector graphics, experience with other design tools, and knowledge of UI/UX design principles.
+  Familiarity with basic coding concepts (HTML, CSS, JavaScript) can also be helpful for smoother communication with developers and a deeper understanding of design constraints. </span></p></div></div>
 
   }
    if(id==='4' && cate==='2'){
      courseTi=<h3 className="h22 text-center">Intermediate Figma Design tool</h3>
-       courseCont=<div className="css-tvqrra">
+     courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Figma is a cloud-based design tool primarily used for creating and testing websites and applications.</span>
+    </p><p className="css-kimdhf"> It's a popular choice among UX and UI designers for designing user interfaces, creating prototypes, and managing design systems.
+      Figma allows for real-time collaboration, sharing designs, and generating code for export. 
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To effectively use Figma, a popular interface design tool, it's beneficial to have a foundational understanding of vector graphics, experience with other design tools, and knowledge of UI/UX design principles.
+  Familiarity with basic coding concepts (HTML, CSS, JavaScript) can also be helpful for smoother communication with developers and a deeper understanding of design constraints. </span></p></div></div>
 
   }
    if(id==='5' && cate==='2'){
      courseTi=<h3 className="h22 text-center">Advanced Figma Design tool</h3>
-       courseCont=<div className="css-tvqrra">
+     courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>Figma is a cloud-based design tool primarily used for creating and testing websites and applications.</span>
+    </p><p className="css-kimdhf"> It's a popular choice among UX and UI designers for designing user interfaces, creating prototypes, and managing design systems.
+      Figma allows for real-time collaboration, sharing designs, and generating code for export. 
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To effectively use Figma, a popular interface design tool, it's beneficial to have a foundational understanding of vector graphics, experience with other design tools, and knowledge of UI/UX design principles.
+  Familiarity with basic coding concepts (HTML, CSS, JavaScript) can also be helpful for smoother communication with developers and a deeper understanding of design constraints. </span></p></div></div>
 
   }
    if(id==='6' && cate==='2'){
      courseTi=<h3 className="h22 text-center">Intermediate EdrawMax</h3>
-       courseCont=<div className="css-tvqrra">
+    courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>EdrawMax is an all-in-one diagramming software that allows users to create a wide variety of diagrams, including flowcharts, mind maps, organizational charts, network diagrams, and more.</span>
+    </p><p className="css-kimdhf"> It's available for both desktop (Windows, Mac, and Linux) and online use, offering a comprehensive solution for various diagramming needs. 
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To run EdrawMax, you'll need a computer with specific system requirements, including a compatible operating system, a minimum amount of RAM, and enough free hard disk space. You'll also need an internet connection for product activation and updates.</span></p></div></div>
 
   }
     if(id==='7' && cate==='2'){
      courseTi=<h3 className="h22 text-center">Advanced EdrawMax</h3>
-       courseCont=<div className="css-tvqrra">
+     courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>EdrawMax is an all-in-one diagramming software that allows users to create a wide variety of diagrams, including flowcharts, mind maps, organizational charts, network diagrams, and more.</span>
+    </p><p className="css-kimdhf"> It's available for both desktop (Windows, Mac, and Linux) and online use, offering a comprehensive solution for various diagramming needs. 
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To run EdrawMax, you'll need a computer with specific system requirements, including a compatible operating system, a minimum amount of RAM, and enough free hard disk space. You'll also need an internet connection for product activation and updates.</span></p></div></div>
 
   }
     if(id==='0' && cate==='3'){
@@ -681,11 +702,12 @@ if(id==='24' && cate==='0'){
        courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>SQL database or relational database is a collection of highly structured tables, wherein each row reflects a data entity, and every column defines a specific information field.</span>
+    </p><p className="css-kimdhf"> Relational databases are built using the structured query language (SQL) to create, store, update, and retrieve data.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To effectively learn SQL, a foundational understanding of databases, how data is organized, and some basic computer concepts can be helpful, but aren't strictly necessary.
+  Familiarity with spreadsheets or working with structured data can also provide a beneficial starting point. </span></p></div></div>
 
   }
     if(id==='1' && cate==='3'){
@@ -693,23 +715,25 @@ if(id==='24' && cate==='0'){
        courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>SQL database or relational database is a collection of highly structured tables, wherein each row reflects a data entity, and every column defines a specific information field.</span>
+    </p><p className="css-kimdhf"> Relational databases are built using the structured query language (SQL) to create, store, update, and retrieve data.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To effectively learn SQL, a foundational understanding of databases, how data is organized, and some basic computer concepts can be helpful, but aren't strictly necessary.
+  Familiarity with spreadsheets or working with structured data can also provide a beneficial starting point. </span></p></div></div>
 
   }
      if(id==='2' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Advanced SQL Database</h3>
-       courseCont=<div className="css-tvqrra">
+        courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>SQL database or relational database is a collection of highly structured tables, wherein each row reflects a data entity, and every column defines a specific information field.</span>
+    </p><p className="css-kimdhf"> Relational databases are built using the structured query language (SQL) to create, store, update, and retrieve data.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To effectively learn SQL, a foundational understanding of databases, how data is organized, and some basic computer concepts can be helpful, but aren't strictly necessary.
+  Familiarity with spreadsheets or working with structured data can also provide a beneficial starting point. </span></p></div></div>
 
   }
    if(id==='3' && cate==='3'){
@@ -717,35 +741,38 @@ if(id==='24' && cate==='0'){
        courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>MySQL is a widely used, open-source Relational Database Management System (RDBMS). It's designed to store and manage data in a structured format, using tables, rows, and columns organized into schemas.</span>
+    </p><p className="css-kimdhf"> MySQL uses Structured Query Language (SQL) to interact with the database, allowing users to create, read, update, and delete data.
+      
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span><b>Skills you’ll need:</b>In MySQL, a prerequisite database refers to the foundational database that is needed before you can interact with or use another database or application.</span></p></div></div>
 
   }
    if(id==='4' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Intermediate  mysql</h3>
-       courseCont=<div className="css-tvqrra">
+     courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>MySQL is a widely used, open-source Relational Database Management System (RDBMS). It's designed to store and manage data in a structured format, using tables, rows, and columns organized into schemas.</span>
+    </p><p className="css-kimdhf"> MySQL uses Structured Query Language (SQL) to interact with the database, allowing users to create, read, update, and delete data.
+      
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span><b>Skills you’ll need:</b>In MySQL, a prerequisite database refers to the foundational database that is needed before you can interact with or use another database or application.</span></p></div></div>
 
   }
    if(id==='5' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Advanced  mysql</h3>
-       courseCont=<div className="css-tvqrra">
+      courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>MySQL is a widely used, open-source Relational Database Management System (RDBMS). It's designed to store and manage data in a structured format, using tables, rows, and columns organized into schemas.</span>
+    </p><p className="css-kimdhf"> MySQL uses Structured Query Language (SQL) to interact with the database, allowing users to create, read, update, and delete data.
+      
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span><b>Skills you’ll need:</b>In MySQL, a prerequisite database refers to the foundational database that is needed before you can interact with or use another database or application.</span></p></div></div>
 
   }
   if(id==='6' && cate==='3'){
@@ -753,35 +780,38 @@ if(id==='24' && cate==='0'){
       courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>PostgreSQL is a powerful, open-source, relational database management system (RDBMS). It's known for its reliability, flexibility, and adherence to open technical standards. </span>
+    </p><p className="css-kimdhf"> PostgreSQL supports both SQL (relational) and JSON (non-relational) querying, making it suitable for a wide range of applications, including web, mobile, and analytical applications.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>The prerequisites for using a PostgreSQL database include understanding basic SQL concepts,
+   having sufficient disk space, and ensuring the operating system user has necessary file permissions. Additionally, on Linux systems, the locale should use UTF-8 encoding, and the GLIBC library should be version 2.14 or later. </span></p></div></div>
 
   }
   if(id==='7' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Intermediate Postgresql</h3>
-       courseCont=<div className="css-tvqrra">
+     courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>PostgreSQL is a powerful, open-source, relational database management system (RDBMS). It's known for its reliability, flexibility, and adherence to open technical standards. </span>
+    </p><p className="css-kimdhf"> PostgreSQL supports both SQL (relational) and JSON (non-relational) querying, making it suitable for a wide range of applications, including web, mobile, and analytical applications.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>The prerequisites for using a PostgreSQL database include understanding basic SQL concepts,
+   having sufficient disk space, and ensuring the operating system user has necessary file permissions. Additionally, on Linux systems, the locale should use UTF-8 encoding, and the GLIBC library should be version 2.14 or later. </span></p></div></div>
 
   }
     if(id==='8' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Advanced Postgresql</h3>
-       courseCont=<div className="css-tvqrra">
+     courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>PostgreSQL is a powerful, open-source, relational database management system (RDBMS). It's known for its reliability, flexibility, and adherence to open technical standards. </span>
+    </p><p className="css-kimdhf"> PostgreSQL supports both SQL (relational) and JSON (non-relational) querying, making it suitable for a wide range of applications, including web, mobile, and analytical applications.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>The prerequisites for using a PostgreSQL database include understanding basic SQL concepts,
+   having sufficient disk space, and ensuring the operating system user has necessary file permissions. Additionally, on Linux systems, the locale should use UTF-8 encoding, and the GLIBC library should be version 2.14 or later. </span></p></div></div>
 
   }
    if(id==='0' && cate==='4'){
@@ -789,11 +819,11 @@ if(id==='24' && cate==='0'){
        courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>An Application Programming Interface, or API, defines the classes, methods, functions and variables that your application will need to call in order to carry out its desired task.</span>
+    </p><p className="css-kimdhf"> In the case of PHP applications that need to communicate with databases the necessary APIs are usually exposed via PHP extensions.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To create a PHP API, ensure you have: PHP 8.0 or higher, with essential extensions like ext-json and ext-pdo. Composer to manage dependencies. A web server (Apache or nginx) with proper routing configuration.</span></p></div></div>
 
   }
   if(id==='1' && cate==='4'){
@@ -801,11 +831,11 @@ if(id==='24' && cate==='0'){
        courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>An Application Programming Interface, or API, defines the classes, methods, functions and variables that your application will need to call in order to carry out its desired task.</span>
+    </p><p className="css-kimdhf"> In the case of PHP applications that need to communicate with databases the necessary APIs are usually exposed via PHP extensions.
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To create a PHP API, ensure you have: PHP 8.0 or higher, with essential extensions like ext-json and ext-pdo. Composer to manage dependencies. A web server (Apache or nginx) with proper routing configuration.</span></p></div></div>
 
   }
   if(id==='2' && cate==='4'){
@@ -813,11 +843,11 @@ if(id==='24' && cate==='0'){
        courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>In C#, API development involves creating web services, commonly referred to as Web APIs, using frameworks like ASP.NET Core.</span>
+    </p><p className="css-kimdhf"> These APIs allow different applications (like web browsers, mobile apps, or other services) to interact with each other by exchanging data via HTTP requests and responses. 
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop C# APIs, you'll need basic C# programming knowledge, a suitable IDE (like Visual Studio or Visual Studio Code with the C# Dev Kit), the .NET SDK, and familiarity with HTTP requests/responses and REST principles.</span></p></div></div>
 
   }
    if(id==='3' && cate==='4'){
@@ -825,11 +855,11 @@ if(id==='24' && cate==='0'){
        courseCont=<div className="css-tvqrra">
     <div className="css-ngd472">
     <p className="css-6ecy9b">
-    <span>A Websocket allows creating a communication channel between a client and a server.</span>
-    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+    <span>In C#, API development involves creating web services, commonly referred to as Web APIs, using frameworks like ASP.NET Core.</span>
+    </p><p className="css-kimdhf"> These APIs allow different applications (like web browsers, mobile apps, or other services) to interact with each other by exchanging data via HTTP requests and responses. 
   </p>
   <p className="css-kimdhf">
-  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+  <span> <b>Skills you’ll need:</b>To develop C# APIs, you'll need basic C# programming knowledge, a suitable IDE (like Visual Studio or Visual Studio Code with the C# Dev Kit), the .NET SDK, and familiarity with HTTP requests/responses and REST principles.</span></p></div></div>
 
   }
    
