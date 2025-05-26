@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useParams } from 'react-router'
 import HapIconn from "../assets/Images/HappyIcon.webp"
 import "../Components/courseDetail.css"
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap-icons/font/bootstrap-icons.css"
 export default function CourseDetails() {
+const [morest,setMore]=useState(false);
+const changes=()=>{
+  setMore(item=>!item)
+} 
 const {id}=useParams();
 const {cate}=useParams();
 let courseTi;
@@ -150,174 +155,682 @@ if(id==='14' && cate==='0'){
       courseCont=<div className="css-tvqrra">
       <div className="css-ngd472">
       <p className="css-6ecy9b">
-      <span>Advanced vanilla JavaScript builds on the intermediate skills and dives deeper into how the language and the browser environment work.</span>
-      </p><p className="css-kimdhf">  It emphasizes deeper knowledge of the JavaScript engine, advanced patterns, performance considerations, and modern APIs.
+      <span> Advanced vanilla JavaScript builds on the intermediate skills and dives deeper into how the language and the browser environment work.</span>
+      </p><p className="css-kimdhf"> It emphasizes deeper knowledge of the JavaScript engine, advanced patterns, performance considerations, and modern APIs.
 </p>
 <p className="css-kimdhf">
   <span><b>Skills you’ll need</b>: To effectively learn vanilla JavaScript, you need to grasp fundamental concepts like variables, data types, control flow, functions, and object-oriented programming. Understanding the Document Object Model (DOM) and event handling is also crucial for manipulating web pages.</span></p></div></div>
 }
 if(id==='15' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Introduction to jQuery</h3>
+    courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span> JQuery is a lightweight JavaScript library designed to simplify HTML DOM manipulation, event handling, animation, and AJAX interactions.</span>
+    </p><p className="css-kimdhf">It allows developers to write less code while achieving more functionality, making web development faster and more efficient. JQuery achieves this by wrapping complex JavaScript tasks into concise, single-line methods.
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need</b>:To effectively learn and use jQuery, a foundational understanding of HTML, CSS, and JavaScript is necessary.</span></p></div></div>
 }
 if(id==='16' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Introduction to Typescript</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>TypeScript is a strongly typed programming language that builds on JavaScript, offering features like static typing, classes, and interfaces. It enhances code maintainability and scalability, especially in large projects, by catching errors early during development.</span>
+    </p><p className="css-kimdhf">TypeScript code compiles to JavaScript, making it compatible with any environment where JavaScript runs, including browsers and Node.js. It introduces optional type annotations, allowing developers to define the types of variables, function parameters, and return values, thus improving code clarity and reducing runtime errors
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need</b>:An intermediate understanding of JavaScript, especially the nature of JavaScript data types and the difference between pass-by-value vs. pass-by-reference, is required.</span></p></div></div>
 }
 if(id==='17' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Intermediate Typescript</h3>
+           courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Intermediate TypeScript signifies a deeper understanding of the language beyond basic syntax and types. It involves using more advanced features and techniques to write more maintainable, reusable, and robust code.</span>
+    </p><p className="css-kimdhf">This includes things like generics, decorators, modules, advanced types, and working with TypeScript's configuration options. Typescript is a strongly typed superset of JavaScript which compiles to plain JavaScript.
+       It is a pure object-oriented programming language and it works well for large scale Javascript applications.
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need</b>:An intermediate understanding of JavaScript, especially the nature of JavaScript data types and the difference between pass-by-value vs. pass-by-reference, is required.</span></p></div></div>
+
 }
 if(id==='18' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Advanced Typescript</h3>
+               courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Advanced TypeScript encompasses features that go beyond basic types and syntax, enabling more robust, flexible, and maintainable code.</span>
+    </p><p className="css-kimdhf">These advanced concepts allow developers to handle complex type manipulations, create reusable components, and ensure type safety in sophisticated scenarios.
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need</b>:An intermediate understanding of JavaScript, especially the nature of JavaScript data types and the difference between pass-by-value vs. pass-by-reference, is required.</span></p></div></div>
 }
+
 if(id==='19' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Html+Javascript+css full course</h3>
+                   courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>HTML, CSS, and Javascript for Web Developers</span>
+    </p><p className="css-kimdhf"> to start Learning this course click on Join for free button to meet our Software Engineers.
+</p>
+<p className="css-kimdhf">
+  <span><b>At end of this course</b>:you will be able to create your own interactive websites.</span></p></div></div>
 }
 if(id==='20' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Intermediate ReactTs</h3>
+                   courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Intermediate ReactJS involves building upon foundational knowledge of React, HTML, CSS, and JavaScript, to create more complex and scalable applications.</span>
+    </p><p className="css-kimdhf"> This includes mastering concepts like state management (using techniques like reducers, context, or Zustand), routing, performance optimization, and fetching/updating data using tools like React Query, among other advanced techniques.
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need</b>To effectively learn ReactJS, a foundation in HTML, CSS, and JavaScript is essential, especially ES6 features. Additionally, familiarity with Node.js and npm, JSX, and version control with Git is beneficial.</span></p></div></div>
+
+
 }
 if(id==='21' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Advanced ReactTs</h3>
+                       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Advanced React development involves delving into more complex aspects of the framework, going beyond basic component creation and state management.</span>
+    </p><p className="css-kimdhf"> It encompasses techniques like advanced component patterns, state management libraries, server-side rendering, performance optimization, and more, enabling developers to build highly performant, scalable, and maintainable applications. 
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need</b>To effectively learn ReactJS, a foundation in HTML, CSS, and JavaScript is essential, especially ES6 features. Additionally, familiarity with Node.js and npm, JSX, and version control with Git is beneficial.</span></p></div></div>
+
 }
  if(id==='22' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Introduction to Php</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used, open-source, server-side scripting language primarily designed for web development.</span>
+    </p><p className="css-kimdhf">It allows developers to create dynamic web pages by embedding PHP code within HTML, enabling tasks like form processing, database interaction, and session management. 
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need</b>To effectively learn PHP,a basic understanding of computer programming concepts, a grasp of HTML and CSS, and knowledge of the internet and databases (especially MySQL) are helpful prerequisites.</span></p></div></div>
  }
  if(id==='23' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Intermediate Php</h3>
+          courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Intermediate PHP Programming
+Intermediate PHP is designed for:</span>
+    </p>
+    <p className="css-kimdhf"> 
+      <ul>
+        <li>* learners who have completed An Introduction to Basic PHP Programming</li>
+         <li>*individuals who have background in basic PHP programming</li>
+           <li>*experienced programmers who want to take a refresher</li>
+        
+      </ul>
+   
+<span className='py-2'>In this course, you will be combining multiple concepts. Topics include manipulating arrays, combining loops and conditionals, and nested if-else statements.</span>
+
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need</b>To effectively learn PHP,a basic understanding of computer programming concepts, a grasp of HTML and CSS, and knowledge of the internet and databases (especially MySQL) are helpful prerequisites.</span></p></div></div>
+
  }
 if(id==='24' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Advanced Php</h3>
+          courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Advanced PHP encompasses more than basic syntax; it delves into complex areas like object-oriented programming (OOP), design patterns, security, framework integration, and database management.</span>
+    </p><p className="css-kimdhf">It involves using advanced PHP techniques to build scalable, maintainable, and robust web applications. 
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need</b>To effectively learn PHP,a basic understanding of computer programming concepts, a grasp of HTML and CSS, and knowledge of the internet and databases (especially MySQL) are helpful prerequisites.</span></p></div></div>
  }
 
  if(id==='25' && cate==='0'){
-    courseTi=<h3 className="h22 text-center">Html+css+Javascript+Php</h3>
+      courseTi=<h3 className="h22 text-center">Html+css+Javascript+Php</h3>
+      courseCont=<div className="css-tvqrra">
+      <div className="css-ngd472">
+      <p className="css-6ecy9b">
+      <span>each has a different purpose and function and they work together to deliver beautiful websites with updated content to your web browser.</span>
+      </p><p className="css-kimdhf">HTML stands for Hyper Text Markup Language, CSS for Cascading Style Sheets, and PHP for PHP Hypertext Preprocessor. 
+</p>
+<p className="css-kimdhf">
+  <span><b>CourseOutcomes:</b>At the end of this course , you will be to build an interactive website capable to comunicate with Database.</span></p></div></div>
+
  }
   if(id==='26' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Introduction to Java</h3>
+    courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Java programming is a powerful and versatile technology used to build a wide range of applications, from mobile apps and websites to enterprise software and data-driven systems.</span>
+    </p><p className="css-kimdhf">It's an object-oriented, high-level programming language known for its portability and robustness. 
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
  }
  if(id==='27' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Intermediate Java</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Intermediate Java represents a step beyond beginner Java programming, where you delve into more complex concepts and gain proficiency in using Java for real-world applications.</span>
+    </p><p className="css-kimdhf">It involves mastering core Java concepts, such as object-oriented programming (OOP), collections, threading, and working with APIs. 
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
  }
   if(id==='28' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Advanced Java</h3>
+          courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Intermediate Java represents a step beyond beginner Java programming, where you delve into more complex concepts and gain proficiency in using Java for real-world applications.</span>
+    </p><p className="css-kimdhf">It involves mastering core Java concepts, such as object-oriented programming (OOP), collections, threading, and working with APIs. 
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
  }
   if(id==='29' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Introduction to NextJS</h3>
+             courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Next.js is a powerful React framework that simplifies web development by offering various features and optimizations.</span>
+    </p><p className="css-kimdhf">It's built on top of React and provides tools for server-side rendering, static site generation, and full-stack development. Next.js streamlines the development process, making it easier to create fast and SEO-friendly web applications. . 
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need:</b>To effectively learn Next.js, a solid foundation in JavaScript and React is crucial, alongside understanding basic web development concepts like HTML, CSS, and JavaScript.</span></p></div></div>
+
  }
   if(id==='30' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Intermediate NextJS</h3>
+                 courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>At an intermediate level, Next.js usage involves deeper understanding of its features and how to apply them effectively for building complex web applications. </span>
+    </p><p className="css-kimdhf">This includes mastering concepts like server-side rendering, static generation, data fetching, and routing, along with understanding how to optimize performance and build user-friendly interfaces.
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need:</b>To effectively learn Next.js, a solid foundation in JavaScript and React is crucial, alongside understanding basic web development concepts like HTML, CSS, and JavaScript.</span></p></div></div>
+
   }
    if(id==='31' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Advanced NextJS</h3>
+                     courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Advanced Next.js goes beyond the basics, delving into more complex architectural patterns, routing strategies, data fetching methods, and performance optimization techniques. </span>
+    </p><p className="css-kimdhf"> It's about mastering features like server actions, parallel routes, route slots, and utilizing more sophisticated data fetching strategies. 
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need:</b>To effectively learn Next.js, a solid foundation in JavaScript and React is crucial, alongside understanding basic web development concepts like HTML, CSS, and JavaScript.</span></p></div></div>
+
   }
    if(id==='32' && cate==='0'){
     courseTi=<h3 className="h22 text-center">React+Api Integration</h3>
+                        courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>React + API integration refers to the process of connecting a React application with an Application Programming Interface (API) to enable data exchange and interaction </span>
+    </p><p className="css-kimdhf"> APIs act as intermediaries, allowing different software systems to communicate and share data. In the context of React development, integrating with APIs is crucial for fetching data from external sources, updating information, and creating dynamic user interfaces.
+      The integration typically involves making HTTP requests from the React application to API endpoints. 
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need:</b>To effectively learn Next.js, a solid foundation in JavaScript and React is crucial, alongside understanding basic web development concepts like HTML, CSS, and JavaScript.</span></p></div></div>
+
   }
    if(id==='33' && cate==='0'){
     courseTi=<h3 className="h22 text-center">NextJS+Api Integration</h3>
+                         courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Next.js API integration refers to the process of connecting a Next.js application to external APIs (Application Programming Interfaces) or internal backend services.</span>
+    </p><p className="css-kimdhf"> This integration allows the Next.js
+       application to interact with data and functionality provided by 
+       these APIs, enabling dynamic content rendering, data fetching, and server-side logic execution. 
+       <button className='btn btn-color-service' onClick={changes}>readMore</button>
+       { 
+        morest &&(<span className='p-2'>
+        Next.js offers built-in features that simplify API integration, primarily through API routes. API routes are serverless functions defined within the pages/api directory of a Next.js project. These functions handle HTTP requests and responses, allowing developers to create custom API endpoints without setting up a separate backend server.
+        Next.js applications can consume data from external APIs using various methods, such as the Fetch API or third-party libraries like Axios. These tools enable the application to send requests to API endpoints and retrieve data, which can then be used to render dynamic content or perform other actions.
+       API integration in Next.js can be used for a wide range of purposes, including:
+       Fetching data from databases or external services.
+       Implementing user authentication and authorization.
+       Handling form submissions and data processing.
+       Creating custom backend logic for specific application features.
+       Next.js API routes are serverless functions, meaning they are executed on demand in response to incoming requests. This approach eliminates the need for a dedicated server and allows for efficient scaling and deployment.
+       </span>
+       )
+   }
+</p>
+<p className="css-kimdhf">
+  <span><b>Skills you’ll need:</b>To effectively learn Next.js, a solid foundation in JavaScript and React is crucial, alongside understanding basic web development concepts like HTML, CSS, and JavaScript.</span></p></div></div>
   }
    if(id==='34' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Java+Api Integration</h3>
+                         courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>Java+API Integration refers to the process of connecting different software applications or systems using Java and APIs (Application Programming Interfaces). </span>
+    </p><p className="css-kimdhf">It involves using APIs to enable communication and data exchange between a Java application and external services or other applications. 
+      APIs provide a standardized way for different software components to interact, allowing them to exchange data and perform actions
+</p>
+<p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b> To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs..</span></p></div></div>
+
   }
     if(id==='35' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Java+Web socket</h3>
+    courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='0' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Mobile App development</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='1' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Intermediate Native Android app in Java or Kotlin</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='2' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Advanced Native Android app in Java or Kotlin</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
      if(id==='3' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Introduction to Native iOS app in Swift or Objective-C</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='4' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Introduction to Mobile app Cross-platform in React Native or Flutter</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='5' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Intermediate Mobile app Cross-platform in React Native or Flutter</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='6' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Advanced Mobile app Cross-platform in React Native or Flutter</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='7' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Mobile app Hosting</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='8' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Intermediate Native iOS app in Swift or Objective-C</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
      if(id==='9' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Advanced Native iOS app in Swift or Objective-C</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
   if(id==='10' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Intermediate Mobile Web app</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
   if(id==='11' && cate==='1'){
     courseTi=<h3 className="h22 text-center">Advanced Mobile Web app</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='0' && cate==='2'){
     courseTi=<h3 className="h22 text-center">Introduction to mysql workbench</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
   if(id==='1' && cate==='2'){
     courseTi=<h3 className="h22 text-center">Intermediate mysql workbench</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='2' && cate==='2'){
     courseTi=<h3 className="h22 text-center">Advanced mysql workbench</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
   if(id==='3' && cate==='2'){
     courseTi=<h3 className="h22 text-center">Introduction to Figma Design tool</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='4' && cate==='2'){
      courseTi=<h3 className="h22 text-center">Intermediate Figma Design tool</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='5' && cate==='2'){
      courseTi=<h3 className="h22 text-center">Advanced Figma Design tool</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='6' && cate==='2'){
      courseTi=<h3 className="h22 text-center">Intermediate EdrawMax</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='7' && cate==='2'){
      courseTi=<h3 className="h22 text-center">Advanced EdrawMax</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='0' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Introduction to SQL Database</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='1' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Intermediate SQL Database</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
      if(id==='2' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Advanced SQL Database</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='3' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Introduction to mysql</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='4' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Intermediate  mysql</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='5' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Advanced  mysql</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
-   if(id==='6' && cate==='3'){
+  if(id==='6' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Introduction to Postgresql</h3>
+      courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
   if(id==='7' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Intermediate Postgresql</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
     if(id==='8' && cate==='3'){
      courseTi=<h3 className="h22 text-center">Advanced Postgresql</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='0' && cate==='4'){
      courseTi=<h3 className="h22 text-center">Introduction to Api development in Php</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
   if(id==='1' && cate==='4'){
      courseTi=<h3 className="h22 text-center">Advanced Api development in Php</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
   if(id==='2' && cate==='4'){
      courseTi=<h3 className="h22 text-center">Introduction to Api development in C#</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    if(id==='3' && cate==='4'){
      courseTi=<h3 className="h22 text-center">Advanced Api development in C#</h3>
+       courseCont=<div className="css-tvqrra">
+    <div className="css-ngd472">
+    <p className="css-6ecy9b">
+    <span>A Websocket allows creating a communication channel between a client and a server.</span>
+    </p><p className="css-kimdhf"> In particular, a communication channel that uses the WebSocket protocol as a communication protocol.
+  </p>
+  <p className="css-kimdhf">
+  <span> <b>Skills you’ll need:</b>To effectively learn Java, it's helpful to have a foundational understanding of programming concepts and a basic grasp of computer science principles. Familiarity with object-oriented programming (OOP) and basic data structures can also streamline the learning process. A computer with a Java Development Kit (JDK) installed is essential for coding and running Java programs.</span></p></div></div>
+
   }
    
   return (
