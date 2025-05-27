@@ -1,3 +1,6 @@
+
+
+
 .course-margin{
     margin-top:120px;
     margin-bottom: 20px;
@@ -67,4 +70,14 @@
 
 .fw-s{
     font-weight: bolder;
+}
+
+.popup{
+    width: 100px;
+  
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }

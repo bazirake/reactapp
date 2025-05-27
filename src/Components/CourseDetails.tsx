@@ -872,11 +872,32 @@ if(id==='24' && cate==='0'){
                       {courseCont}
                       <button className="btn btn-color-service w-25 my-3">Join for Free</button>
              </div>
-             
+         <div className=' popup'>
+       <div className="flex flex-row justify-between">
+        <h2>Popup</h2>
+        <button>X</button>
+
+       </div>
+       <div className='form'>
+        <input type='text' className='form-control'/>
+       </div>
+       
+    </div>     
 
  <div className='col-md-6'>
     <div className="cds-9 css-1jmy2qb cds-11 cds-grid-item cds-56 cds-64"><div className="css-125uo4z"><img src={HapIconn}  style={{maxWidth:"100%",height:"auto"}} alt=""/></div></div>
  </div>
+    </div>
+    <div className=' popup'>
+       <div className="flex flex-row justify-between">
+        <h2>Popup</h2>
+        <button>X</button>
+
+       </div>
+       <div className='form'>
+        <input type='text' className='form-control'/>
+       </div>
+       
     </div>
    
       
