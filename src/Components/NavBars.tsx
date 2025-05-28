@@ -24,7 +24,7 @@ function NavBars(){
 
     return(
           <>
-          <div className='container-fluid fixed-top'>
+          <div className='container-fluid fixed-top' style={{zIndex:"-1"}}>
           
           <div className="d-flex bd-highlight top-wrapper fixed">
       <div className="flex-fill p-2 bd-highlight">
