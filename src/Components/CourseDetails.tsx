@@ -11,6 +11,9 @@ const [loginm,showLoginm]=useState(false);
 const showLoginModels=()=>{
   showLoginm(true);
 }
+const HideLoginModels=()=>{
+  showLoginm(false);
+}
 const changes=()=>{
   setMore(item=>!item)
 } 
@@ -888,7 +891,7 @@ if(id==='24' && cate==='0'){
  {
  
  loginm &&
- (<LoginModal/>)
+ (<LoginModal handleRegister={HideLoginModels}/>)
  
  }  
        </div>
