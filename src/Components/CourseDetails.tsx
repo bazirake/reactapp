@@ -21,15 +21,13 @@ const {id}=useParams();
 const {cate}=useParams();
 let courseTi;
 let courseCont;
-if (id==='0' && cate==='0') {
+if (id==='0' && cate==='0'){
     courseTi=<h3 className="h22 text-center">Introduction to Html</h3>
     courseCont= <div className="css-tvqrra"><div className="css-ngd472">
-            <p className="css-6ecy9b"><span>HTML (HyperText Markup Language) is the foundation of the web, a markup language used to structure and organize content on web pages.</span>
-            </p><p className="css-kimdhf">It defines how text, images, links, and other content are displayed in a web browser. Essentially, HTML provides the structure and content, while CSS handles the styling (appearance) and JavaScript handles the interactivity.</p>
-           <p className="css-kimdhf"><span><b>Skills you’ll need</b>: a strong understanding of its syntax, semantics, and new features, as well as familiarity with related technologies like CSS3 and JavaScript.</span></p></div></div>
-
+          <p className="css-6ecy9b"><span>HTML (HyperText Markup Language) is the foundation of the web, a markup language used to structure and organize content on web pages.</span>
+          </p><p className="css-kimdhf">It defines how text, images, links, and other content are displayed in a web browser. Essentially, HTML provides the structure and content, while CSS handles the styling (appearance) and JavaScript handles the interactivity.</p>
+          <p className="css-kimdhf"><span><b>Skills you’ll need</b>: a strong understanding of its syntax, semantics, and new features, as well as familiarity with related technologies like CSS3 and JavaScript.</span></p></div></div>
 }
-
 if(id==='1' && cate==='0') {
     courseTi=<h3 className="h22 text-center">Html for Intermediate learner</h3>
       courseCont= <div className="css-tvqrra"><div className="css-ngd472">
@@ -891,7 +889,7 @@ if(id==='24' && cate==='0'){
  {
  
  loginm &&
- (<LoginModal handleRegister={HideLoginModels}/>)
+ (<LoginModal handleRegister={HideLoginModels} idco={cate} idc={id}/>)
  
  }  
        </div>

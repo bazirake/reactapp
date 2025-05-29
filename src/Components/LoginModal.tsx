@@ -1,11 +1,14 @@
 import "../Components/Loginmodell.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../Components/sign.css"
 import React from 'react'
 interface RegisterProps{
-  handleRegister:()=>void
+  handleRegister:()=>void;
+  idc:any;
+  idco:any;
 }
 
-function LoginModal({handleRegister}:RegisterProps) {
+function LoginModal({handleRegister,idc,idco}:RegisterProps) {
   return (
  <div id="popup" className="modal">
               <div className="card card-m ">
@@ -17,6 +20,8 @@ function LoginModal({handleRegister}:RegisterProps) {
             <div className="card-body">
                 <form>
                   <div className='form-group'>
+                    <input value={idc} type='text' className='form-control form-field' placeholder='Enter full names' disabled></input>
+                    <input value={idco} type='text' className='form-control form-field' placeholder='Enter full names' disabled></input>
                     <label >Fullname</label>
                     <input type='text' className='form-control form-field' placeholder='Enter full names'></input>
                     </div>

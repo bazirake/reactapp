@@ -5,26 +5,22 @@ import { NavLink } from 'react-router';
 import "../Components/Navbars.css";
 import cicon from "../assets/Images/EXP1.png";
 
-// interface NavbarProps{
-//    imageSrc:string
-// }
+
 function NavBars(){
    const [cola,setCol]=useState(false)
     
-        const menues=[{path:"/",names:"Home"},
-
+        const menues=[
+        {path:"/",names:"Home"},
         {path:"/courses",names:"Course"},
-
         {path:"/service",names:"Service"},
         {path:"/contact",names:"Contact"},
         {path:"/about",names:"About us"},
-        {path:"/sign",names:"Registration"},
         {path:"/login",names:"Login"}
     ]
 
     return(
           <>
-          <div className='container-fluid fixed-top' >
+          <div className='container-fluid fixed-top'  style={{zIndex:"88"}}>
           
           <div className="d-flex bd-highlight top-wrapper fixed">
       <div className="flex-fill p-2 bd-highlight">
@@ -52,11 +48,9 @@ function NavBars(){
                 </li>   
                )
              }
-
            </ul>
            <form className="d-flex" role="search">
              <input className="form-control me-2 searchf" type="search" placeholder="Search" aria-label="Search"/>
-             
            </form>
          </div>
        </div>
