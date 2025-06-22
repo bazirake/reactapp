@@ -706,7 +706,11 @@ function ReadMore() {
           </div>
 
           <div className="col-lg-8">
-            <form action="forms/contact.php" method="post" className="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <form  onSubmit={(e)=>{
+              e.preventDefault();
+               alert("hello")
+
+            }}  className="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
               <div className="row gy-4">
 
                 <div className="col-md-6">
@@ -729,22 +733,18 @@ function ReadMore() {
                   <div className="loading">Loading</div>
                  {
                   messageSt && (
-
                    <div className="alert  message-color alert-dismissible fade show" role="alert">
                     <i className="bi bi-envelope px-1"></i><strong>Your message has been sent!</strong> Thank you!.
                    <button type="button" className="btn-close" onClick={CloseMessage} data-bs-dismiss="alert" aria-label="Close"></button>
                    </div>
                   )
                  }
-
-
-                  
                   {/* <div className="sent-message">ddadadadad
                     ufyyfiffifiifififififififfiffi
                     ydutududuudduudtudt
                     Your message has been sent. Thank you!</div> */}
 
-                  <button type="button" className='submit' onClick={SendMessage}>Send Message</button>
+                  <button type='submit' className='submit'>Send Message</button>
                 </div>
 
               </div>

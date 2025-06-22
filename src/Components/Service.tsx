@@ -6,6 +6,8 @@ import im5 from "../assets/Images/GettyImageIcon.jpg";
 import im6 from "../assets/Images/AfricanIcon.jpg";
 import im7 from "../assets/Images/more-tech-institutes.jpeg";
 import "./service.css"
+import { useEffect } from "react";
+import { error } from "console";
 
  const Imagesx=[im1,im2,im3,im4];
 
