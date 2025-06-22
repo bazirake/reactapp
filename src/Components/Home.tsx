@@ -15,15 +15,34 @@ import im5 from "../assets/Images/GettyImageIcon.jpg";
 import im6 from "../assets/Images/AfricanIcon.jpg";
 import im7 from "../assets/Images/more-tech-institutes.jpeg";
 import imaged from "../Components/mockdata/Imagedata";
+import { wait } from '@testing-library/user-event/dist/utils';
+import { json } from 'stream/consumers';
+import { stringify } from 'querystring';
 
  const Imagesx=[im1,im2,im3,im4];
-
+   type MessageTye={
+    name:string;
+    email:string;
+    subjects:string;
+    message:string;
+   }
+   type MessageError={
+     name?:string;
+     email?:string;
+     subjects?:string;
+     message?:string
+    }
   export default function Home() {
     const [showf,setFre]=useState(false);
     const [showfx,setFrex]=useState(false);
     const [showf2,setFre2]=useState(false);
     const [messageSt,sendMessage]=useState(false);
     const[readv,setRead]=useState(false);
+    const[contact,setContact]=useState<MessageTye>({name:"",email:"",subjects:"",message:""});
+    const[errmess,setErrorMessage]=useState<MessageError>({});
+
+    const[isloading,setLoading]=useState(false);
+    const[apimessage,setApires]=useState("");
 
     function CloseMessage() {
       sendMessage(false)
@@ -45,6 +64,28 @@ function ReadMore() {
 
   setRead(item=>!item);
 }
+
+   const validateForm=()=>{
+    const errorm:MessageError={}
+       if(!contact.name){
+         errorm.name="Name field could not be emply";
+       }
+       if(!contact.email){
+         errorm.email="Email field could not be emply";
+       }
+        else if(!/\S+@\S+\.\S+/.test(contact.email)){
+         errorm.email="Please enter a valid email";                 
+       }
+       if(!contact.subjects){
+         errorm.subjects="Subject field could not be emply";
+       }
+       if(!contact.message){
+         errorm.message="message field could not be emply";
+       }
+       setErrorMessage(errorm);
+
+       return Object.keys(errorm).length===0
+   }
   const [stat,setstat]=useState(0);
    const mens=[{name:"Become Software Eng",path:"developer",icons:"bi bi-person-rolodex"},{name:"Get Business Software",path:"business",icons:"bi bi-database-fill"}
   ,{name:"Meet Software Engineers",path:"level",icons:"bi bi-people-fill"}]
@@ -706,55 +747,76 @@ function ReadMore() {
           </div>
 
           <div className="col-lg-8">
-            <form  onSubmit={(e)=>{
+            <form  onSubmit={async(e)=>{
               e.preventDefault();
-               alert("hello")
-
+              
+              if (validateForm()) {
+                setLoading(true)
+                 try{
+                const ress=await fetch("https://exapi-gjsy.onrender.com/contact",{
+                method:"POST",
+                headers:{
+                "Content-Type":"application/json"
+                },
+               body:JSON.stringify(contact)                                                                 
+              });
+              const datajs=await ress.json();
+              setApires(datajs.message);
+             // console.log(datajs);
+              } catch (error){
+                console.log("Error",error)
+              }
+               setLoading(false);
+               sendMessage(true);
+              }
+             
+              
+                  //alert("hello")
             }}  className="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
               <div className="row gy-4">
+              <div className="col-md-6">
+                   <input type="text" value={contact.name} name="name" onChange={(e)=>setContact((prevdata)=>({...prevdata,name:e.target.value}))} className="form-control" placeholder="Your Name"/>
+                    {errmess.name && <span style={{ color: "red",fontSize:"15px" }}>{errmess.name}</span>}
+              </div>
 
-                <div className="col-md-6">
-                  <input type="text" name="name" className="form-control" placeholder="Your Name" />
-                </div>
+              <div className="col-md-6 ">
+                  <input type="text" value={contact.email} onChange={(e)=>setContact((prevData)=>({...prevData,email:e.target.value}))} className="form-control" name="email" placeholder="Your Email"/>
+                   {errmess.email && <span style={{ color: "red",fontSize:"15px" }}>{errmess.email}</span>}
+              </div>
 
-                <div className="col-md-6 ">
-                  <input type="email" className="form-control" name="email" placeholder="Your Email" />
-                </div>
+              <div className="col-md-12">
+                  <input type="text" value={contact.subjects} onChange={(e)=>setContact((prevData)=>({...prevData,subjects:e.target.value}))} className="form-control" name="subject" placeholder="Subject"/>
+                   {errmess.subjects && <span style={{ color: "red",fontSize:"15px" }}>{errmess.subjects}</span>}
+              </div>
 
-                <div className="col-md-12">
-                  <input type="text" className="form-control" name="subject" placeholder="Subject" />
-                </div>
-
-                <div className="col-md-12">
-                  <textarea className="form-control"  name="message"  placeholder="Leave a Message" ></textarea>
-                </div>
-
+              <div className="col-md-12">
+                <textarea className="form-control" value={contact.message} onChange={(e)=>setContact((prevData)=>({...prevData,message:e.target.value}))} name="message" placeholder="Leave a Message"></textarea>
+                 {errmess.message && <span style={{ color: "red",fontSize:"15px" }}>{errmess.message}</span>}
+              </div>
                 <div className="col-md-12 text-center">
                   <div className="loading">Loading</div>
-                 {
-                  messageSt && (
+                   {
+                  messageSt &&(
                    <div className="alert  message-color alert-dismissible fade show" role="alert">
-                    <i className="bi bi-envelope px-1"></i><strong>Your message has been sent!</strong> Thank you!.
-                   <button type="button" className="btn-close" onClick={CloseMessage} data-bs-dismiss="alert" aria-label="Close"></button>
+                      <i className="bi bi-envelope px-1"></i><strong>{apimessage}</strong>&nbsp;Thank you!.
+                      <button type="button" className="btn-close" onClick={CloseMessage} data-bs-dismiss="alert" aria-label="Close"></button>
                    </div>
-                  )
-                 }
-                  {/* <div className="sent-message">ddadadadad
-                    ufyyfiffifiifififififififfiffi
-                    ydutududuudduudtudt
-                    Your message has been sent. Thank you!</div> */}
-
-                  <button type='submit' className='submit'>Send Message</button>
-                </div>
-
+                    )
+                  }
+                {
+              isloading && <div className="d-flex justify-content-center">
+                   <div className="spinner-border" role="status">
+                   <span className="visually-hidden">Loading...</span>
+                  </div>
+                 </div>
+              }  
+              <button type='submit' className='submit'>Send Message</button>
+              </div>
               </div>
             </form>
           </div>
-          
         </div>
-
       </div>
-
     </section>
 
 </div>
