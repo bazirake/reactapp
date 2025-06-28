@@ -320,14 +320,13 @@ function ReadMore() {
     </div>
    
     <div className="row stats">
-          <ul className="d-flex  justify-content-center">
+          <ul className="d-flex  flex-wrap justify-content-center">
             <li>
               <span><i className="bi bi-laptop px-1"></i>2</span> Softwares delivered</li>
-              <li> <span><i className="bi bi-person"></i>10</span>Learners</li>
+              <li><span><i className="bi bi-person"></i>10</span>Learners</li>
               <li>
               <span><i className="bi bi-map px-1"></i>2</span>Countries </li>
-              </ul>
-     
+           </ul>
       </div>
       <div className="row explorediv">
       <h2  className="font-sizee text-center">Explore <span className="fix-comma">4</span>+ Free <span className="hide-on-mobile">Online</span>Training</h2>
