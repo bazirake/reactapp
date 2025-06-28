@@ -331,7 +331,7 @@ function ReadMore() {
       </div>
       <div className="row explorediv">
       <h2  className="font-sizee text-center">Explore <span className="fix-comma">4</span>+ Free <span className="hide-on-mobile">Online</span>Training</h2>
-        <ul className="d-flex flex-row justify-content-center">
+        <ul className="d-flex  justify-content-center">
           <li >
             <i className="bi bi-database"></i>
            <a > <h4>Database</h4> <span className="second-tex">
@@ -390,13 +390,12 @@ function ReadMore() {
               <div className="main-text">
                 <h2>Future Proof Your Skills</h2>
                 <p>
-                Gain access to the most in-demand career fields.
-                   </p>
+                    Gain access to the most in-demand career fields.
+                </p>
               </div>
               
             </div>
            </div>
-
            <div className="col-md-4">
             <div className="card">
               <div className="img2">
@@ -476,15 +475,9 @@ function ReadMore() {
           })
         }
          
-         
-    
-          
         </div>
-
       </div>
-        </section>
-
-       
+        </section>       
        <section className="">
        <div className="container-fluid">
         <div className='container web-back'>

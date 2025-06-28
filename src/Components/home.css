@@ -515,6 +515,10 @@ ol, ul {
 
     
 }
+
+.explorediv ul{
+ flex-wrap: wrap;
+}
 .explorediv ul li{
         align-items: center;
         background: #fff;
@@ -525,9 +529,19 @@ ol, ul {
         margin: 0 42px 38px 0;
         padding: 0 27px;
         text-align: center;
+
         transition: transform .3s ease-in-out;
         width:183px;   
 }
+/* this is for smart phone screen devices */
+@media (max-width: 480px) {
+ 
+ .explorediv ul {
+    display: flex;
+   flex-wrap: wrap;
+ }
+}
+
 .explorediv ul li .gets{
     color: #5d676e;
     font-size: 15px;
@@ -1250,6 +1264,8 @@ h1, h2, h3, h4, h5, h6 {
 .message-color{
     padding: 0px !important;
 }
+
+
 
 
 
