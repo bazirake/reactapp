@@ -261,7 +261,7 @@ function ReadMore() {
    <span className="font-wei rounded"> Do you want to become a professional software developer? Click on become button to meet  with our Software Engineers</span>
    </div>
     <div className="row my-2">
-    <div className="col-md-3">
+    <div className="col-md-3 col-space">
     <div className="card">
       <span className="card-title text-white text-center card-title-color">Trainee</span>
       <div className="card-body text-center font-weight-card">
@@ -275,7 +275,7 @@ function ReadMore() {
         </div>
     </div>
 
-    <div className="col-md-3">
+    <div className="col-md-3 col-space">
     <div className="card">
       <span className="card-title card-title-color text-white text-center">Junior Developer</span>
       <div className="card-body font-weight-card text-center">
@@ -289,7 +289,7 @@ function ReadMore() {
       </div>
     </div>
 
-    <div className="col-md-3">
+    <div className="col-md-3 col-space">
     <div className="card">
       <span className="card-title card-title-color text-white text-center">Middle Developer</span>
       <div className="card-body font-weight-card text-center">
@@ -302,7 +302,7 @@ function ReadMore() {
         </div>
         </div>
     </div>
-    <div className="col-md-3">
+    <div className="col-md-3 col-space">
     <div className="card">
       <span className="card-title card-title-color text-white text-center">Senior Developer</span>
       <div className="card-body font-weight-card text-center">

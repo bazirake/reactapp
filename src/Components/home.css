@@ -435,7 +435,7 @@ ol, ul {
         color: #009b5d;
         background-color:   #eaf3fa!important;;
         font-weight: bold;
-        height: 45px;
+        min-height: 45px;
         font-size: 14px;
         line-height:3;
 }
@@ -511,10 +511,11 @@ ol, ul {
     min-height: 50px;
 
 }
-.explorediv{
-
-    
+ @media(max-width:480px){
+.col-space{
+margin-bottom: 20px;
 }
+ }  
 
 .explorediv ul{
  flex-wrap: wrap;
@@ -548,9 +549,7 @@ ol, ul {
     flex-direction: column;
     align-items: center;
   }
-  .btn-color-service{
-    
-  }
+  
 }
 
 .explorediv ul li .gets{
