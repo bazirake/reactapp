@@ -18,6 +18,7 @@ import imaged from "../Components/mockdata/Imagedata";
 import { wait } from '@testing-library/user-event/dist/utils';
 import { json } from 'stream/consumers';
 import { stringify } from 'querystring';
+import { useNavigate } from 'react-router';
 
  const Imagesx=[im1,im2,im3,im4];
    type MessageTye={
@@ -43,6 +44,7 @@ import { stringify } from 'querystring';
 
     const[isloading,setLoading]=useState(false);
     const[apimessage,setApires]=useState("");
+    const navigate=useNavigate();
 
     function CloseMessage() {
        sendMessage(false)
@@ -64,6 +66,11 @@ function ReadMore() {
 
   setRead(item=>!item);
 }
+
+
+ function BecomeFun(urlroute:string){
+     navigate(urlroute);
+  }
 
    const validateForm=()=>{
     const errorm:MessageError={}
@@ -109,7 +116,7 @@ function ReadMore() {
                         </span>
                     </p>
                     <div className="mx-2">
-                      <button  className="btn btn-color-service mt-2 ">Start Now<i className="bi bi-chevron-compact-right"></i></button>
+                      <button onClick={()=>BecomeFun('/courses')} className="btn btn-color-service mt-2 ">Start Now<i className="bi bi-chevron-compact-right"></i></button>
                     </div>
                    </div>
                 </div>
@@ -270,7 +277,7 @@ function ReadMore() {
         As the name implies, trainees are neophytes in software development and are still learning to ply their trade.
         Trainees are, often, students of some level with a focus on computer science and software engineering. 
       </p>
-      < a className="btn btn-color-service w-75"> <i className="bi bi-arrow-return-right"></i> Become</a>
+      < a className="btn btn-color-service w-75" onClick={()=>BecomeFun('/courses')}> <i className="bi bi-arrow-return-right"></i> Become</a>
         </div>
         </div>
     </div>
@@ -284,7 +291,7 @@ function ReadMore() {
        of the subject matter. The main difference between the two is that junior-level developers have a modicum of
         work experience under their belts and have learned from their trainee phase. 
       </p>
-       <a className="btn btn-color-service w-75"><i className="bi bi-arrow-return-right"></i> Become</a>
+       <a className="btn btn-color-service w-75" onClick={()=>BecomeFun('/courses')}><i className="bi bi-arrow-return-right"></i> Become</a>
         </div>
       </div>
     </div>
@@ -298,7 +305,7 @@ function ReadMore() {
        junior-level developers that have worked in a professional capacity for at least two to three years. 
        Mid-level developers generally have enough experience to complete projects independently.
       </p>
-      < a className="btn btn-color-service w-75"><i className="bi bi-arrow-return-right"></i>Become</a>
+      < a className="btn btn-color-service w-75" onClick={()=>BecomeFun('/courses')}><i className="bi bi-arrow-return-right"></i>Become</a>
         </div>
         </div>
     </div>
@@ -313,7 +320,7 @@ function ReadMore() {
        expertise toward the marketing and
         business transactions of the company.
        </p>
-        < a className="btn btn-color-service w-75"><i className="bi bi-arrow-return-right"></i>Become</a>
+        < a className="btn btn-color-service w-75" onClick={()=>BecomeFun('/courses')}><i className="bi bi-arrow-return-right"></i>Become</a>
         </div>
         </div>
     </div>
