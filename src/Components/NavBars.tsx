@@ -33,9 +33,9 @@ function NavBars(){
   </div>
           <nav className="navbar navbar-expand-lg nav-bar-bg-color ">
        <div className="container-fluid">
-         <NavLink className="navbar-brand" to={`/`}>
-          <img src={cicon} className='image-size' alt='EXTECH'/>  
-         </NavLink> 
+         <div className="navbar-brand" >
+           ExTech
+         </div> 
          <button onClick={()=>setCol(!cola)} className="navbar-toggler btn btn-outline-success" type="button" data-bs-toggle="collapse"  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
            <span className="navbar-toggler-icon "></span>
          </button>
@@ -44,7 +44,7 @@ function NavBars(){
              {
                menues.map((item)=>
                <li className="nav-item">
-                  <NavLink className={({isActive})=>`nav-link text-dec ${isActive? "myActive":"nav-link"}`} aria-current="page" to={item.path}>{item.names}</NavLink>
+                  <NavLink className={({isActive})=>`nav-link text-dec ${isActive ?"myActive":"nav-link"}`} aria-current="page" to={item.path}>{item.names}</NavLink>
                 </li>   
                )
              }

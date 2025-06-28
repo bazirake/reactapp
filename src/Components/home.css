@@ -536,8 +536,7 @@ ol, ul {
 /* this is for smart phone screen devices */
 @media (max-width: 480px) {
 
- .explorediv ul li {
-  
+ .explorediv ul li{
    width:100%;
  }
   .explorediv ul li h4{
@@ -569,6 +568,7 @@ font-weight: 900;
 line-height: 54px;
 
 }
+
 
 .stats li span {
     font-weight: 500;

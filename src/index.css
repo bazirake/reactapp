@@ -29,12 +29,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+code{
+    font-family: source-code-pro, Menlo, Monaco, Consolas,'Courier New',monospace;
 }
 
 .container-fluid{
-  max-width: 100%!important;
-  overflow-x: hidden!important;
+  max-width:100%!important;
+  overflow-x:hidden!important;
 }

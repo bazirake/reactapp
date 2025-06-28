@@ -1,16 +1,21 @@
 
 .myActive{
-  
-    color: rgba(0, 0, 0, 0.885)!important;
-    border-bottom: 1px solid black!important;
-    font-weight: bolder!important;
+     color: #060318!important;
+     font-weight: bolder!important;
+     border-bottom: 1px solid;
+
 }
 
 .nav-link{
     font-size: 14px!important;
     font-weight: bold;
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    display: inline-block!important;
 }
+.nav-link:hover{
+  color: #060318!important;
+}
+
 
   #header {
     position: absolute;
