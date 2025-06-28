@@ -1,3 +1,13 @@
+*,
+*::after,
+*::before{
+    box-sizing:inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
 .mmm{
     background-color: #260707;
     height: 400px;
@@ -27,7 +37,7 @@
 .wo-container
  {
  text-align: center;
- padding: 12px 200px 12px ;
+ padding: 12px 20px 12px ;
 }
 .btn-color{
   background-color:  #1acc8d!important;
@@ -1087,14 +1097,11 @@ h1, h2, h3, h4, h5, h6 {
   /* Contact us Form-section */
   .section-title h2 {
     font-size: 14px;
-
     padding: 0;
     line-height: 1px;
     margin: 0;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-   
-
     position: relative;
 }
 
@@ -1102,7 +1109,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 60px;
     position: relative;
 }
-@media (max-width: 1199px) {
+@media(max-width: 1199px) {
     section, .section {
         scroll-margin-top: 66px;
     }
@@ -1225,7 +1232,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact .php-email-form .submit {
     background-image: url("../assets/Images/close-button-svgrepo-com.svg");
     color:#ffffff;
-    background:#10CCC9;
+    background:var(--btn-color);
     border: 0;
     padding: 10px 30px;
     transition: 0.4s;

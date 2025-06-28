@@ -45,19 +45,19 @@ import { stringify } from 'querystring';
     const[apimessage,setApires]=useState("");
 
     function CloseMessage() {
-      sendMessage(false)
-    }
+       sendMessage(false)
+     }
     function SendMessage() {
-      sendMessage(true)
-    }
+       sendMessage(true)
+     }
   function FrequentAsked(){
       setFre((item=>!item))
-   }
+    }
    function FrequentAskedx(){
-    setFrex((itemx=>!itemx))
- }
+     setFrex((itemx=>!itemx))
+   }
  function FrequentAsked2(){
-  setFre2((item=>!item))
+    setFre2((item=>!item))
 }
 
 function ReadMore() {
@@ -786,12 +786,12 @@ function ReadMore() {
 
               <div className="col-md-12">
                   <input type="text" value={contact.subjects} onChange={(e)=>setContact((prevData)=>({...prevData,subjects:e.target.value}))} className="form-control" name="subject" placeholder="Subject"/>
-                   {errmess.subjects && <span style={{ color: "red",fontSize:"15px" }}>{errmess.subjects}</span>}
+                  {errmess.subjects && <span style={{ color: "red",fontSize:"15px" }}>{errmess.subjects}</span>}
               </div>
 
               <div className="col-md-12">
                 <textarea className="form-control" value={contact.message} onChange={(e)=>setContact((prevData)=>({...prevData,message:e.target.value}))} name="message" placeholder="Leave a Message"></textarea>
-                 {errmess.message && <span style={{ color: "red",fontSize:"15px" }}>{errmess.message}</span>}
+                 {errmess.message && <span style={{color:"red",fontSize:"15px"}}>{errmess.message}</span>}
               </div>
                 <div className="col-md-12 text-center">
                   <div className="loading">Loading</div>

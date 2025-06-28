@@ -878,21 +878,14 @@ if(id==='24' && cate==='0'){
                       {courseCont}
                       <button className="btn btn-color-service w-25 my-3" onClick={showLoginModels}>Join for Free</button>
              </div>
-           
-            
-
  <div className='col-md-6'>
-    <div className="cds-9 css-1jmy2qb cds-11 cds-grid-item cds-56 cds-64"><div className="css-125uo4z"><img src={HapIconn}  style={{maxWidth:"100%",height:"auto"}} alt=""/></div></div>
+     <div className="cds-9 css-1jmy2qb cds-11 cds-grid-item cds-56 cds-64"><div className="css-125uo4z"><img src={HapIconn}  style={{maxWidth:"100%",height:"auto"}} alt=""/></div></div>
  </div>
- 
     </div>
- {
- 
- loginm &&
- (<LoginModal handleRegister={HideLoginModels} idco={cate} idc={id}/>)
- 
- }  
-       </div>
-       
-  )
-}
+    {
+   loginm &&
+     (<LoginModal handleRegister={HideLoginModels} idco={cate} idc={id}/>)
+    }  
+    </div>
+   )
+  }
