@@ -5,6 +5,14 @@
      border-bottom: 1px solid;
 
 }
+.topadd{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px ;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
 
 .nav-link{
     font-size: 14px!important;

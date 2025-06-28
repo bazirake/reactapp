@@ -22,14 +22,16 @@ function NavBars(){
           <>
           <div className='container-fluid fixed-top'  style={{zIndex:"88"}}>
           
-          <div className="d-flex bd-highlight top-wrapper fixed">
-      <div className="flex-fill p-2 bd-highlight">
-      <span className="px-2"><i className="bi bi-telephone"></i>250787124101</span>
-      <span><i className="bi bi-envelope"></i>info@exceptionaltech.rw</span>
-      </div>
+          <div className="top-wrapper fixed">
+      <div>
+        <ul className='topadd'>
+          <li><i className="bi bi-telephone"></i>250787124101</li>
+          <li><i className="bi bi-envelope"></i>info@exceptionaltech.rw</li>
+          <li>23M7+249,KN123 St,Kigali,Rwanda</li>
+        </ul>
     
+      </div>
    
-   <span className="downloadIncon">23M7+249, KN 123 St, Kigali, Rwanda</span>
   </div>
           <nav className="navbar navbar-expand-lg nav-bar-bg-color ">
        <div className="container-fluid">
