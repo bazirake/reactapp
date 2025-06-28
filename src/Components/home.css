@@ -548,6 +548,9 @@ ol, ul {
     flex-direction: column;
     align-items: center;
   }
+  .btn-color-service{
+    
+  }
 }
 
 .explorediv ul li .gets{

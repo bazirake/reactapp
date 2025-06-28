@@ -30,11 +30,9 @@
     letter-spacing: 0em;
     color: inherit;
 }
-
 *, :after, :before {
     box-sizing: border-box;
 }
-
 .css-ngd472 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -51,14 +49,12 @@
     letter-spacing: -0.003em;
     color: #0f1114;
 }
-
 .css-kimdhf {
     margin: 0;
     font: 400 0.875rem / 1.25rem Source Sans Pro,Arial,sans-serif;
     letter-spacing:0em;
     color: #0f1114;
 }
-
 @media (max-width: 1439.95px) {
     .css-125uo4z{
         width: calc(100% + 32px);
@@ -67,14 +63,11 @@
         margin-left: 0;
     }
 }
-
 .fw-s{
     font-weight: bolder;
 }
-
 .popup{
     width: 100px;
-  
     height: 80px;
     position: absolute;
     top: 50%;
