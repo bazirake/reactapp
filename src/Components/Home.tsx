@@ -99,8 +99,6 @@ function ReadMore() {
   return <>
   <section>
    <div className="container-fluid">
-          
-      
         <section id="hero" className="hello-container" style={{marginTop:"60px"}}>
          <div className="row g-0 pt-3 ">
               <div className="col-md-4">
@@ -127,25 +125,12 @@ function ReadMore() {
              </div>
          </div>
         </section>
-        {/* <div className="row g-0">
-        
-          <div className="col text-center back-image">
-           <a href="#" className="btn btn-secondary joins">
-              <i className="bi bi-arrow-right"></i>
-                Join Us
-            </a>
-          </div>
-        </div>  */}
-
-
+      
         <div className="row">
           <div  className="wo-container">
           <h2 className="text-center">Who we are</h2>
       <p className="text-starta">The Exeptional Tech Company , is a Company which provides a high-quality software training
-    
-          
         and
-      
       Software development services to help individuals and businesses to Simplify Heavy daily Tasks performed.</p>
       {
         readv && (
@@ -156,69 +141,12 @@ function ReadMore() {
         )
       }
 
-     
-
-      <button className="btn btn-color-service" onClick={ReadMore}> {readv ?"Read Less":"Read More"} </button>
-
-
-    
-
+      <button className="btn btn-color-service" onClick={ReadMore}> {readv ? "Read Less":"Read More"}</button>
        </div>
-     
-        
-       
-
-    {/* <div className="card col-md-6">
-      <span className="card-title text-white text-center card-title-color"></span>
-      <div className="card-body my-card-body">
-      <ul className="card-text font-weight-card">
-        <li className="bi bi-check">Software Development Training</li>
-        <li className="bi bi-check">Web & Mobile App Development</li>
-        <li className="bi bi-check">Custom Software Solutions</li>
-    </ul>
-      </div> */}
-        {/* </div> */}
-
-       
-        
-       
         </div>
         <div className="row d-flex">
           <h2 className="text-center">Our Services</h2>
         </div>
-        {/* <div className="row mysec">
-
-        <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <div className="features-item">
-              <i className="bi bi bi-mortarboard  icon-color" ></i>
-              <h3><a href="" className="stretched-link">Software Development Training</a></h3>
-            </div>
-          </div>
-
-
-          <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <div className="features-item">
-              <i className="bi bi-shuffle  icon-color" ></i>
-              <h3><a href="" className="stretched-link">Web & Mobile App Development</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <div className="features-item">
-                <i className="bi bi-command  icon-color" ></i>
-                <h3><a href="" className="stretched-link">Software Customization</a></h3>
-             </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <div className="features-item">
-              <i className="bi bi-infinity  icon-color"></i>
-              <h3><a href="" className="stretched-link">System Design</a></h3>
-            </div>
-          </div>
-          
-        </div> */}
-
         <div className="row">
           <div className="col-md-3 col-lg-3">
           <figure className="figure">
@@ -235,8 +163,6 @@ function ReadMore() {
            <figcaption className="figure-caption text-center">
             <h3>Web & Mobile App Development</h3>
             <p>Customized hardware to fit your business needs and gaming necessities</p>
-            
-            
             </figcaption>
          </figure>
           </div>
@@ -249,7 +175,6 @@ function ReadMore() {
            </figcaption>
          </figure>
           </div>
-
           <div className="col-md-3 col-lg-3">
           <figure className="figure">
           <img id='img4' src={im5} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
@@ -258,7 +183,6 @@ function ReadMore() {
            </figcaption>
          </figure>
           </div>
-
         </div>
 </div>
 </section>
@@ -338,7 +262,7 @@ function ReadMore() {
       <div className="row explorediv">
       <h2  className="font-sizee text-center">Explore <span className="fix-comma">4</span>+ Free <span className="hide-on-mobile">Online</span>Training</h2>
         <ul className="d-flex  justify-content-center">
-          <li >
+          <li onClick={()=>BecomeFun('/courses')}>
             <i className="bi bi-database"></i>
            <a > <h4>Database</h4> <span className="second-tex">
             Training</span>
@@ -346,14 +270,14 @@ function ReadMore() {
             <span className="gets">Get<i className="bi bi-arrow-right"></i></span>
             </a> 
           </li>
-          <li>
+          <li onClick={()=>BecomeFun('/courses')}>
             <i className="bi bi-recycle"></i>
           <a> <h4>Api</h4> 
           <span>Development</span></a> 
           <br/>
           <span className="gets">Get<i className="bi bi-arrow-right"></i></span>
           </li>
-          <li>
+          <li onClick={()=>BecomeFun('/courses')}>
             <i className="bi bi-tags"></i>
            <a><h4>Front-end</h4>
            <span>Development</span>
@@ -362,7 +286,7 @@ function ReadMore() {
            </a> 
            
           </li>
-          <li>
+          <li onClick={()=>BecomeFun('/courses')}>
           <a>
           <i className="bi bi-box-arrow-right"></i>
             <h4>Api</h4> 
@@ -372,7 +296,7 @@ function ReadMore() {
           </a>  
           </li>
 
-          <li>
+          <li onClick={()=>BecomeFun('/courses')}>
           <a>
           <i className="bi bi-arrow-left-right"></i>
             <h4>Fullstack</h4> 
@@ -463,12 +387,9 @@ function ReadMore() {
        <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 
         <div className="row g-0">
-
-
          {
           imaged.map((item)=>{
           return  (
-              
               <div className="col-lg-3 col-md-4">
                <div className="gallery-item">
               <a href={item.urils} className="glightbox" data-gallery="images-gallery">
@@ -476,11 +397,9 @@ function ReadMore() {
               </a>
             </div>
           </div> 
-              
             )
           })
         }
-         
         </div>
       </div>
         </section>       
@@ -490,7 +409,6 @@ function ReadMore() {
           <div className="row g-0">
           <div className="col-md-6 ">
             <div className="contents">
-
             <div className="cta-header">
             <h2 className="elementor-heading-title">
              Discover an exciting career path in the tech industry
@@ -506,7 +424,6 @@ function ReadMore() {
           </ul>
           </div>
             </div>
-          
           </div>
           <div className="col-md-6 my-imagew">
             <div className="image-sizes">
@@ -519,27 +436,15 @@ function ReadMore() {
       </section>
 
 
-      {/* <section id="gallery" className="gallery m-section"> */}
-         {/* start of section title  */}
-        {/* <div className="container section-title aos-init aos-animate" data-aos="fade-up">
-        <h2>Team</h2>
-        <div><span>Check Our Team</span></div>
-      </div> */}
-      {/* </section> */}
-
 
       <section id="team" className="team section">
-
-     
       <div className="container section-title aos-init aos-animate" data-aos="fade-up">
         <h2>Team</h2>
         <div><span>Check EXTECH</span> <span className="description-title">Team</span></div>
       </div>
 
       <div className="container">
-
         <div className="row gy-5">
-
           <div className="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div className="member">
               <div className="pic"><img src="https://bootstrapmade.com/content/demo/Bootslander/assets/img/team/team-1.jpg" className="img-fluid" alt=""/></div>
@@ -748,8 +653,7 @@ function ReadMore() {
           <div className="col-lg-8">
             <form  onSubmit={async(e)=>{
               e.preventDefault();
-              
-              if (validateForm()) {
+              if(validateForm()){
                 setLoading(true)
                  try{
                 const ress=await fetch("https://exapi-gjsy.onrender.com/contact",{

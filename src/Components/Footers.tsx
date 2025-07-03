@@ -62,7 +62,7 @@ function Footers() {
       <p className="text-dec">Subscribe to ExTech Ltd and receive the latest Updates about our products and services!</p>
       <form  onSubmit={(e)=>{
           e.preventDefault();
-          if (ValidateSub()) {
+          if (ValidateSub()){
              alert(emails.email);
           }
           else{
