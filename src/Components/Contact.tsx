@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "../Components/contact.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css"
@@ -23,6 +23,12 @@ function Contact() {
     const[isloading,setLoading]=useState(false);
     const[apimessage,setApires]=useState("");
     const [messageSt,sendMessage]=useState(false);
+    const [ipaddess,setIpaddress]=useState('');
+
+    useEffect(()=>{
+       fetch('https://api.ipify.org?format=json').then((res)=>res.json()).
+       then((data)=>setIpaddress(data.ip)).catch((err)=>console.log('Failed to get IP',err));
+    },[]);
 
       function CloseMessage() {
         sendMessage(false)
@@ -131,7 +137,7 @@ function Contact() {
               }
               //alert("hello")
             }}
-      >
+         >
         <div className="row gy-4">
 
           <div className="col-md-6">
@@ -174,9 +180,9 @@ function Contact() {
                   </div>
                  </div>
               }  
+              <span>{ipaddess}</span>
               <button type='submit' className='submit'>Send Message</button>
               </div>
-
         </div>
       </form>
     </div>
