@@ -16,6 +16,12 @@ import { GoogleMaps } from "./GoogleMaps";
      subjects?:string;
      message?:string
     }
+    type iptrackers={
+      ip:string;
+      page:string;
+      country:string;
+      timest:Date;
+    }
 
 function Contact() {
     const[contact,setContact]=useState<MessageTye>({name:"",email:"",subjects:"",message:""});
@@ -26,8 +32,18 @@ function Contact() {
     const [ipaddess,setIpaddress]=useState('');
 
     useEffect(()=>{
-       fetch('https://api.ipify.org?format=json').then((res)=>res.json()).
-       then((data)=>setIpaddress(data.ip)).catch((err)=>console.log('Failed to get IP',err));
+        fetch('https://api.ipify.org?format=json').then((res)=>res.json()).
+        then((data)=>{
+        const id=data.ip
+         const datao:iptrackers={ip:id,page:"/services",country:"Burundi",timest:new Date()};
+        fetch("https://exapi-gjsy.onrender.com/iptracker",{
+         method:"POST",
+         headers:{
+         "Content-Type":"application/json"
+         },
+         body:JSON.stringify(datao)
+        }).then((res)=>res.json()).then((data)=>console.log(data.message)).catch((err)=>console.log("error in ip track",err))
+       }).catch((err)=>console.log('Failed to get IP',err));
     },[]);
 
       function CloseMessage() {
