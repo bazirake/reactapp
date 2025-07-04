@@ -18,7 +18,8 @@ import imaged from "../Components/mockdata/Imagedata";
 import { wait } from '@testing-library/user-event/dist/utils';
 import { json } from 'stream/consumers';
 import { stringify } from 'querystring';
-import { useNavigate } from 'react-router';
+import { useLocation, useNavigate } from 'react-router';
+import iptrackers from "../Components/mockdata/Iptracking";
 
  const Imagesx=[im1,im2,im3,im4];
    type MessageTye={
@@ -45,6 +46,37 @@ import { useNavigate } from 'react-router';
     const[isloading,setLoading]=useState(false);
     const[apimessage,setApires]=useState("");
     const navigate=useNavigate();
+
+    const pageV = useLocation();
+   useEffect(()=>{
+        fetch('https://api.ipify.org?format=json').then((res)=>res.json()).
+        then((data)=>{
+        const ipp=data.ip;
+        // Now fetch location info using the IP
+         fetch(`https://ipapi.co/${ipp}/json/`).then((res)=>res.json()).then((location)=>{
+          const countryx=location.country_name ||"UNKNOWN";
+          const datao:iptrackers={ip:ipp,page:pageV.pathname,country:countryx,timest:new Date(),
+          network:location.network,
+          city:location.city,
+          region:location.region,
+          country_capital:location.country_capital,
+          latitude:location.latitude,
+          longitude:location.longitude,
+          timezone:location.timezone,
+          currency_name:location.currency_name,
+          languages:location.languages,
+          org:location.org
+          };
+          fetch("https://exapi-gjsy.onrender.com/iptracker",{
+          method:"POST",
+          headers:{
+           "Content-Type":"application/json"
+         },
+         body:JSON.stringify(datao)
+        }).then((res)=>res.json()).then((data)=>console.log(data)).catch((err)=>console.log("error in ip track",err))
+         }).then((err)=>console.log("Error in fetching Geoloaction Apis",err))
+       }).catch((err)=>console.log('Failed to get IP',err));
+    },[]);
 
     function CloseMessage() {
        sendMessage(false)
