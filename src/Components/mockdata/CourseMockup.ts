@@ -1,6 +1,5 @@
 import ICoursedata from "../data/CourseService";
 
-
 const course:Array<ICoursedata>=[
     {
         ctitle:"Introduction to Html",

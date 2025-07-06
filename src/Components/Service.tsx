@@ -15,13 +15,12 @@ function Service() {
   const navigate=useNavigate();
   const MeetEng=(path:string)=>{
         navigate(path);
-
-         const pageV =useLocation();
-   useEffect(()=>{
+        const pageV =useLocation();
+        useEffect(()=>{
         fetch('https://api.ipify.org?format=json').then((res)=>res.json()).
-        then((data)=>{
-        const ipp=data.ip;
-        // Now fetch location info using the IP
+         then((data)=>{
+         const ipp=data.ip;
+         //Now fetch location info using the IP
          fetch(`https://ipapi.co/${ipp}/json/`).then((res)=>res.json()).then((location)=>{
           const countryx=location.country_name ||"UNKNOWN";
           const datao:iptrackers={ip:ipp,page:pageV.pathname,country:countryx,timest:new Date(),

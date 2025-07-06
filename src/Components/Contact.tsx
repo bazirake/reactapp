@@ -64,7 +64,7 @@ function Contact() {
         sendMessage(false)
       }
       function SendMessage() {
-        sendMessage(true)
+         sendMessage(true)
       }
 
         const validateForm=()=>{
