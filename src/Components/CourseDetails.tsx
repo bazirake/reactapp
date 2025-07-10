@@ -49,35 +49,32 @@ useEffect(() => {
 
   fff();
 }, [cate, id]);
-
-
-  
    return(
-
    <div className="container-fluid course-margin">
-
     <div className='row'>
-      {!loading &&  
-      
-      <div className='col-md-6 d-flex flex-column'>
-    <h1 className='fw-s text-wrap'>{coursedeta[0].title}</h1>  
-    <div className="css-tvqrra"><div className="css-ngd472">
-    <p className="css-6ecy9b"><span>{coursedeta[0].subtitle}</span>
-    </p>
-    <p className="css-kimdhf">{coursedeta[0].content}</p>
-    <p className="css-kimdhf"><span><b>Skills you’ll need</b>: {coursedeta[0].subcontent}</span></p></div></div>
-     <button className="btn btn-color-service w-50 my-3" >Join for Free</button>
-    </div>
+    { loading ? (
+      <div className="col-md-6 d-flex justify-content-center">
+  <div className="spinner-border" role="status">
+  
+     </div>
+     </div>
+)
+      :  
+    (<div className='col-md-6 d-flex flex-column'>
+       <h1 className='fw-s text-wrap'>{coursedeta[0].title}</h1>  
+       <div className="css-tvqrra"><div className="css-ngd472">
+        <p className="css-6ecy9b"><span>{coursedeta[0].subtitle}</span>
+        </p>
+        <p className="css-kimdhf">{coursedeta[0].content}</p>
+        <p className="css-kimdhf"><span><b>Skills you’ll need</b>:{coursedeta[0].subcontent}</span></p></div></div>
+        <button className="btn btn-color-service w-50 my-3" onClick={()=>alert('Join For free')}>Join for Free</button>
+    </div>)
       }
    
-     
  <div className='col-md-6'>
      <div className="cds-9 css-1jmy2qb cds-11 cds-grid-item cds-56 cds-64"><div className="css-125uo4z"><img src={HapIconn}  style={{maxWidth:"100%",height:"auto"}} alt=""/></div></div>
  </div>
     </div>
     </div>
    )
-  
-
-  
   }

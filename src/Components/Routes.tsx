@@ -45,6 +45,10 @@ export const router=createBrowserRouter([
           path:"/courses/:cate/:id",
           element:<CourseDetails/>
         },
+         {
+          path:"/Sign",
+          element:<Sign/>
+        },
         {
          path:"/about",
         element:<About/>
