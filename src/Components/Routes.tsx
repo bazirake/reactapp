@@ -10,6 +10,7 @@ import Service from "./Service";
 import Course from "./Course";
 import About from "./About";
 import CourseDetails from "./CourseDetails";
+import NotFound from "./NotFound";
 
 export const router=createBrowserRouter([
   {
@@ -45,10 +46,13 @@ export const router=createBrowserRouter([
           element:<CourseDetails/>
         },
         {
-          path:"/about",
-          element:<About/>
-        }
-      
+         path:"/about",
+        element:<About/>
+        },
+        {
+         path:"*" ,
+         element:<NotFound/>
+        } 
         ]
     }
 ])

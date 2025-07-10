@@ -6,6 +6,7 @@ import courses from "../Components/mockdata/mockCourseNew";
 import { useLocation, useNavigate } from 'react-router-dom';
 import iptrackers from "../Components/mockdata/Iptracking";
 import Categoryc from "../Components/mockdata/Category";
+import {encrypt} from "./data/Encrypt";
 type Activate={
   indexe:number;
   cid?:bigint;
@@ -81,36 +82,12 @@ function Course() {
       setAllCourseDes((item)=>!item)
    }
   const navigate = useNavigate();
-  const goTocourse = (cate:number,id:number) => {
-  navigate(`${location.pathname}/${cate}/${id}`);
+  const goTocourse = (cate:string,id:string) => {
+   let encca=encodeURIComponent(encrypt(cate));
+   let encc=encodeURIComponent(encrypt(id));
+    navigate(`${location.pathname}/${encca}/${encc}`);
   };
-  //  const tabData=courses.map((category,item)=>({
-  //  content:(
-  //   // <div className="container">
-  //   //   <div className="row">
-  //   //     {
-  //   //     category.courses.map((course, index)=>(
-  //   //       <div key={index} onClick={()=>goTocourse(item,index)} className="col-lg-3 col-md-4 mb-4">
-  //   //         <div className="card" style={{width:"18rem"}}>
-  //   //           <img
-  //   //             src={course.image}
-  //   //             className="card-img-top"
-  //   //             alt={course.title}
-  //   //           />
-  //   //           <div className="card-body">
-  //   //             <h5 className="card-title fw-bolder">{course.title}</h5>
-  //   //               <p className="ext-text-sm single-course-unit_course-headline__sKuVM">
-  //   //                  {course.description}
-  //   //               </p>
-  //   //             <button className="btn btn-color-service" onClick={()=>goTocourse(item,index)}>Join for Free</button>
-  //   //           </div>
-  //   //         </div>
-  //   //       </div>
-  //   //     ))}
-  //   //   </div>
-  //   // </div>
-  // )
-
+  
 
  return(
   <div className='container container-mt'>
@@ -128,9 +105,9 @@ function Course() {
         //alert(activeIndex.cid);
         fetch(`https://exapi-gjsy.onrender.com/content/${tab.id}`).then((res)=>res.json()).then((data)=>{setCoursec(data);console.log("data are",data)}).catch((err)=>console.error("error content",err));
            
-        }} key={index} className={`nav-item`}>
+        }}key={index} className={`nav-item`}>
           <a className={`nav-link ${index===activeIndex.indexe ?'active':'nav-link'}`}>{tab.name}</a>
-        </li>
+         </li>
       ))
      }
      </ul>
@@ -152,7 +129,7 @@ function Course() {
                   <p className="ext-text-sm single-course-unit_course-headline__sKuVM">
                      {course.content}
                   </p>
-                <button className="btn btn-color-service">Join for Free</button>
+                <button className="btn btn-color-service" onClick={()=>goTocourse(course.cid,course.id)}>Join for Free</button>
               </div>
             </div>
           </div>
