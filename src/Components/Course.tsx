@@ -88,7 +88,6 @@ function Course() {
     navigate(`${location.pathname}/${encca}/${encc}`);
   };
   
-
  return(
   <div className='container container-mt'>
   <div>

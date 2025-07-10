@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router'
+import { useNavigate, useParams } from 'react-router'
 import HapIconn from "../assets/Images/HappyIcon.webp"
 import "../Components/courseDetail.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +24,12 @@ const [coursedeta,setCoursed]=useState<CourseDetail[]>([
 
 const {cate}=useParams();
 const {id}=useParams();
+const Navigate=useNavigate();
 
+
+const GotoRegisiter=()=>{
+  Navigate("/sign");
+}
 useEffect(() => {
   const fff=async () =>{
     try{
@@ -67,7 +72,7 @@ useEffect(() => {
         </p>
         <p className="css-kimdhf">{coursedeta[0].content}</p>
         <p className="css-kimdhf"><span><b>Skills you’ll need</b>:{coursedeta[0].subcontent}</span></p></div></div>
-        <button className="btn btn-color-service w-50 my-3" onClick={()=>alert('Join For free')}>Join for Free</button>
+        <button className="btn btn-color-service w-50 my-3" onClick={GotoRegisiter}>Join for Free</button>
     </div>)
       }
    
