@@ -26,14 +26,14 @@ const [coursedeta,setCoursed]=useState<CourseDetail[]>([
 let {cate}=useParams();
 let {id}=useParams();
 const Navigate=useNavigate();
-
-
-
-
+  let decrx = decodeURIComponent(decrypt(cate ?? ""));
+      let  codecx = decodeURIComponent(decrypt(id ?? ""));
+      let ecat=encodeURIComponent(encrypt(decrx));
+      let econt=encodeURIComponent(encrypt(codecx));
 function GotoRegisiterxx(catex:string,idx:string){
-const enca=encodeURIComponent(encrypt(catex));
-const encid=encodeURIComponent(encrypt(idx));
-  Navigate(`/sign/${enca}/${encid}`);
+  //const enca=encodeURIComponent(encrypt(catex));
+  //const encid=encodeURIComponent(encrypt(idx));
+  Navigate(`/sign/${catex}/${idx}`);
 }
 useEffect(() => {
   const fff=async () =>{
@@ -50,9 +50,9 @@ useEffect(() => {
       const dddd =await resdata.json();
       console.log("Fetched data:", dddd[0].content);
       setCoursed(dddd);//or dddd.data if nested
-    } catch (err) {
+    } catch(err){
       console.log("Error in fetching single course", err);
-    } finally {
+    }finally{
       setLoading(false);
     }
   };
@@ -78,10 +78,9 @@ useEffect(() => {
         <p className="css-kimdhf">{coursedeta[0].content}</p>
         <p className="css-kimdhf"><span><b>Skills you’ll need</b>:{coursedeta[0].subcontent}</span></p></div></div>
         <button className="btn btn-color-service w-50 my-3" onClick={()=>{
-           if (id!==undefined && cate !==undefined) {
-            GotoRegisiterxx(id,cate);
+          if(ecat!==undefined && econt!==undefined){
+             GotoRegisiterxx(ecat,econt);
           }
-          
           }}>Join for Free</button>
     </div>)
       }

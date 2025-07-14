@@ -82,10 +82,10 @@ function Course() {
       setAllCourseDes((item)=>!item)
    }
   const navigate = useNavigate();
-  const goTocourse = (cate:string,id:string) => {
-   let encca=encodeURIComponent(encrypt(cate));
-   let encc=encodeURIComponent(encrypt(id));
-    navigate(`${location.pathname}/${encca}/${encc}`);
+  const goTocourse =(cate:string,id:string)=>{
+      let encca=encodeURIComponent(encrypt(cate));
+      let encc=encodeURIComponent(encrypt(id));
+      navigate(`${location.pathname}/${encca}/${encc}`);
   };
   
  return(
