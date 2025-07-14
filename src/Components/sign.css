@@ -22,3 +22,20 @@
 .custom-control-label{
   font-size: 14px;
 }
+
+
+form input[type=text],input[type=email], textarea
+ {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #444444;
+    background-color: #ffffff, transparent 50%;
+    border-color: #444444, transparent 80%;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border-radius:0px;
+}

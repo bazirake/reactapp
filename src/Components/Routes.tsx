@@ -46,7 +46,7 @@ export const router=createBrowserRouter([
           element:<CourseDetails/>
         },
          {
-          path:"/Sign",
+          path:"/Sign/:cate/:id",
           element:<Sign/>
         },
         {

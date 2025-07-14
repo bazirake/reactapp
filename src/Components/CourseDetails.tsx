@@ -5,14 +5,15 @@ import "../Components/courseDetail.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css"
 import LoginModal from './LoginModal';
-import {decrypt} from "./data/Encrypt";
+import {decrypt, encrypt} from "./data/Encrypt";
 import CourseDetail from "./data/detailc";
 
 export default function CourseDetails() {
 const [loading,setLoading]=useState(true);
 
 const [coursedeta,setCoursed]=useState<CourseDetail[]>([
-  { title:'',
+  { 
+    title:'',
     subtitle:'',
     content:'',
     subcontent:'',
@@ -22,13 +23,17 @@ const [coursedeta,setCoursed]=useState<CourseDetail[]>([
 ]
 );
 
-const {cate}=useParams();
-const {id}=useParams();
+let {cate}=useParams();
+let {id}=useParams();
 const Navigate=useNavigate();
 
 
-const GotoRegisiter=()=>{
-  Navigate("/sign");
+
+
+function GotoRegisiterxx(catex:string,idx:string){
+const enca=encodeURIComponent(encrypt(catex));
+const encid=encodeURIComponent(encrypt(idx));
+  Navigate(`/sign/${enca}/${encid}`);
 }
 useEffect(() => {
   const fff=async () =>{
@@ -37,8 +42,8 @@ useEffect(() => {
       console.log("Encrypted id:", id);
       const decr = decodeURIComponent(decrypt(cate ?? ""));
       const codec = decodeURIComponent(decrypt(id ?? ""));
-      console.log("Decrypted cate:", decr);
-      console.log("Decrypted id:", codec);
+      console.log("Decrypted cate:",decr);
+      console.log("Decrypted id:",codec);
       const apiUrl =`https://exapi-gjsy.onrender.com/detail/${codec}/${decr}`;
       console.log("Calling API:",apiUrl);
       const resdata = await fetch(apiUrl);
@@ -72,7 +77,12 @@ useEffect(() => {
         </p>
         <p className="css-kimdhf">{coursedeta[0].content}</p>
         <p className="css-kimdhf"><span><b>Skills you’ll need</b>:{coursedeta[0].subcontent}</span></p></div></div>
-        <button className="btn btn-color-service w-50 my-3" onClick={GotoRegisiter}>Join for Free</button>
+        <button className="btn btn-color-service w-50 my-3" onClick={()=>{
+           if (id!==undefined && cate !==undefined) {
+            GotoRegisiterxx(id,cate);
+          }
+          
+          }}>Join for Free</button>
     </div>)
       }
    
