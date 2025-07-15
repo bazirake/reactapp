@@ -1,5 +1,4 @@
 export type RegisterData={
-
 userType:string;
 Fullname:string;
 Email:string;
@@ -13,13 +12,13 @@ contentid:string;
 }
 
 export type RegisterError={
-erruserType:string;
-errFullname:string;
-errEmail:string;
-errPhone:string;
-errCountry:string;
-Password:string;
-errPConfirm:string;
-errcateoryid:string;
-errcontentid:string;
+erruserType?:string;
+errFullname?:string;
+errEmail?:string;
+errPhone?:string;
+errCountry?:string;
+Password?:string;
+errPConfirm?:string;
+errcateoryid?:string;
+errcontentid?:string;
 }

@@ -7,6 +7,8 @@ import "./sign.css";
 import { useParams } from 'react-router';
 import { decrypt } from './data/Encrypt';
 import {RegisterData} from "./data/Registerobject";
+import { Prev } from 'react-bootstrap/esm/PageItem';
+import {RegisterError} from "./data/Registerobject";
 
 function Sign() {
   let {cate}=useParams();
@@ -14,8 +16,49 @@ function Sign() {
   let decc=decodeURIComponent(decrypt(cate ?? ""));
   let deidco=decodeURIComponent(decrypt(id ?? ""));
   const[course,setCourse]=useState<RegisterData>({userType:'',Fullname:'',Email:'',Phone:'',Country:'',Password:'',PConfirm:'',cateoryid:decc,contentid:deidco});
- 
+  const [errom,setError]=useState<RegisterError>();
+  
+  const Validate=()=>{
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const rwPhoneRegex = /^07[2-9]\d{7}$/;
+      let  errda:RegisterError={};
+        if(course.Fullname==="")
+        {
+          errda.errFullname="Fullname should not be empty"
+        }
+        if(course.Country===""){
+          errda.errCountry="Country Should not be empty"
+        }
+        if(course.Email===""){
+          errda.errEmail="Email should not be empty"
+        }
+        if(!emailRegex.test(course.Email)) {
+         errda.errEmail = "Enter a valid email address";
+       }
+        if(course.Phone===""){
+          errda.errPhone="Phone Should not be empty"
+        }
 
+          if(!rwPhoneRegex.test(course.Phone)){
+           errda.errPhone="Enter avalid Phone number";
+        }
+
+        if(course.userType===""){
+          errda.erruserType="User type should not be empty"
+        }
+        if(course.Password===""){
+          errda.Password="Password should not be empty"
+         }
+        if(course.PConfirm===""){
+          errda.errPConfirm="Confirm Password should not be empty"
+        }
+        if(course.Password!==course.PConfirm){
+          errda.errPConfirm="Password confirmation does not maatch"
+        }
+        setError(errda);
+     return Object.keys(errda).length===0
+  }
+  
   return (
      <div className="container py-5 mt-5">
     <div className="row justify-content-center">
@@ -27,7 +70,9 @@ function Sign() {
           <div className="card-body">
             <form onSubmit={(e)=>{
               e.preventDefault();
-              alert('Submitted')
+               if (Validate()) {
+                alert('Submitted Form');
+               }
               
               }}>
               <div className='row'>
@@ -43,19 +88,19 @@ function Sign() {
                    <option value='Softwaredev'>Software dev</option>
                    <option value=' SeniorSoftwaredev'>Senior Software dev</option>
                 </select>
+                 {errom && <span style={{color:"red",fontSize:"15px"}}>{errom.erruserType}</span>}
               </div>
               </div>
 
             <div className='col-md-6'>
               <div className="mb-1">
                  <label  className="form-label">Full Name</label>
-                  
                   <input type="text" className="form-control" hidden={true} value={course.cateoryid} disabled />
                   <input type="text" className="form-control" hidden={true} value={course.contentid} disabled />
                  <input type="text" value={course.Fullname} onChange={(e)=>setCourse((prev)=>({...prev,Fullname:e.target.value}))} className="form-control" id="firstName" placeholder="Eric bazirake"/>
+                 {errom && <span style={{color:"red",fontSize:"15px"}}>{errom.errFullname}</span>}
               </div>
               <div className="mb-1">
-             
               </div>
               </div>
               </div>
@@ -63,13 +108,15 @@ function Sign() {
                <div className='col-md-6'>
                  <div className="mb-1">
                 <label  className="form-label">Email address</label>
-                <input type="email" value={course.Email} onChange={(e)=>setCourse((prev)=>({...prev,Email:e.target.value}))} className="form-control" id="email" placeholder="eric@example.com"/>
+                <input type="text" value={course.Email} onChange={(e)=>setCourse((prev)=>({...prev,Email:e.target.value}))} className="form-control" id="email" placeholder="eric@example.com"/>
+                 {errom && <span style={{color:"red",fontSize:"15px"}}>{errom.errEmail}</span>}
               </div>
                </div>
                 <div className='col-md-6'>
                 <div className="mb-1">
                 <label  className="form-label">Phone</label>
                 <input type="tel" value={course.Phone} onChange={(e)=>setCourse((prev)=>({...prev,Phone:e.target.value}))} className="form-control" id="phone" placeholder="+250123456789"/>
+                 {errom && <span style={{color:"red",fontSize:"15px"}}>{errom.errPhone}</span>}
               </div>
                </div>
               </div>
@@ -83,23 +130,26 @@ function Sign() {
                     <option value='Congo'>Congo</option>
                     <option value='Tanzania'>Tanzania</option>
                   </select>
+                   {errom && <span style={{color:"red",fontSize:"15px"}}>{errom.errCountry}</span>}
               </div>
               <div className="mb-1">
                 <label  className="form-label">Password</label>
-                <input type="password" value={course.Password} className="form-control" id="password" placeholder="Enter password"/>
+                <input type="password" value={course.Password} onChange={(e)=>setCourse((prev)=>({...prev,Password:e.target.value}))} className="form-control" id="password" placeholder="Enter password"/>
+                 {errom && <span style={{color:"red",fontSize:"15px"}}>{errom.Password}</span>}
               </div>
               <div className="mb-1">
                 <label  className="form-label">Confirm Password</label>
-                <input type="password" value={course.PConfirm} className="form-control" id="confirmPassword" placeholder="Re-enter password"/>
+                <input type="password" value={course.PConfirm} onChange={(e)=>setCourse((Prev)=>({...Prev,PConfirm:e.target.value}))} className="form-control" id="confirmPassword" placeholder="Re-enter password"/>
+                 {errom && <span style={{color:"red",fontSize:"15px"}}>{errom.errPConfirm}</span>}
               </div>
               <div className="d-grid d-flex justify-content-center">
                 <button type="submit" className="btn btn-color-service w-75">Register</button>
               </div>
             </form>
           </div>
-          <div className="card-footer text-center">
-            <small> Already registered? <a href="#">Login here</a></small>
-          </div>
+           <div className="card-footer text-center">
+                <small> Already registered? <a href="#">Login here</a></small>
+           </div>
         </div>
       </div>
     </div>
