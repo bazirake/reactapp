@@ -1,13 +1,15 @@
 export type RegisterData={
-userType:string;
-Fullname:string;
-Email:string;
-Phone:string;
-Country:string;
-Password:string;
+usertype:string;
+fname:string;
+email:string;
+tel:string;
+country:string;
+password:string;
 PConfirm:string;
-cateoryid:string;
-contentid:string;
+cateid:string;
+contid:string;
+
+
 
 }
 
