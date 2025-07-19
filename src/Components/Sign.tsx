@@ -163,7 +163,7 @@ function Sign() {
                <div className="d-grid d-flex justify-content-center">
                    <button type="submit" className="btn btn-color-service w-75">
 
-                  {  loadings && <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>}
+                  {loadings && <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>}
                     <span>
                       Register
                     </span></button>
