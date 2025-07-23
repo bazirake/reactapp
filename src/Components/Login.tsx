@@ -1,11 +1,28 @@
 import "./login.css"
 import {Loginobject} from "./data/Registerobject";
 import {LoginError} from "./data/Registerobject";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router";
 function Login() {
   const [logindata,setLogin]=useState<Loginobject>({emails:'',passwords:''});
   const [loginerror,setError]=useState<LoginError>();
   const [respoMessages,setResponse]=useState("");
+  const naviGate=useNavigate();
+  
+  useEffect(()=>{
+   if(respoMessages==='Logged in successfully') 
+     {
+       const timer=setTimeout(()=>{
+       naviGate("/courses");
+    },4000) //4seconds
+
+   return ()=>clearTimeout(timer);  
+  }
+
+  },[respoMessages])
+
+
+
    const Validate=()=>{
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       let   errordata:LoginError={}
@@ -19,9 +36,7 @@ function Login() {
         errordata.passwordError="Password field should not be empty";
      }
      setError(errordata);
-
      return Object.keys(errordata).length===0
-
    }
   
   return (
@@ -29,7 +44,7 @@ function Login() {
   <form className="mx-auto form-custom" onSubmit={async(e)=>{
         e.preventDefault()
          if(Validate()){
-            let resdata=await fetch("https://exapi-gjsy.onrender.com/Login",{
+            let resdata=await fetch("https://exapi-gjsy.onrender.com/loginAuthe",{
             method:"POST",
             headers:{
               "Content-Type":"application/json"
@@ -37,11 +52,8 @@ function Login() {
             body:JSON.stringify(logindata)
            });
            let conervertdata=await resdata.json(); 
-
-           setResponse(conervertdata.message);
+       setResponse(conervertdata.message);    
         }
-
-         
      }}>
     <h4 className="text-center h44">Login</h4>
        <div className="form-group">
