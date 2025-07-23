@@ -12,14 +12,9 @@ Content-Type: application/json
 GET  https://exapi-gjsy.onrender.com/content
 ###
  POST https://exapi-gjsy.onrender.com/logout
-
 ###
 GET https://exapi-gjsy.onrender.com/contentAuth/5
 ###
-GET  https://exapi-gjsy.onrender.com/detailAuth/1/2
+GET https://exapi-gjsy.onrender.com/detailAuth/16/2
 ###
-GET  https://exapi-gjsy.onrender.com/detail/3/1
-
-
-
-
+GET  https://exapi-gjsy.onrender.com/detail/20/3

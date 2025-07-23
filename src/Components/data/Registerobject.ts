@@ -31,3 +31,9 @@ export type LoginError={
     emailError?:string;
     passwordError?:string;
 }
+
+export type LoginResp={
+    id:string;
+    cateid:string;
+    contentid:string;
+}

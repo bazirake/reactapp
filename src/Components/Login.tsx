@@ -3,20 +3,27 @@ import {Loginobject} from "./data/Registerobject";
 import {LoginError} from "./data/Registerobject";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
+import {LoginResp} from "./data/Registerobject";
+import { encrypt } from "./data/Encrypt";
 function Login() {
   const [logindata,setLogin]=useState<Loginobject>({emails:'',passwords:''});
   const [loginerror,setError]=useState<LoginError>();
   const [respoMessages,setResponse]=useState("");
+  const [loginpar,setLoginP]=useState<LoginResp>({id:'',cateid:'',contentid:''});
+ 
   const naviGate=useNavigate();
-  
+
   useEffect(()=>{
    if(respoMessages==='Logged in successfully') 
      {
-       const timer=setTimeout(()=>{
-       naviGate("/courses");
-    },4000) //4seconds
+      let cate=encodeURIComponent(encrypt(loginpar.cateid));
+      let id=encodeURIComponent(encrypt(loginpar.contentid));
+      console.log("logssss",loginpar)
+      const timer=setTimeout(()=>{
+       naviGate(`/courses/${cate}/${id}`);
+      },4000) //4seconds
 
-   return ()=>clearTimeout(timer);  
+    return ()=>clearTimeout(timer);  
   }
 
   },[respoMessages])
@@ -52,7 +59,8 @@ function Login() {
             body:JSON.stringify(logindata)
            });
            let conervertdata=await resdata.json(); 
-       setResponse(conervertdata.message);    
+        setResponse(conervertdata.message);    
+        setLoginP((prev)=>({...prev,id:conervertdata.user.id,cateid:conervertdata.user.cateid,contentid:conervertdata.user.contid}))
         }
      }}>
     <h4 className="text-center h44">Login</h4>
