@@ -8,8 +8,10 @@ import LoginModal from './LoginModal';
 import {decrypt, encrypt} from "./data/Encrypt";
 import CourseDetail from "./data/detailc";
 import api from "./data/axiosClient";
+import { LoginResp } from './data/Registerobject';
 
 export default function CourseDetails() {
+   const [loginpar,setLoginP]=useState<LoginResp>({id:'',cateid:'',contentid:'',fname:'',emails:'',usertype:'',country:''});
 const [loading,setLoading]=useState(true);
 const [coursedeta,setCoursed]=useState<CourseDetail[]>([
   { 
@@ -37,11 +39,13 @@ useEffect(() =>{
 
   const getUser= async()=>{
     try{
-         console.log("User info data");
+       
          const resdata= await api.get("getinfo",{
          withCredentials:true
         });
         console.log("data hss",resdata.data);
+           setLoginP((prevdata)=>({...prevdata,id:resdata.data.id,cateid:resdata.data.cateid,contentid:resdata.data.contid,fname:resdata.data.fname,
+            emails:resdata.data.emails,usertype:resdata.data.usertype,country:resdata.data.country}));
        }catch (error:any){
   
        console.log("Error Response:", error.response?.data);
@@ -49,6 +53,10 @@ useEffect(() =>{
   }
    
   const fff=async()=>{
+
+
+
+
     try{
       console.log("Encrypted cate:",cate);
       console.log("Encrypted id:",id);
@@ -90,11 +98,11 @@ useEffect(() =>{
         </p>
         <p className="css-kimdhf">{coursedeta[0].content}</p>
         <p className="css-kimdhf"><span><b>Skills you’ll need</b>:{coursedeta[0].subcontent}</span></p></div></div>
-        <button className="btn btn-color-service w-50 my-3" onClick={()=>{
+        { loginpar.emails.length ==0 && (<button className="btn btn-color-service w-50 my-3" onClick={()=>{
           if(ecat!==undefined && econt!==undefined){
              GotoRegisiterxx(ecat,econt);
           }
-          }}>Join for Free</button>
+          }}>Join for Free</button>) }
     </div>)
       }
    
