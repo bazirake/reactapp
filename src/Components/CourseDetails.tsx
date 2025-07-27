@@ -35,9 +35,11 @@ const [coursedeta,setCoursed]=useState<CourseDetail[]>([
       Navigate(`/sign/${catex}/${idx}`);
   }
 useEffect(() => {
-  
+  var cc= document.cookie
+  console.log("sessions",cc);
   const getUser= async()=>{
     try{
+
          console.log("User info data");
         const resdata= await api.get("https://exapi-gjsy.onrender.com/getinfo",{
            withCredentials:true
