@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import {LoginResp} from "./data/Registerobject";
 import { encrypt } from "./data/Encrypt";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap-icons/font/bootstrap-icons.css"
 import api from "./data/axiosClient";
 function Login() {
   const [logindata,setLogin]=useState<Loginobject>({emails:'',passwords:''});
@@ -46,7 +48,7 @@ function Login() {
    }
   
   return (
-    <div className="container-fluid container-custom" style={{marginTop:"120px"}}>
+    <div className="container-fluid container-custom my-4">
   <form className="mx-auto form-custom" onSubmit={async(e)=>{
         e.preventDefault()
          if(Validate()){
