@@ -54,7 +54,7 @@ function NavBars(){
     const intervals=setInterval(()=>{
         getUser();
 
-    },4000);
+    },1000);
     getUser();
     return () => clearInterval(intervals);
      },[])
