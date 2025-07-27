@@ -20,13 +20,44 @@ function NavBars(){
         {path:"/login",names:"Login"}
     ]
  
-   
-
-   
      const logsession=localStorage.getItem("userin");
-     const Logout=()=>{
-        localStorage.removeItem("userin");
+     const Logout= async()=>{
+        try {
+          const loout=await api.get("logout",{
+            withCredentials:true
+          });
+
+          setLoginP({id:'',cateid:'',contentid:'',fname:'',emails:'',usertype:'',country:''});
+         // console.log(loout.data.message);
+
+        } catch(error){
+          
+        }
      }
+    
+    useEffect(()=>{
+      const getUser= async()=>{
+       try{
+           console.log("User info data");
+           const resdata= await api.get("getinfo",{
+           withCredentials:true
+        });
+          console.log("data hss",resdata.data);
+          setLoginP((prevdata)=>({...prevdata,id:resdata.data.id,cateid:resdata.data.cateid,contentid:resdata.data.contid,fname:resdata.data.fname,
+            emails:resdata.data.emails,usertype:resdata.data.usertype,country:resdata.data.country}));
+        }catch (error:any){
+         console.log("Error Response:", error.response?.data);
+      }
+    }
+    const intervals=setInterval(()=>{
+        getUser();
+
+    },4000);
+    getUser();
+    return () => clearInterval(intervals);
+     },[])
+    
+    console.log("welcome page",loginpar);
 
     return(
           <>
@@ -59,7 +90,11 @@ function NavBars(){
               </li>   
                )
             }
-              {logsession ? <li><button className='btn btn-color-service' onClick={Logout}>Logout</button></li>:null}
+
+             {loginpar.emails.length> 1 && <li><button className="btn btn-sm btn-danger" title="Logout" onClick={Logout}>
+                    Signout <i className="bi bi-box-arrow-right"></i>
+                                        </button> <span className='border px-1'>{loginpar.usertype}</span> <span className='border px-1'>{loginpar.fname}</span> </li>}
+             
            </ul>
            <form className="d-flex" role="search">
              <input className="form-control me-2 searchf" type="search" placeholder="Search" aria-label="Search"/>
@@ -71,6 +106,5 @@ function NavBars(){
       </>
     )
 }
-
 
 export default NavBars

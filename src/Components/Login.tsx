@@ -13,18 +13,18 @@ function Login() {
   const [loginpar,setLoginP]=useState<LoginResp>({id:'',cateid:'',contentid:'',fname:'',emails:'',usertype:'',country:''});
 
   const naviGate=useNavigate();
-
   useEffect(()=>{
  if(respoMessages==='Logged in successfully') 
    {
-     let cate=encodeURIComponent(encrypt(loginpar.cateid));
-     let id=encodeURIComponent(encrypt(loginpar.contentid));
-     //console.log("logssss",loginpar)
-     const timer=setTimeout(()=>{       
+    
+       let cate=encodeURIComponent(encrypt(loginpar.cateid));
+       let id=encodeURIComponent(encrypt(loginpar.contentid));
+       console.log("logsssssss",loginpar)
+       const timer=setTimeout(()=>{       
        naviGate(`/courses/${cate}/${id}`);
-      },4000) //4seconds                   
+       },2000) //4seconds                   
     return ()=>clearTimeout(timer);                         
-  }
+   }
   },[respoMessages])
 
 
@@ -55,13 +55,16 @@ function Login() {
               const res= await  api.post("loginAuthe",logindata,{
                 withCredentials:true
             });
-              setResponse(res.data.message)
+              
+            setLoginP((prevdata)=>({...prevdata,id:res.data.user.id,cateid:res.data.user.cateid,contentid:res.data.user.contid,fname:res.data.user.fname,
+            emails:res.data.user.emails,usertype:res.data.user.usertype,country:res.data.user.country}));
+            setResponse(res.data.message)
               console.log(res);
             }
             catch(error){
                console.log(error)
             } 
-        //setLoginP((prev)=>({...prev,id:conervertdata.user.id,cateid:conervertdata.user.cateid,contentid:conervertdata.user.contid,emails:conervertdata.user.emails,fname:conervertdata.user.fname,usertype:conervertdata.user.usertype,country:conervertdata.user.country}))
+
         }
      }}>
     <h4 className="text-center h44">Login</h4>

@@ -11,15 +11,14 @@ import api from "./data/axiosClient";
 
 export default function CourseDetails() {
 const [loading,setLoading]=useState(true);
-
 const [coursedeta,setCoursed]=useState<CourseDetail[]>([
   { 
-    title:'',
-    subtitle:'',
-    content:'',
-    subcontent:'',
-    id:'',
-    cid:''
+     title:'',
+     subtitle:'',
+     content:'',
+     subcontent:'',
+     id:'',
+     cid:''
   }
 ]
 );
@@ -34,26 +33,22 @@ const [coursedeta,setCoursed]=useState<CourseDetail[]>([
   function GotoRegisiterxx(catex:string,idx:string){
       Navigate(`/sign/${catex}/${idx}`);
   }
-useEffect(() => {
-  var cc= document.cookie
-  console.log("sessions",cc);
+useEffect(() =>{
+
   const getUser= async()=>{
     try{
-
          console.log("User info data");
-        const resdata= await api.get("getinfo",{
-           withCredentials:true
+         const resdata= await api.get("getinfo",{
+         withCredentials:true
         });
-        console.log("data hss",resdata.data.user);
+        console.log("data hss",resdata.data);
        }catch (error:any){
-         
-          console.log("Error Response:", error.response?.data);
+  
+       console.log("Error Response:", error.response?.data);
     }
   }
    
-
-
-  const fff=async () =>{
+  const fff=async()=>{
     try{
       console.log("Encrypted cate:",cate);
       console.log("Encrypted id:",id);
