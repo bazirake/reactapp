@@ -39,7 +39,9 @@ useEffect(() => {
   const getUser= async()=>{
     try{
          console.log("User info data");
-        const resdata= await api.get(`https://exapi-gjsy.onrender.com/getinfo`);
+        const resdata= await api.get(`https://exapi-gjsy.onrender.com/getinfo`,{
+           withCredentials:true
+        });
         console.log("data hss",resdata.data.user);
        }catch (error:any){
          
