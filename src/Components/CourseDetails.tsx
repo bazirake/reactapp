@@ -7,6 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css"
 import LoginModal from './LoginModal';
 import {decrypt, encrypt} from "./data/Encrypt";
 import CourseDetail from "./data/detailc";
+import api from "./data/axiosClient";
 
 export default function CourseDetails() {
 const [loading,setLoading]=useState(true);
@@ -23,23 +24,35 @@ const [coursedeta,setCoursed]=useState<CourseDetail[]>([
 ]
 );
 
-let {cate}=useParams();
-let {id}=useParams();
-const Navigate=useNavigate();
-  let decrx = decodeURIComponent(decrypt(cate ?? ""));
+ let {cate}=useParams();
+ let {id}=useParams();
+ const Navigate=useNavigate();
+ let decrx = decodeURIComponent(decrypt(cate ?? ""));
       let  codecx = decodeURIComponent(decrypt(id ?? ""));
       let ecat=encodeURIComponent(encrypt(decrx));
       let econt=encodeURIComponent(encrypt(codecx));
-function GotoRegisiterxx(catex:string,idx:string){
-  //const enca=encodeURIComponent(encrypt(catex));
-  //const encid=encodeURIComponent(encrypt(idx));
-  Navigate(`/sign/${catex}/${idx}`);
-}
+  function GotoRegisiterxx(catex:string,idx:string){
+      Navigate(`/sign/${catex}/${idx}`);
+  }
 useEffect(() => {
+  
+  const getUser= async()=>{
+    try{
+         console.log("User info data");
+        const resdata= await api.get(`https://exapi-gjsy.onrender.com/getinfo`);
+        console.log("data hss",resdata.data.user);
+       }catch (error:any){
+         
+          console.log("Error Response:", error.response?.data);
+    }
+  }
+   
+
+
   const fff=async () =>{
     try{
-      console.log("Encrypted cate:", cate);
-      console.log("Encrypted id:", id);
+      console.log("Encrypted cate:",cate);
+      console.log("Encrypted id:",id);
       const decr = decodeURIComponent(decrypt(cate ?? ""));
       const codec = decodeURIComponent(decrypt(id ?? ""));
       console.log("Decrypted cate:",decr);
@@ -58,6 +71,7 @@ useEffect(() => {
   };
 
   fff();
+  getUser();
 }, [cate, id]);
    return(
    <div className="container-fluid course-margin">

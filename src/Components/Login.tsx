@@ -5,27 +5,26 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import {LoginResp} from "./data/Registerobject";
 import { encrypt } from "./data/Encrypt";
+import api from "./data/axiosClient";
 function Login() {
   const [logindata,setLogin]=useState<Loginobject>({emails:'',passwords:''});
   const [loginerror,setError]=useState<LoginError>();
   const [respoMessages,setResponse]=useState("");
-  const [loginpar,setLoginP]=useState<LoginResp>({id:'',cateid:'',contentid:''});
- 
+  const [loginpar,setLoginP]=useState<LoginResp>({id:'',cateid:'',contentid:'',fname:'',emails:'',usertype:'',country:''});
+
   const naviGate=useNavigate();
 
   useEffect(()=>{
-   if(respoMessages==='Logged in successfully') 
-     {
-      let cate=encodeURIComponent(encrypt(loginpar.cateid));
-      let id=encodeURIComponent(encrypt(loginpar.contentid));
-      console.log("logssss",loginpar)
-      const timer=setTimeout(()=>{
+ if(respoMessages==='Logged in successfully') 
+   {
+     let cate=encodeURIComponent(encrypt(loginpar.cateid));
+     let id=encodeURIComponent(encrypt(loginpar.contentid));
+     //console.log("logssss",loginpar)
+     const timer=setTimeout(()=>{       
        naviGate(`/courses/${cate}/${id}`);
-      },4000) //4seconds
-
-    return ()=>clearTimeout(timer);  
+      },4000) //4seconds                   
+    return ()=>clearTimeout(timer);                         
   }
-
   },[respoMessages])
 
 
@@ -51,16 +50,16 @@ function Login() {
   <form className="mx-auto form-custom" onSubmit={async(e)=>{
         e.preventDefault()
          if(Validate()){
-            let resdata=await fetch("https://exapi-gjsy.onrender.com/loginAuthe",{
-            method:"POST",
-            headers:{
-              "Content-Type":"application/json"
-            },
-            body:JSON.stringify(logindata)
-           });
-           let conervertdata=await resdata.json(); 
-        setResponse(conervertdata.message);    
-        setLoginP((prev)=>({...prev,id:conervertdata.user.id,cateid:conervertdata.user.cateid,contentid:conervertdata.user.contid}))
+            try 
+            {
+              const res= await  api.post("loginAuthe",logindata);
+              setResponse(res.data.message)
+              console.log(res);
+            }
+            catch(error){
+               console.log(error)
+            } 
+        //setLoginP((prev)=>({...prev,id:conervertdata.user.id,cateid:conervertdata.user.cateid,contentid:conervertdata.user.contid,emails:conervertdata.user.emails,fname:conervertdata.user.fname,usertype:conervertdata.user.usertype,country:conervertdata.user.country}))
         }
      }}>
     <h4 className="text-center h44">Login</h4>

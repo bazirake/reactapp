@@ -36,4 +36,8 @@ export type LoginResp={
     id:string;
     cateid:string;
     contentid:string;
+    fname:string;
+    emails:string;
+    usertype:string;
+    country:string;
 }

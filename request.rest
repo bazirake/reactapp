@@ -1,4 +1,4 @@
-GET  https://exapi-gjsy.onrender.com/get-contact
+GET  https://exapi-gjsy.onrender.com/getinfo
 ###
 POST https://exapi-gjsy.onrender.com/loginAuthe
 Content-Type: application/json

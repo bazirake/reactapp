@@ -466,9 +466,7 @@ function ReadMore() {
         </div>
       </div>
       </section>
-
-
-
+      
       <section id="team" className="team section">
       <div className="container section-title aos-init aos-animate" data-aos="fade-up">
         <h2>Team</h2>
@@ -563,7 +561,7 @@ function ReadMore() {
           <i className="faq-icon bi bi-question-circle"></i>
           <h3 onClick={FrequentAsked}>What does  Extech Stand for ?</h3>
            {
-            showf && (
+            showf &&(
              <div className="faq-content">
               <p>Extech is an Exceptional technology Limited company that provides Software development Services.</p>
               </div>
@@ -577,7 +575,7 @@ function ReadMore() {
           <h3 onClick={FrequentAskedx}>What are the Requirements to become a member of Extech Company?</h3>
 
            {
-             showfx && (
+             showfx &&(
               <div className="faq-content">
               <p>to become a member of Extech,you should first be interested in technology industry then start registration proccess on this platform.</p>
                </div>
@@ -591,7 +589,7 @@ function ReadMore() {
           <h3 onClick={FrequentAsked2}>How long does it take to become a software developer in Extech?</h3>
 
             {
-             showf2 && (
+             showf2 &&(
                 <div className="faq-content">
                 <p>To become a software developer in Extech , it does not take long time only within three months.</p>
                 </div>
@@ -678,8 +676,6 @@ function ReadMore() {
                 <p>extech.rw</p>
               </div>
             </div>
-            
-
           </div>
 
           <div className="col-lg-8">

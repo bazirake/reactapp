@@ -1,14 +1,16 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router';
 import "../Components/Navbars.css";
 import cicon from "../assets/Images/EXP1.png";
+import { LoginResp } from './data/Registerobject';
+import api from './data/axiosClient';
 
 
 function NavBars(){
    const [cola,setCol]=useState(false)
-    
+     const [loginpar,setLoginP]=useState<LoginResp>({id:'',cateid:'',contentid:'',fname:'',emails:'',usertype:'',country:''});
         const menues=[
         {path:"/",names:"Home"},
         {path:"/courses",names:"Course"},
@@ -17,12 +19,19 @@ function NavBars(){
         {path:"/about",names:"About us"},
         {path:"/login",names:"Login"}
     ]
+ 
+   
+
+   
+     const logsession=localStorage.getItem("userin");
+     const Logout=()=>{
+        localStorage.removeItem("userin");
+     }
 
     return(
           <>
-          <div className='container-fluid fixed-top'  style={{zIndex:"88"}}>
-          
-          <div className="top-wrapper fixed">
+      <div className='container-fluid fixed-top' style={{zIndex:"88"}}>
+        <div className="top-wrapper fixed">
       <div>
         <ul className='topadd'>
           <li><i className="bi bi-telephone"></i>250787124101</li>
@@ -43,13 +52,14 @@ function NavBars(){
          </button>
          <div className={`navbar-collapse ${cola ? "collapse":"" }`}>
            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
-             {
-               menues.map((item)=>
-               <li className="nav-item">
+            {
+              menues.map((item)=>
+              <li className="nav-item">
                   <NavLink className={({isActive})=>`nav-link text-dec ${isActive ?"myActive":"nav-link"}`} aria-current="page" to={item.path}>{item.names}</NavLink>
-                </li>   
+              </li>   
                )
-             }
+            }
+              {logsession ? <li><button className='btn btn-color-service' onClick={Logout}>Logout</button></li>:null}
            </ul>
            <form className="d-flex" role="search">
              <input className="form-control me-2 searchf" type="search" placeholder="Search" aria-label="Search"/>
