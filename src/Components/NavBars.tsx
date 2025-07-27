@@ -1,7 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
-import { NavLink } from 'react-router';
+import { NavLink, useNavigate } from 'react-router';
 import "../Components/Navbars.css";
 import cicon from "../assets/Images/EXP1.png";
 import { LoginResp } from './data/Registerobject';
@@ -10,6 +10,7 @@ import api from './data/axiosClient';
 
 function NavBars(){
    const [cola,setCol]=useState(false)
+   const Navigate=useNavigate()
      const [loginpar,setLoginP]=useState<LoginResp>({id:'',cateid:'',contentid:'',fname:'',emails:'',usertype:'',country:''});
         const menues=[
         {path:"/",names:"Home"},
@@ -29,6 +30,7 @@ function NavBars(){
 
           setLoginP({id:'',cateid:'',contentid:'',fname:'',emails:'',usertype:'',country:''});
          // console.log(loout.data.message);
+         Navigate("/");
 
         } catch(error){
           
