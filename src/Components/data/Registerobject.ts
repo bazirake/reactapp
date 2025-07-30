@@ -41,3 +41,13 @@ export type LoginResp={
     usertype:string;
     country:string;
 }
+
+
+export type UserProfile={
+      fname:string;
+      emails:string;
+      usertype:string;
+      country:string;
+      tel:string;
+      password:string;
+}

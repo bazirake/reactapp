@@ -13,6 +13,7 @@ import { LoginResp } from './data/Registerobject';
 export default function CourseDetails() {
    const [loginpar,setLoginP]=useState<LoginResp>({id:'',cateid:'',contentid:'',fname:'',emails:'',usertype:'',country:''});
 const [loading,setLoading]=useState(true);
+const Navigate=useNavigate();
 const [coursedeta,setCoursed]=useState<CourseDetail[]>([
   { 
      title:'',
@@ -25,14 +26,24 @@ const [coursedeta,setCoursed]=useState<CourseDetail[]>([
 ]
 );
 
+ const ViewAllCourse=()=>{
+ let emails=encodeURIComponent(encrypt(loginpar.emails));
+    Navigate(`/profile/${emails}`);
+
+    //  const res= await api.get("getusercourse/eric.bazirake@abr.rw",{
+    //         withCredentials:true
+    //  });
+     // console.log("My simple User Data",res.data.length);
+   }
+
  let {cate}=useParams();
  let {id}=useParams();
- const Navigate=useNavigate();
+ 
  let decrx = decodeURIComponent(decrypt(cate ?? ""));
       let  codecx = decodeURIComponent(decrypt(id ?? ""));
       let ecat=encodeURIComponent(encrypt(decrx));
       let econt=encodeURIComponent(encrypt(codecx));
-  function GotoRegisiterxx(catex:string,idx:string){
+ function GotoRegisiterxx(catex:string,idx:string){
       Navigate(`/sign/${catex}/${idx}`);
   }
 useEffect(() =>{
@@ -53,10 +64,6 @@ useEffect(() =>{
   }
    
   const fff=async()=>{
-
-
-
-
     try{
       console.log("Encrypted cate:",cate);
       console.log("Encrypted id:",id);
@@ -85,11 +92,11 @@ useEffect(() =>{
     <div className='row'>
     { loading ? (
       <div className="col-md-6 d-flex justify-content-center">
-  <div className="spinner-border" role="status">
+      <div className="spinner-border" role="status">
   
      </div>
      </div>
-)
+   )
       :  
     (<div className='col-md-6 d-flex flex-column'>
        <h1 className='fw-s text-wrap'>{coursedeta[0].title}</h1>  
@@ -98,12 +105,23 @@ useEffect(() =>{
         </p>
         <p className="css-kimdhf">{coursedeta[0].content}</p>
         <p className="css-kimdhf"><span><b>Skills you’ll need</b>:{coursedeta[0].subcontent}</span></p></div></div>
-        { loginpar.emails.length ==0 && (<button className="btn btn-color-service w-50 my-3" onClick={()=>{
+          {loginpar.emails.length ==0 ?  (<button className="btn btn-color-service w-50 my-3" onClick={()=>{
           if(ecat!==undefined && econt!==undefined){
              GotoRegisiterxx(ecat,econt);
-          }
-          }}>Join for Free</button>) }
-    </div>)
+           }
+           }}>Join for Free</button>):
+           (
+            <div className='d-flex '>
+                <button className="btn btn-secondary w-25 mt-3 me-2" onClick={ViewAllCourse}>View Profile</button>
+               
+            </div>
+           )
+           
+           }
+           
+          
+     </div>
+     )
       }
    
  <div className='col-md-6'>

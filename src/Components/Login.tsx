@@ -54,7 +54,7 @@ function Login() {
          if(Validate()){
             try 
             {
-              const res= await  api.post("loginAuthe",logindata,{
+                const res= await  api.post("loginAuthe",logindata,{
                 withCredentials:true
             });
               

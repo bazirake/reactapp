@@ -1,3 +1,7 @@
+
+
+
+
 export default interface ICoursedata{
   ctitle:string;
   cid:number;

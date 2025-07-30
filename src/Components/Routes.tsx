@@ -11,6 +11,7 @@ import Course from "./Course";
 import About from "./About";
 import CourseDetails from "./CourseDetails";
 import NotFound from "./NotFound";
+import Profile from "./Profile";
 
 export const router=createBrowserRouter([
   {
@@ -52,6 +53,14 @@ export const router=createBrowserRouter([
         {
          path:"/about",
         element:<About/>
+        },
+        {
+         path:"/profile/:emails",
+        element:<Profile/>
+        },
+         {
+         path:"/",
+        element:<Profile/>
         },
         {
          path:"*" ,
