@@ -12,6 +12,9 @@ import About from "./About";
 import CourseDetails from "./CourseDetails";
 import NotFound from "./NotFound";
 import Profile from "./Profile";
+import Viewprofile from "./Viewprofile";
+import Updateprofile from "./Updateprofile";
+import Resetpassword from "./Resetpassword";
 
 export const router=createBrowserRouter([
   {
@@ -56,7 +59,24 @@ export const router=createBrowserRouter([
         },
         {
          path:"/profile/:emails",
-        element:<Profile/>
+          element:<Profile/>,
+          children:[{
+            path:"viewp",
+            element:<Viewprofile/>
+          },
+          {
+             path:"/profile/:emails",
+             element:<Viewprofile/>
+          },
+          {
+            path:"udatep",
+            element:<Updateprofile/>
+          },
+           {
+            path:"resetp",
+            element:<Resetpassword/>
+          },
+        ]
         },
          {
          path:"/",

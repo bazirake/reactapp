@@ -48,7 +48,12 @@ function NavBars(){
           setLoginP((prevdata)=>({...prevdata,id:resdata.data.id,cateid:resdata.data.cateid,contentid:resdata.data.contid,fname:resdata.data.fname,
             emails:resdata.data.emails,usertype:resdata.data.usertype,country:resdata.data.country}));
         }catch (error:any){
-         console.log("Error Response:", error.response?.data);
+
+          if (error.response?.data==='Forbidden') {
+           // alert('Session has been expired')
+           Navigate("/login");
+          }
+        
       }
     }
     const intervals=setInterval(()=>{

@@ -18,7 +18,6 @@ function Login() {
   useEffect(()=>{
  if(respoMessages==='Logged in successfully') 
    {
-    
        let cate=encodeURIComponent(encrypt(loginpar.cateid));
        let id=encodeURIComponent(encrypt(loginpar.contentid));
        console.log("logsssssss",loginpar)

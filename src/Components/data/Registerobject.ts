@@ -40,6 +40,7 @@ export type LoginResp={
     emails:string;
     usertype:string;
     country:string;
+    
 }
 
 
@@ -50,4 +51,21 @@ export type UserProfile={
       country:string;
       tel:string;
       password:string;
+      statuscode:string;
+}
+
+export type userupdateErr={
+    fnameerr?:string;
+    emailerr?:string;
+    roleerr?:string;
+    addresserr?:string;
+    telerr?:string;
+}
+
+export type updateUser={
+    fname:string;
+    emails:string;
+    usertype:string;
+    country:string;
+    tel:string;
 }
