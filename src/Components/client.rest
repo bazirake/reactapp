@@ -1,0 +1,12 @@
+###
+
+POST https://exapi-gjsy.onrender.com/sendemail
+
+Content-Type: application/json
+
+{
+    "to":"aime.niyitanga@abr.rw",
+    "subject":"extech Test",
+    "text":"extech Node mail test password reset"
+    
+}

@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type RegisterData={
 usertype:string;
 fname:string;
@@ -68,4 +70,11 @@ export type updateUser={
     usertype:string;
     country:string;
     tel:string;
+}
+
+export type emailobject={
+    to:string;
+    subject:string;
+    text:string;
+  
 }

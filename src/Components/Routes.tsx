@@ -15,6 +15,7 @@ import Profile from "./Profile";
 import Viewprofile from "./Viewprofile";
 import Updateprofile from "./Updateprofile";
 import Resetpassword from "./Resetpassword";
+import Passwordreset from "./Passwordreset";
 
 export const router=createBrowserRouter([
   {
@@ -56,6 +57,10 @@ export const router=createBrowserRouter([
         {
          path:"/about",
         element:<About/>
+        },
+        {
+         path:"/passwordreset",
+         element:<Passwordreset/>
         },
         {
          path:"/profile/:emails",

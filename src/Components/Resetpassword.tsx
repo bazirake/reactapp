@@ -15,10 +15,8 @@ function Resetpassword() {
       </div>
        <div className="d-flex justify-content-center">
          <button type="submit" className="btn btn-color-service w-50 mb-2">
-        
-       {/* <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> */}
-            
-          Reset password</button>
+        {/* <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>*/}   
+        Reset password</button>
     </div>
   </form>
   </div>

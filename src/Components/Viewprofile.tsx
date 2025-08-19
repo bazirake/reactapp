@@ -5,13 +5,12 @@ import api from './data/axiosClient';
 import { decrypt } from './data/Encrypt';
 
 function Viewprofile() {
-
-
-    const[userinfo,setUser]=useState<UserProfile>({emails:'',country:'',tel:'',usertype:'',password:'',fname:'',statuscode:''});
+  
+ const[userinfo,setUser]=useState<UserProfile>({emails:'',country:'',tel:'',usertype:'',password:'',fname:'',statuscode:''});
  const Navigates=useNavigate();
  const routepath=useLocation();
-const {emails}=useParams();
-const emd=decodeURIComponent(decrypt(emails ?? ""));
+ const {emails}=useParams();
+ const emd=decodeURIComponent(decrypt(emails ?? ""));
       useEffect(()=>{
         const userss=async()=>{
         const res=await api.get(`getusercourse/eric.bazirake@abr.rw`,{
@@ -83,5 +82,4 @@ const emd=decodeURIComponent(decrypt(emails ?? ""));
           </div>
   )
 }
-
 export default Viewprofile

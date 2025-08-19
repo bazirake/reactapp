@@ -3,7 +3,9 @@
     box-sizing: border-box;
 }
 
-
+.form-text{
+  cursor:pointer;
+}
 
 .form-custom{
 border: 1px solid;

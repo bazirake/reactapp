@@ -66,7 +66,7 @@ function Updateprofile() {
 
     if (validateForm()){
        setLoading(true)
-      const res=await api.post("https://exapi-gjsy.onrender.com/updateuser",userup,{
+        const res=await api.post("https://exapi-gjsy.onrender.com/updateuser",userup,{
         withCredentials:true
       });
        setuserfeed(res.data.message);
@@ -109,8 +109,8 @@ function Updateprofile() {
             
           Submit</button>
     </div>
-    { userfeed &&  <span className="d-flex alert justify-content-center alert-success" role="alert">
-                 {userfeed}
+    {userfeed &&  <span className="d-flex alert justify-content-center alert-success" role="alert">
+          {userfeed}
         </span>
     }
   </form>

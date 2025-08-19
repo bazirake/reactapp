@@ -1,0 +1,44 @@
+###
+
+
+POST http://192.168.3.2:5050/api/ComprehensiveConsumerReportRiskScoreListingFlag
+Content-Type: application/json
+
+{
+  "name1": "Surname721821",
+  "name2": "OtherName721821",
+  "name3": "",
+  "name4": "",
+  "nationalID": "721821",
+  "passportNo": "",
+  "serviceID": "",
+  "alienID": "",
+  "taxID": "",
+  "dateOfBirth": "",
+  "postalBoxNo": "",
+  "postalTown": "",
+  "postalCountry": "",
+  "telephoneWork": "",
+  "telephoneHome": "",
+  "telephoneMobile": "",
+  "physicalAddress": "",
+  "physicalTown": "",
+  "physicalCountry": "",
+  "reportSector": "1",
+  "reportReason": "2"
+}
+
+###
+POST http://test-bapi.abr.rw/
+Content-Type: application/json
+
+{
+
+"username":"Juakali",
+"password":"@8xcqXfZ!DVp2av"
+
+}
+
+###
+
+GET https://test-bapi.abr.rw/Account/Login?username='Juakali'&password='@8xcqXfZ!DVp2av'

@@ -78,7 +78,9 @@ function Login() {
      <label>Password</label>
         <input type="password" value={logindata.passwords} onChange={(e)=>setLogin((datas)=>({...datas,passwords:e.target.value}))} className="form-control form-control-login" id="exampleInputPassword1" placeholder="Password"/>
          {loginerror && <span style={{color:"red",fontSize:"15px"}}>{loginerror.passwordError}</span>}
-        <div id="emailHelp" className="form-text mt-3">Forgetpassword?</div>
+        <div id="emailHelp" className="form-text mt-3" onClick={()=>alert('reset password')}>
+           Forgetpassword? 
+         </div>
      </div>
          <button type="submit" className="btn btn-primarx mt-4">Login</button>
          <span className='text-success text-center d-flex justify-content-center py-2'>{respoMessages}</span>
