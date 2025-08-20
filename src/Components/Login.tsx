@@ -46,6 +46,9 @@ function Login() {
      return Object.keys(errordata).length===0
    }
   
+   const Forgetpassword=()=>{
+      naviGate("/passwordreset");
+   }
   return (
     <div className="container-fluid container-custom my-4">
   <form className="mx-auto form-custom" onSubmit={async(e)=>{
@@ -78,7 +81,7 @@ function Login() {
      <label>Password</label>
         <input type="password" value={logindata.passwords} onChange={(e)=>setLogin((datas)=>({...datas,passwords:e.target.value}))} className="form-control form-control-login" id="exampleInputPassword1" placeholder="Password"/>
          {loginerror && <span style={{color:"red",fontSize:"15px"}}>{loginerror.passwordError}</span>}
-        <div id="emailHelp" className="form-text mt-3" onClick={()=>alert('reset password')}>
+        <div id="emailHelp" className="form-text mt-3" onClick={()=>Forgetpassword()}>
            Forgetpassword? 
          </div>
      </div>

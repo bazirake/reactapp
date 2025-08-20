@@ -63,6 +63,10 @@ export const router=createBrowserRouter([
          element:<Passwordreset/>
         },
         {
+         path:"/reset-password/:resetToken",
+         element:<Resetpassword/>
+        },
+        {
          path:"/profile/:emails",
           element:<Profile/>,
           children:[{

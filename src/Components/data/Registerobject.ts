@@ -24,6 +24,11 @@ errcateoryid?:string;
 errcontentid?:string;
 }
 
+export type ResetpasswordError={
+errEmail?:string;
+
+}
+
 export type Loginobject={
     emails:string;
     passwords:string;
@@ -73,8 +78,6 @@ export type updateUser={
 }
 
 export type emailobject={
-    to:string;
-    subject:string;
-    text:string;
-  
+    email:string;
+
 }
