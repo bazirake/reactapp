@@ -9,7 +9,7 @@ Content-Type: application/json
  }
 
 ###
-GET  https://exapi-gjsy.onrender.com/getusercourse/eric.bazirake@abr.rw
+GET  https://kyc.abr.rw/api/citizenInfo?documentNumber=1199380162478143
 ###
  POST https://exapi-gjsy.onrender.com/logout
 ###

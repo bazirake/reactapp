@@ -12,7 +12,7 @@ const {emails}=useParams();
 const emd=decodeURIComponent(decrypt(emails ?? ""));
       useEffect(()=>{
         const userss=async()=>{
-        const res=await api.get(`getusercourse/eric.bazirake@abr.rw`,{
+        const res=await api.get(`getusercourse/${emd}`,{
         withCredentials:true
      });
      setUser((prevdata)=>({prevdata,emails:res.data[0].emails,country:res.data[0].country,tel:res.data[0].tel,usertype:res.data[0].usertype,fname:res.data[0].fname,password:res.data[0].passwords,statuscode:res.statusText}))

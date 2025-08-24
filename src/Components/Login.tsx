@@ -4,7 +4,7 @@ import {LoginError} from "./data/Registerobject";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import {LoginResp} from "./data/Registerobject";
-import { encrypt } from "./data/Encrypt";
+import { decrypt, encrypt } from "./data/Encrypt";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css"
 import api from "./data/axiosClient";
@@ -18,13 +18,15 @@ function Login() {
   useEffect(()=>{
  if(respoMessages==='Logged in successfully') 
    {
-       let cate=encodeURIComponent(encrypt(loginpar.cateid));
-       let id=encodeURIComponent(encrypt(loginpar.contentid));
-       console.log("logsssssss",loginpar)
-       const timer=setTimeout(()=>{       
-       naviGate(`/courses/${cate}/${id}`);
+       let cate=encodeURIComponent(encrypt(String(loginpar.cateid)));
+       let id=encodeURIComponent(encrypt(String(loginpar.contentid)));
+        let dd=decrypt(decodeURIComponent(id));
+      
+       const timer=setTimeout(()=>{    
+       // alert(dd)
+      naviGate(`/courses/${cate}/${id}`);
        },2000) //4seconds                   
-    return ()=>clearTimeout(timer);                         
+   return ()=>clearTimeout(timer);                         
    }
   },[respoMessages])
 
@@ -56,8 +58,8 @@ function Login() {
          if(Validate()){
             try 
             {
-                const res= await  api.post("loginAuthe",logindata,{
-                withCredentials:true
+               const res= await  api.post("loginAuthe",logindata,{
+               withCredentials:true
             });
               
             setLoginP((prevdata)=>({...prevdata,id:res.data.user.id,cateid:res.data.user.cateid,contentid:res.data.user.contid,fname:res.data.user.fname,

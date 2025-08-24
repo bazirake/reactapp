@@ -81,3 +81,7 @@ export type emailobject={
     email:string;
 
 }
+
+export type resetError={
+    ferror?:string;
+}

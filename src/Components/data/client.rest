@@ -1,5 +1,17 @@
 ###
 
+POST https://exapi-gjsy.onrender.com/forgot-password
+Content-Type: application/json
+
+{
+  "email":"bazirakeric1@gmail.com"
+}
+
+
+
+
+###
+
 
 POST http://192.168.3.2:5050/api/ComprehensiveConsumerReportRiskScoreListingFlag
 Content-Type: application/json
@@ -42,3 +54,14 @@ Content-Type: application/json
 ###
 
 GET https://test-bapi.abr.rw/Account/Login?username='Juakali'&password='@8xcqXfZ!DVp2av'
+
+###
+POST http://test-bapi.abr.rw/
+Content-Type: application/json
+
+{
+
+"username":"Juakali",
+"password":"@8xcqXfZ!DVp2av"
+
+}
