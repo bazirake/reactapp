@@ -26,7 +26,7 @@ function Resetpassword() {
 
     if(validate()){
        try{
-          const res=await api.post(`${token}`,passwordss,
+          const res=await api.post(`reset-password/${token}`,passwordss,
            {
             withCredentials:true
            });
