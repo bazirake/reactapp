@@ -1,7 +1,6 @@
 ###
 
-POST https://exapi-gjsy.onrender.com/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU2MDM5MzQwLCJleHAiOjE3NTYwNDAyNDB9.cbeLcSyYQoATuzFiI33ZKvJLTXRTdhc5yvVfz7X2G4o
-Content-Type: application/json
+POST https://exapi-gjsy.onrender.com/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU2MDQyMzA2LCJleHAiOjE3NTYwNDMyMDZ9.UJD4q2sJIkHdQ91zxg2ac5Avis5QcjUHO225KIcDK2U
 
 {
   "password":"1234"

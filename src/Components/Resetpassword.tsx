@@ -25,6 +25,7 @@ function Resetpassword() {
     e.preventDefault();
 
     if(validate()){
+   console.log(passwordss);
        try{
           const res=await api.post(`reset-password/${token}`,passwordss,
            {
@@ -36,7 +37,7 @@ function Resetpassword() {
           if(error.response) {
        //Server responded with status outside 2xx
       // setErrorm(error.response.data.message || "Something went wrong")
-        console.log("reset errors", error.response.status, error.response.data.message);
+        console.log("reset errors", error.response.status, error.response.data);
       }else if (error.request) {
     // Request was made but no response
     console.log("No response received:", error.request);
