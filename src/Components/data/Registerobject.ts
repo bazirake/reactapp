@@ -85,3 +85,11 @@ export type emailobject={
 export type resetError={
     ferror?:string;
 }
+
+export type PasswordReset={
+    password:string;
+}
+export type PasswordErrors={
+    errpassword?:string;
+}
+

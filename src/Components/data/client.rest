@@ -1,10 +1,10 @@
 ###
 
-POST https://exapi-gjsy.onrender.com/forgot-password
+POST https://exapi-gjsy.onrender.com/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU2MDM5MzQwLCJleHAiOjE3NTYwNDAyNDB9.cbeLcSyYQoATuzFiI33ZKvJLTXRTdhc5yvVfz7X2G4o
 Content-Type: application/json
 
 {
-  "email":"bazirakeric1@gmail.com"
+  "password":"1234"
 }
 
 
