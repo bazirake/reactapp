@@ -26,7 +26,7 @@ function Resetpassword() {
 
     if(validate()){
        try{
-          const res=await api.post(`https://exapi-gjsy.onrender.com/reset-password/${token}`,passwordss,
+          const res=await api.post(`${token}`,passwordss,
            {
             withCredentials:true
            });
