@@ -58,11 +58,10 @@ function Resetpassword() {
       <input type="password" value={passwordss.password} onChange={(e)=>Resetpassword((prev)=>({...prev,password:e.target.value}))} className='form-control' placeholder='Enter new password'/>
       </div>
        <div className="d-flex justify-content-center">
-         <button type="submit" className="btn btn-color-service w-75 mb-2">
-        {/* <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>*/}   
-        Reset password</button>
-<span className='text-success text-center d-flex justify-content-center py-2'>{respoMessages}</span>
-        
+         <button type="submit" className="btn btn-primarx mt-4">
+        Reset password
+        </button>
+        <span className='text-success text-center d-flex justify-content-center py-2'>{respoMessages}</span>
     </div>
   </form>
   </div>
