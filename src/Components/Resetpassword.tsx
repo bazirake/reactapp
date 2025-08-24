@@ -7,6 +7,8 @@ function Resetpassword() {
   const {token}=useParams();
   const [passwordss,Resetpassword]=useState<PasswordReset>({password:''});
   const [passerror,resetErr]=useState<PasswordErrors>();
+  
+  const [respoMessages,setResponse]=useState('');
 
   const validate=()=>{
        const errr:PasswordErrors={};
@@ -27,11 +29,12 @@ function Resetpassword() {
     if(validate()){
    console.log(passwordss);
        try{
-          const res=await api.post(`reset-password/${token}`,passwordss,
+        const res=await api.post(`reset-password/${token}`,passwordss,
            {
             withCredentials:true
            });
          console.log("Responses reset pass",res.data);
+         setResponse(res.data.message);
          Resetpassword(res.data.message)
         }catch (error:any){
           if(error.response) {
@@ -41,8 +44,8 @@ function Resetpassword() {
       }else if (error.request) {
     // Request was made but no response
     console.log("No response received:", error.request);
-     }else {
-    // Something else happened
+     }else{
+      //Something else happened
        console.log("Error setting up request:", error.message);
      }
     }
@@ -58,6 +61,8 @@ function Resetpassword() {
          <button type="submit" className="btn btn-color-service w-75 mb-2">
         {/* <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>*/}   
         Reset password</button>
+<span className='text-success text-center d-flex justify-content-center py-2'>{respoMessages}</span>
+        
     </div>
   </form>
   </div>

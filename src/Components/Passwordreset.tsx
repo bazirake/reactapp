@@ -24,12 +24,9 @@ const Validate=()=>{
 
   return(
   <div className="container-fluid container-custom my-4">
-   
     <form className="mx-auto form-custom" onSubmit={async(e)=>{
         e.preventDefault()
-
         if(Validate()) {
-         
           try {
           const res=await api.post("https://exapi-gjsy.onrender.com/forgot-password",resetem,
            {
@@ -48,17 +45,16 @@ const Validate=()=>{
      }else {
     // Something else happened
        console.log("Error setting up request:", error.message);
-     }
-        }
+       }
+      }
           
-        }
+      }
        // alert(passwords?.errEmail)
     console.log(passworder);
       
     }}>
       <h5 className="text-center">Forget password</h5>
      <label>Email</label>
-
      <input type="text" value={resetem.email} onChange={(e)=>resetpass((prev)=>({...prev,email:e.target.value}))} className="form-control" placeholder="Enter your email to get reset link"></input>
      <button type="submit" className="btn btn-primarx mt-4">Getresetpassword</button>
     {respoMessages.length > 0 ?<span className='text-success text-center d-flex justify-content-center py-2'>{respoMessages}</span>:<span className='text-success text-center d-flex justify-content-center py-2'>{messagerr}</span>}
