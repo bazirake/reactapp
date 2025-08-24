@@ -1,10 +1,9 @@
 import React from 'react'
-import { useParams, useSearchParams } from 'react-router';
+import { useParams } from 'react-router';
 
 function Resetpassword() {
-  const [resetToken]=useSearchParams();
-  const token=resetToken.get("resetToken");
-
+  const {resetToken}=useParams();
+  
   return (
     <div className="container-fluid container-custom my-4 ">
   
@@ -15,7 +14,7 @@ function Resetpassword() {
      }} className='mx-auto form-custom'>
       <h4 className='py-2 text-center'>Reset password</h4>
         <div className="mb-2">
-      <label  className="form-label">Enter reset emails-{token}</label>
+      <label  className="form-label">Enter reset email-{resetToken}</label>
       <input type="password" className='form-control' placeholder='Enter new password'/>
       </div>
        <div className="d-flex justify-content-center">
