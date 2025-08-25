@@ -12,7 +12,9 @@ function Login() {
   const [logindata,setLogin]=useState<Loginobject>({emails:'',passwords:''});
   const [loginerror,setError]=useState<LoginError>();
   const [respoMessages,setResponse]=useState("");
+  const [loginerr,setLoginErr]=useState("");
   const [loginpar,setLoginP]=useState<LoginResp>({id:'',cateid:'',contentid:'',fname:'',emails:'',usertype:'',country:''});
+  const [isloading,setLoading]=useState(false);
 
   const naviGate=useNavigate();
   useEffect(()=>{
@@ -56,6 +58,7 @@ function Login() {
   <form className="mx-auto form-custom" onSubmit={async(e)=>{
         e.preventDefault()
          if(Validate()){
+            setLoading(true)
             try 
             {
                const res= await  api.post("loginAuthe",logindata,{
@@ -67,10 +70,11 @@ function Login() {
             setResponse(res.data.message)
               console.log(res);
             }
-            catch(error){
-               console.log(error)
+            catch(error:any){
+               console.log("gddggdgdgddd",error.response.data.message)
+              setLoginErr(error.response.data.message)
             } 
-
+            setLoading(false)
         }
      }}>
     <h4 className="text-center h44">Login</h4>
@@ -87,9 +91,11 @@ function Login() {
            Forgetpassword? 
          </div>
      </div>
-         <button type="submit" className="btn btn-primarx mt-4">Login</button>
-         <span className='text-success text-center d-flex justify-content-center py-2'>{respoMessages}</span>
-   </form>   
+         <button type="submit" className="btn btn-primarx mt-4">
+         {isloading && <span className="spinner-border spinner-border-sm" aria-hidden="true"></span>}
+            Login</button>
+       {respoMessages.length > 0 ? <span className='text-success text-center d-flex justify-content-center py-2'>{respoMessages}</span> :<span className='text-success text-center d-flex justify-content-center py-2'>{loginerr}</span>}
+   </form>      
   </div>
   )     
 }
